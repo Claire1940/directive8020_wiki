@@ -592,113 +592,180 @@
       ]
     },
     "directive8020TurningPoints": {
-      "title": "Directive 8020 Turning Points",
-      "intro": "Directive 8020 Turning Points gives players a story tree for revisiting major decisions, exploring hidden paths, changing character outcomes, and replaying decisive moments without restarting the full journey.",
+      "title": "How Turning Points Changes Your Directive 8020 Run",
+      "subtitle": "Turning Points is Directive 8020's rewind-focused story tree system for revisiting major decisions, unlocking hidden paths, and chasing multiple endings.",
+      "intro": "Directive 8020 adds a new Turning Points system built around key story branches. Instead of replaying the whole adventure from the beginning, players can use the story tree to return to pivotal moments, explore alternate routes, and try to save crew members from fatal outcomes.",
+      "previewTitle": "Directive 8020 Story Tree Preview",
+      "previewDescription": "Use Turning Points to compare pivotal routes, replay major decisions, and plan a stricter Survivor Mode run.",
       "steps": [
         {
-          "title": "Directive 8020 Story Tree",
-          "description": "Directive 8020 maps major choice nodes so players can understand how routes branch."
+          "step": "01",
+          "title": "Directive 8020 Major Decision Point",
+          "description": "Turning Points is built around pivotal choices and story-changing moments aboard the Cassiopeia. These moments can shape who survives, what routes open, and how the story branches."
         },
         {
-          "title": "Directive 8020 Rewind Choices",
-          "description": "Directive 8020 lets players return to pivotal scenes and try a different decision."
+          "step": "02",
+          "title": "Directive 8020 Story Tree Review",
+          "description": "The system presents branching possibilities through a story-tree style view, helping players understand where important alternatives exist and which moments can lead to different outcomes."
         },
         {
+          "step": "03",
+          "title": "Directive 8020 Choice Rewind",
+          "description": "Players can return to selected decision points and try another path. This is especially useful after a failed QTE, a fatal choice, or a route that locks a character into danger."
+        },
+        {
+          "step": "04",
           "title": "Directive 8020 Hidden Paths",
-          "description": "Directive 8020 Turning Points encourages replaying scenes to uncover routes that were missed before."
+          "description": "Replaying branches can reveal alternate scenes, hidden routes, and character outcomes that may not appear in a first playthrough."
         },
         {
-          "title": "Directive 8020 Character Saves",
-          "description": "Directive 8020 uses Turning Points to help players pursue alternate survival outcomes."
+          "step": "05",
+          "title": "Directive 8020 Multiple Endings",
+          "description": "Turning Points supports completion-focused players who want to replay the game, unlock different endings, and test how decisions ripple through the narrative."
+        },
+        {
+          "step": "06",
+          "title": "Directive 8020 Survivor Mode",
+          "description": "For players who want permanent consequences, Survivor Mode keeps the branching structure visible while removing the ability to use rewinds during the playthrough."
         }
       ],
       "uses": [
         "Directive 8020 route replay",
-        "Directive 8020 ending exploration",
-        "Directive 8020 crew survival",
-        "Directive 8020 choice comparison"
+        "Directive 8020 hidden paths",
+        "Directive 8020 multiple endings",
+        "Directive 8020 Survivor Mode"
       ]
     },
     "directive8020Platforms": {
-      "title": "Directive 8020 Platforms",
-      "intro": "Directive 8020 launches on PC via Steam, PlayStation 5, and Xbox Series X|S. This section keeps the platform picture clear for players choosing between PC, PlayStation, and Xbox.",
+      "title": "Directive 8020 Platforms: PC, PS5, and Xbox Series X|S",
+      "subtitle": "Directive 8020 launches on PC via Steam, PlayStation 5, and Xbox Series X|S on May 12, 2026.",
+      "intro": "Directive 8020 is a current-generation cinematic sci-fi horror game from Supermassive Games. The official platform lineup focuses on PC Steam, PS5, and Xbox Series X|S, with digital pre-orders available and physical console editions available through participating retailers.",
       "platforms": [
         {
           "name": "Directive 8020 PC Steam",
-          "status": "Confirmed",
-          "description": "Directive 8020 on Steam supports PC preorder, Steam features, controller support, achievements, and cloud saves."
+          "storefront": "Steam",
+          "releaseDate": "May 12, 2026",
+          "format": "Digital",
+          "preOrderStatus": "Available on Steam",
+          "multiplayer": "Single-player and local couch co-op at launch; online multiplayer planned as a free post-launch update",
+          "notes": "Steam digital pre-orders include the Digital Deluxe Upgrade for a limited time."
         },
         {
           "name": "Directive 8020 PlayStation 5",
-          "status": "Confirmed",
-          "description": "Directive 8020 on PS5 focuses on current-generation console play, local co-op, and DualSense support."
+          "storefront": "PlayStation Store and participating retailers",
+          "releaseDate": "May 12, 2026",
+          "format": "Digital and physical",
+          "preOrderStatus": "Available on PlayStation Store",
+          "multiplayer": "Offline play enabled; 1-5 players listed on PlayStation Store",
+          "notes": "The PS5 listing includes DualSense vibration function and trigger effect support."
         },
         {
           "name": "Directive 8020 Xbox Series X|S",
-          "status": "Confirmed",
-          "description": "Directive 8020 on Xbox Series X|S supports current-generation Xbox play, achievements, and local co-op."
+          "storefront": "Xbox Store and participating retailers",
+          "releaseDate": "May 12, 2026",
+          "format": "Digital and physical",
+          "preOrderStatus": "Available on Xbox Store",
+          "multiplayer": "Single player, Xbox local co-op 2-5, shared/split screen",
+          "notes": "The Xbox listing shows Optimized for Xbox Series X|S, 4K Ultra HD, Xbox achievements, Xbox presence, and Xbox cloud saves."
+        },
+        {
+          "name": "Directive 8020 PS4 / Xbox One / Nintendo Switch",
+          "storefront": "Not listed in the official launch platform lineup",
+          "releaseDate": "Not announced",
+          "format": "Not announced",
+          "preOrderStatus": "No official store listing",
+          "multiplayer": "Not announced",
+          "notes": "Official launch materials list PS5, Xbox Series X|S, and PC Steam as the supported platforms."
         }
       ]
     },
     "directive8020DigitalDeluxeEdition": {
-      "title": "Directive 8020 Digital Deluxe Edition",
-      "intro": "Directive 8020 Digital Deluxe Edition content expands the launch package with cosmetics, collectibles, music, art, and visual extras. Preorder listings highlight the Digital Deluxe Edition Upgrade as a key bonus.",
-      "groups": [
+      "title": "What Comes in Directive 8020 Digital Deluxe Edition",
+      "subtitle": "The Digital Deluxe content adds Dark Pictures outfits, extra collectibles, cinematic filters, a digital artbook, and an exclusive soundtrack.",
+      "intro": "Directive 8020's Digital Deluxe Upgrade is positioned as a bonus package for players who want more cosmetic, collectible, and behind-the-scenes content. For a limited time, pre-orders include the Digital Deluxe Upgrade at no extra cost on supported storefronts.",
+      "benefits": [
         {
-          "name": "Directive 8020 Digital Deluxe Upgrade Content",
-          "items": [
-            {
-              "title": "Directive 8020 Outfit Pack",
-              "description": "Extra Directive 8020 crew cosmetics for players who want alternate looks."
-            },
-            {
-              "title": "Directive 8020 Dark Pictures Collectables",
-              "description": "Additional Directive 8020 anthology collectable content tied to the wider series."
-            },
-            {
-              "title": "Directive 8020 Cinematic Filter Pack",
-              "description": "Directive 8020 visual filters for players who want a different cinematic presentation."
-            },
-            {
-              "title": "Directive 8020 Digital Soundtrack",
-              "description": "Directive 8020 music content for players who want the score outside the game."
-            }
-          ]
+          "title": "Directive 8020 Digital Deluxe Upgrade",
+          "category": "Edition Upgrade",
+          "description": "The upgrade includes The Dark Pictures Outfit Pack, Additional Dark Pictures Collectibles, Cinematic Filter Packs, Digital Artbook, and exclusive soundtrack.",
+          "availability": "Included with pre-orders for a limited time on supported storefronts; the standalone upgrade requires the base game."
         },
         {
-          "name": "Directive 8020 Deluxe Buying Notes",
-          "items": [
-            {
-              "title": "Directive 8020 Digital Artbook",
-              "description": "Directive 8020 concept and visual material for players interested in the game's production design."
-            },
-            {
-              "title": "Directive 8020 Preorder Bonus",
-              "description": "Directive 8020 preorder pages highlight the upgrade as a launch-period incentive."
-            }
-          ]
+          "title": "Directive 8020 The Dark Pictures Outfit Pack",
+          "category": "Cosmetics",
+          "description": "Wear outfits inspired by previous Dark Pictures characters aboard the Cassiopeia, including Carter in Jason's army outfit from House of Ashes and Anders in Julia's diving-trip outfit from Man of Medan.",
+          "availability": "Included in the Digital Deluxe Upgrade."
+        },
+        {
+          "title": "Directive 8020 Heirloom Retrieval Mission and Collectibles",
+          "category": "Bonus Mission",
+          "description": "Track down hidden dolls, relics, and figures connected to Man of Medan, Little Hope, House of Ashes, and The Devil in Me. These collectibles expand the link between Directive 8020 and the wider Dark Pictures universe.",
+          "availability": "Included in the Digital Deluxe Upgrade."
+        },
+        {
+          "title": "Directive 8020 Cosmic Visual Filter Pack",
+          "category": "Visual Filters",
+          "description": "Customize the game's cinematic look with three filters inspired by different eras of space missions: a classic black-and-white 60s filter, a gritty 70s 8mm-style film grain filter, and an 80s retro VHS filter.",
+          "availability": "Included in the Digital Deluxe Upgrade."
+        },
+        {
+          "title": "Directive 8020 Digital Artbook",
+          "category": "Behind the Scenes",
+          "description": "View concept art and behind-the-scenes material, including creative work related to Tau Ceti f, the Cassiopeia, and the game's body-horror transformations.",
+          "availability": "Included in the Digital Deluxe Upgrade."
+        },
+        {
+          "title": "Directive 8020 Exclusive Soundtrack",
+          "category": "Audio Bonus",
+          "description": "Listen to the Directive 8020 soundtrack, with Xbox Store materials highlighting award-winning composer Jason Graves.",
+          "availability": "Included in the Digital Deluxe Upgrade."
         }
       ]
     },
     "directive8020BeginnerGuide": {
-      "title": "Directive 8020 Beginner Guide",
-      "intro": "Directive 8020 rewards players who pay attention to crew behavior, route consequences, exploration cues, and co-op communication. These beginner questions focus on the first playthrough mindset.",
-      "faqs": [
+      "title": "Directive 8020 Beginner Guide: How to Survive the Cassiopeia",
+      "subtitle": "Start with the basics: manage choices carefully, stay alert during real-time alien threats, use stealth when possible, and coordinate decisions in Movie Night co-op.",
+      "intro": "Directive 8020 is a cinematic sci-fi survival horror adventure built around meaningful choices, branching outcomes, real-time threats, stealth, and social suspicion. This beginner guide focuses on the official mechanics and early gameplay structure players should understand before starting their first run.",
+      "steps": [
         {
-          "question": "What should Directive 8020 beginners focus on first?",
-          "answer": "Directive 8020 beginners should focus on listening carefully, checking the environment, protecting key crew members, and treating trust as a gameplay resource."
+          "step": "01",
+          "title": "Directive 8020 Interactive Horror Film Mindset",
+          "description": "Directive 8020 blends cinematic storytelling with survival gameplay and a branching narrative. Watch character behavior closely, because dialogue choices and split-second reactions can change who lives and who dies."
         },
         {
-          "question": "How should Directive 8020 players handle choices?",
-          "answer": "Directive 8020 choices should be made with relationships, survival pressure, and mimic suspicion in mind, because major decisions can change future scenes."
+          "step": "02",
+          "title": "Directive 8020 Survival Choice Priority",
+          "description": "The game emphasizes meaningful choices where trust is fragile and every action can have consequences. When the crew is under pressure, think about both the immediate danger and the long-term effect on the group."
         },
         {
-          "question": "What matters in Directive 8020 co-op?",
-          "answer": "Directive 8020 co-op works best when each player tracks their character, shares observations, and agrees how much risk the group will take."
+          "step": "03",
+          "title": "Directive 8020 Trust No One Rule",
+          "description": "The alien organism can perfectly imitate its prey. Question suspicious behavior, avoid assuming every familiar face is safe, and remember that the crew's trust can break down when the enemy hides in plain sight."
         },
         {
-          "question": "How does Directive 8020 replay value work?",
-          "answer": "Directive 8020 replay value comes from Turning Points, alternate choices, hidden paths, and different character survival outcomes."
+          "step": "04",
+          "title": "Directive 8020 Stealth First Approach",
+          "description": "Real-time alien threats roam the ship's corridors. The official gameplay description highlights improvised weapons, lightning reflexes, and stealth, so hiding, moving carefully, and choosing when to act are core survival habits."
+        },
+        {
+          "step": "05",
+          "title": "Directive 8020 QTE Readiness",
+          "description": "Directive 8020 keeps the pressure high with real-time danger and quick reactions. Failing a QTE can lead to serious consequences, making attention and timing important during tense scenes."
+        },
+        {
+          "step": "06",
+          "title": "Directive 8020 Lore and Collectibles",
+          "description": "The Cassiopeia includes secrets, Dark Pictures collectibles, and hidden content tied to the wider anthology. Careful exploration can reveal extra story context and bonus material."
+        },
+        {
+          "step": "07",
+          "title": "Directive 8020 Movie Night Group Decisions",
+          "description": "Movie Night mode lets up to five local players experience the story together, choose crew members to control, and work through life-or-death decisions as a group. Online multiplayer is planned as a free post-launch update."
+        },
+        {
+          "step": "08",
+          "title": "Directive 8020 Turning Points Replay Plan",
+          "description": "Turning Points lets players rewind selected story branches, uncover multiple endings, unlock hidden paths, and save crew members from fatal outcomes. For a stricter first run, Survivor Mode keeps consequences permanent."
         }
       ]
     },
