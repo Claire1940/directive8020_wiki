@@ -319,125 +319,276 @@
       ]
     },
     "directive8020Story": {
-      "title": "Directive 8020 Story",
-      "intro": "Directive 8020 follows the Cassiopeia mission as humanity searches for a new future on Tau Ceti f. The story mixes Earth-scale stakes with shipboard paranoia, alien mimicry, and crew decisions that shape who makes it home.",
-      "chapters": [
+      "title": "Directive 8020 Story: Cassiopeia, Tau Ceti f, and the Mimic Threat",
+      "subtitle": "Earth is dying, Tau Ceti f may be humanity's last hope, and the Cassiopeia crew must survive an alien organism that can perfectly imitate its prey.",
+      "intro": "Directive 8020 is a cinematic sci-fi survival horror story set aboard the colony ship Cassiopeia after a mission to Tau Ceti f goes catastrophically wrong. The crew must decide who to trust, how to survive, and whether saving themselves could endanger everyone back on Earth.",
+      "overviewTitle": "Directive 8020 Mission Overview",
+      "overviewStats": [
         {
-          "label": "Premise",
-          "name": "Directive 8020 Earth Crisis",
-          "description": "Directive 8020 begins with humanity looking beyond Earth for survival, sending the Cassiopeia toward Tau Ceti f."
+          "label": "Directive 8020 Ship",
+          "value": "Cassiopeia"
         },
         {
-          "label": "Location",
-          "name": "Directive 8020 Cassiopeia",
-          "description": "Directive 8020 places the crew inside a stranded vessel where every corridor can hide danger."
+          "label": "Directive 8020 Destination",
+          "value": "Tau Ceti f"
         },
         {
-          "label": "Destination",
-          "name": "Directive 8020 Tau Ceti f",
-          "description": "Directive 8020 frames Tau Ceti f as a possible future for humanity and the center of the mission."
+          "label": "Directive 8020 Threat",
+          "value": "Mimic organism"
         },
         {
-          "label": "Threat",
-          "name": "Directive 8020 Mimic Organism",
-          "description": "Directive 8020 turns imitation into horror by making the crew question who is still human."
+          "label": "Directive 8020 Stakes",
+          "value": "Earth's future"
+        }
+      ],
+      "items": [
+        {
+          "question": "What is Directive 8020 about?",
+          "answer": "Directive 8020 follows the crew of the colony ship Cassiopeia on a mission tied to humanity's survival. Earth is dying, and Tau Ceti f, located 12 light years from home, offers a small chance for a new future. After the Cassiopeia crash lands, the crew discovers they are not alone."
+        },
+        {
+          "question": "What is the Directive 8020 main horror threat?",
+          "answer": "The core Directive 8020 threat is an alien organism capable of mimicking its prey. This turns the story into a paranoia-driven survival scenario where any crew member may be human, infected, or an impostor hiding in plain sight."
+        },
+        {
+          "question": "Why is Tau Ceti f important in Directive 8020?",
+          "answer": "Tau Ceti f represents hope for humanity because Earth is running out of time. The Directive 8020 mission is connected to finding a potential future home, but the crash and alien threat transform that mission into a desperate fight for survival."
+        },
+        {
+          "question": "What role do Directive 8020 player choices play?",
+          "answer": "Choices are central to Directive 8020. Players must make trust-based decisions, react to real-time threats, and shape which characters survive or die as the Cassiopeia crew faces alien infiltrators, deadly dilemmas, and catastrophic failures."
+        },
+        {
+          "question": "What is the biggest Directive 8020 story dilemma?",
+          "answer": "The Directive 8020 crew is confronted with a brutal dilemma: to save themselves, they may have to risk the lives of everyone on Earth. This gives the story larger stakes beyond simple shipboard survival."
         }
       ],
       "highlights": [
-        "Directive 8020 deep-space horror",
-        "Directive 8020 crew paranoia",
-        "Directive 8020 alien mimicry",
-        "Directive 8020 branching story"
+        "Directive 8020 deep-space survival horror",
+        "Directive 8020 Cassiopeia mission collapse",
+        "Directive 8020 alien mimic paranoia",
+        "Directive 8020 trust-based branching choices"
       ]
     },
     "directive8020Trailer": {
-      "title": "Directive 8020 Trailer",
-      "intro": "Directive 8020 trailers focus on the Cassiopeia, Lashana Lynch as Young, alien mimic tension, the May 12, 2026 launch date, and the survival horror systems driving the next Dark Pictures story.",
+      "title": "Directive 8020 Trailers and Official Videos",
+      "subtitle": "Watch the key Directive 8020 videos, including the announcement trailer, story reveal, pre-order trailer, 60-second overview, and multiplayer trailer.",
+      "intro": "The official Directive 8020 trailer lineup highlights the sci-fi horror premise, the Cassiopeia mission, the alien mimic threat, survival gameplay, branching choices, pre-order details, and Movie Night multiplayer.",
       "videos": [
         {
-          "type": "60-Second Overview",
-          "title": "Directive 8020 Official 60 Second Trailer",
-          "description": "Directive 8020 explains its release date, platform plan, preorder details, story setup, and survival focus in a fast overview."
-        },
-        {
-          "type": "Announce Trailer",
-          "title": "Directive 8020 Announce Trailer",
-          "description": "Directive 8020 introduces the Cassiopeia mission, the deep-space horror tone, and the alien threat."
-        },
-        {
-          "type": "Story Trailer",
-          "title": "Directive 8020 Story Trailer",
-          "description": "Directive 8020 story footage highlights crew tension, Young, Tau Ceti f, and the consequences of trust."
+          "type": "Overview Trailer",
+          "title": "Directive 8020 | Everything You Need to Know in 60 Seconds",
+          "description": "A fast Directive 8020 pre-launch briefing covering the survival horror setup, release timing, platforms, and core features.",
+          "href": "https://www.youtube.com/watch?v=erzlg1ZwK18"
         },
         {
           "type": "Multiplayer Trailer",
-          "title": "Directive 8020 Co-Op Trailer",
-          "description": "Directive 8020 multiplayer footage focuses on local Movie Night play and shared decision pressure."
+          "title": "Directive 8020 - Don't Play Alone | Multiplayer Trailer",
+          "description": "Spotlights Directive 8020 Movie Night couch co-op, up to five players, shared decisions, and the post-launch online multiplayer plan.",
+          "href": "https://www.youtube.com/watch?v=ub7Vt6pgThw"
+        },
+        {
+          "type": "Pre-Order Trailer",
+          "title": "Directive 8020 | Pre-Order Trailer",
+          "description": "Shows Directive 8020 launch messaging, pre-order positioning, and the high-stakes choice-based horror tone.",
+          "href": "https://www.youtube.com/watch?v=DLV01hfnu1Q"
+        },
+        {
+          "type": "Announcement Trailer",
+          "title": "Directive 8020 | Announce Trailer",
+          "description": "Introduces the Directive 8020 deep-space horror premise, the Cassiopeia crew, and the alien organism capable of mimicking its prey.",
+          "href": "https://www.youtube.com/watch?v=etXhOhzbXso"
+        },
+        {
+          "type": "Story Reveal Trailer",
+          "title": "Directive 8020 - Story Reveal Trailer | PS5 Games",
+          "description": "Dives deeper into the Directive 8020 Cassiopeia mission, fragile alliances, new characters, alien danger, and survival stakes.",
+          "href": "https://www.youtube.com/watch?v=4a_VXgNSfME"
+        },
+        {
+          "type": "Official Playlist",
+          "title": "The Dark Pictures Anthology: Directive 8020 Playlist",
+          "description": "Collects multiple official Directive 8020 videos from BANDAI NAMCO Europe in one place.",
+          "href": "https://www.youtube.com/playlist?list=PL2tV1eq7EZhCGrM-Wo31kck6zxVHARJP4"
         }
       ]
     },
     "directive8020Characters": {
-      "title": "Directive 8020 Characters",
-      "intro": "Directive 8020 characters center on the Cassiopeia crew, including Young, their mission roles, and the relationships tested by a mimic organism that can turn trust into danger.",
+      "title": "Directive 8020 Characters and Cast",
+      "subtitle": "Meet the publicly revealed Directive 8020 Cassiopeia crew, including Brianna Young, the pilot played by Lashana Lynch.",
+      "intro": "Directive 8020 centers on the Cassiopeia crew, whose personal histories, mission roles, and relationships become part of the horror once trust begins to collapse. The public character lineup includes pilots, mission leadership, science and medical specialists, engineers, sleep technicians, and Corinth's CEO.",
       "crew": [
         {
           "name": "Directive 8020 Brianna Young",
+          "age": "28",
           "role": "Pilot",
-          "description": "Directive 8020 features Young as a central crew member, portrayed by Lashana Lynch, with leadership and survival pressure at the heart of the story."
+          "cast": "Lashana Lynch",
+          "description": "Young is one of Corinth's rising stars and the pilot of the Cassiopeia. She is the daughter of the late astronaut Bill Young and sees the mission as a chance to prove herself to her father's legacy and to herself.",
+          "relationships": [
+            "Mentored by Nolan Stafford",
+            "Close to the Young family legacy",
+            "Central Directive 8020 public-facing character"
+          ]
         },
         {
-          "name": "Directive 8020 Cassiopeia Crew",
-          "role": "Mission Team",
-          "description": "Directive 8020 follows a spacefaring crew forced to make fast decisions as the ship and mission break down."
+          "name": "Directive 8020 Nolan Stafford",
+          "age": "52",
+          "role": "Commander",
+          "cast": "Cassiopeia Command",
+          "description": "Stafford is the first man on Mars and the commander of the Directive 8020 mission to Tau Ceti f. He helped build Corinth's space program and promised Bill Young that he would watch over Brianna.",
+          "relationships": [
+            "Mentor to Brianna Young",
+            "Former mission partner of Bill Young",
+            "Leader of the Cassiopeia crew"
+          ]
         },
         {
-          "name": "Directive 8020 Compromised Crew",
-          "role": "Mimic Suspicion",
-          "description": "Directive 8020 builds character tension around the possibility that someone trusted has been replaced."
+          "name": "Directive 8020 Laura Eisele",
+          "age": "33",
+          "role": "Senior Mission Officer",
+          "cast": "Mission Architecture",
+          "description": "Eisele is the lead designer of the mission and architect of the Cassiopeia. She is scientifically brilliant, highly disciplined, and connected to key systems including the ship's computer, The Oracle.",
+          "relationships": [
+            "Designed the Cassiopeia mission",
+            "Responsible for mission architecture",
+            "Linked to The Oracle"
+          ]
         },
         {
-          "name": "Directive 8020 Player-Controlled Survivors",
-          "role": "Branching Cast",
-          "description": "Directive 8020 character survival changes through choices, relationships, timing, and Turning Points."
+          "name": "Directive 8020 Josef Cernan",
+          "age": "32",
+          "role": "Technical Engineer",
+          "cast": "Cassiopeia Engineering",
+          "description": "Cernan is a perceptive technical engineer with a talent for solving mechanical and human problems. He is described as kind-hearted, open-minded, and a bonding presence within the crew.",
+          "relationships": [
+            "Acts as emotional glue for the crew",
+            "Joined the Cetus Mission after a personal promise",
+            "Believes every problem has a solution"
+          ]
         },
         {
-          "name": "Directive 8020 Command Figures",
-          "role": "Crew Authority",
-          "description": "Directive 8020 uses mission hierarchy to create conflict when survival choices and orders collide."
+          "name": "Directive 8020 Samantha Cooper",
+          "age": "27",
+          "role": "Medical Specialist",
+          "cast": "Cassiopeia Medical",
+          "description": "Dr. Cooper is a skilled medic with a military medical evacuation background. After surviving the Jessops Station tragedy, she rebuilt herself and joined the mission as both a doctor and a fighter.",
+          "relationships": [
+            "Old friend of Zoe Anders",
+            "Recommended Anders for the mission",
+            "Carries trauma from Jessops Station"
+          ]
         },
         {
-          "name": "Directive 8020 Unknown Threat",
-          "role": "Alien Presence",
-          "description": "Directive 8020 treats the organism as both a monster and a character pressure point inside the crew."
+          "name": "Directive 8020 Zoe Anders",
+          "age": "29",
+          "role": "Science Officer",
+          "cast": "Cassiopeia Science",
+          "description": "Anders joins the Cassiopeia crew late after the death of the previous Science Officer, George McNamara. She is excited by discovery but committed to ethical scientific practice.",
+          "relationships": [
+            "College friend of Samantha Cooper",
+            "Late addition to the crew",
+            "Replacement for George McNamara"
+          ]
+        },
+        {
+          "name": "Directive 8020 Noah Mitchell",
+          "age": "27",
+          "role": "Pilot",
+          "cast": "Cassiopeia Flight",
+          "description": "Mitchell is the ambitious, wise-cracking co-pilot of the Cassiopeia. His risky flying style led to crashes in simulation, but also proved he could pull off maneuvers others could not.",
+          "relationships": [
+            "Close friend of Brianna Young",
+            "Looks up to Nolan Stafford",
+            "Shares the pilot role aboard Cassiopeia"
+          ]
+        },
+        {
+          "name": "Directive 8020 Tomas Carter",
+          "age": "27",
+          "role": "Sleep Technician",
+          "cast": "Hypersleep Operations",
+          "description": "Carter is a patient, responsible sleep technician who helps keep the Cassiopeia operational while the crew travels in hypersleep. His motivation is tied to securing a future for his daughter, Luna.",
+          "relationships": [
+            "Work counterpart to Pari Simms",
+            "Father of Luna",
+            "Part of the hypersleep operations team"
+          ]
+        },
+        {
+          "name": "Directive 8020 Pari Simms",
+          "age": "29",
+          "role": "Sleep Technician",
+          "cast": "Hypersleep Operations",
+          "description": "Simms is a capable sleep technician chosen for her engineering skills and positive mindset. She records messages for her mother and works closely with Carter during the long journey to Tau Ceti f.",
+          "relationships": [
+            "Work counterpart to Tomas Carter",
+            "Supports her mother through mission logs",
+            "Part of the hypersleep operations team"
+          ]
+        },
+        {
+          "name": "Directive 8020 LaMarcus Williams",
+          "age": "30",
+          "role": "CEO of Corinth",
+          "cast": "Corporate Backer",
+          "description": "Williams is the billionaire CEO of Corinth and a divisive public figure who believes Earth is beyond saving. He backs Corinth's mission and places himself on the reconnaissance mission as a pioneer rather than a settler.",
+          "relationships": [
+            "CEO of Corinth",
+            "Connected to the mission's corporate backing",
+            "Inspired by the historic Mars mission involving Stafford and Bill Young"
+          ]
         }
       ]
     },
     "directive8020CoOpMultiplayer": {
-      "title": "Directive 8020 Co-Op Multiplayer",
-      "intro": "Directive 8020 supports single-player and Movie Night couch co-op for up to five local players. Online multiplayer is planned as a free post-launch update, giving groups more ways to share the Cassiopeia story.",
+      "title": "Directive 8020 Co-Op Multiplayer: Movie Night, Local Play, and Online Update",
+      "subtitle": "Directive 8020 supports single-player and up to five-player local couch co-op at launch, with online multiplayer planned as a free post-launch update.",
+      "intro": "Directive 8020 keeps the cinematic solo experience but also brings back Movie Night, the local couch co-op mode built around shared decisions and passing one controller between players. The online version is planned to mirror the couch co-op experience after launch.",
       "steps": [
         {
-          "title": "Directive 8020 Single-Player",
-          "description": "Directive 8020 can be played solo, with one player making story, exploration, and survival choices."
+          "step": "01",
+          "title": "Directive 8020 Full Story Solo",
+          "description": "Directive 8020 can be played as a single-player cinematic survival horror experience. You control key crew members, make life-or-death decisions, evade alien threats, and shape the branching story aboard the Cassiopeia.",
+          "availability": "Available at launch"
         },
         {
-          "title": "Directive 8020 Movie Night",
-          "description": "Directive 8020 Movie Night lets 2-5 local players pass control between characters and share major decisions."
+          "step": "02",
+          "title": "Directive 8020 Movie Night Couch Co-Op",
+          "description": "Movie Night mode lets up to five players experience Directive 8020 together locally. Each player can take control of a Cassiopeia crew member as the group decides who to trust and how to survive.",
+          "availability": "Available at launch"
         },
         {
-          "title": "Directive 8020 Local Co-Op Setup",
-          "description": "Directive 8020 couch co-op works best when each player owns a crew member and tracks their choices."
+          "step": "03",
+          "title": "Directive 8020 Shared Controller Play",
+          "description": "In local Movie Night, players share a single controller and pass it between crew members as the story unfolds. Every choice can affect who lives, who dies, and how the group reacts to the alien mimic threat.",
+          "availability": "Available at launch"
         },
         {
-          "title": "Directive 8020 Online Multiplayer",
-          "description": "Directive 8020 online multiplayer is planned for a free update after launch."
+          "step": "04",
+          "title": "Directive 8020 Turning Points for Groups",
+          "description": "Directive 8020 introduces Turning Points, a visual branching story tree that lets players revisit pivotal decisions. In group sessions, this can turn character deaths and failed choices into debates about whether to continue or rewind.",
+          "availability": "Available at launch"
+        },
+        {
+          "step": "05",
+          "title": "Directive 8020 Survival Mode Consequences",
+          "description": "For groups that want every decision to matter permanently, Survival Mode locks in consequences so choices are final. This is designed for players who want a no-takebacks Directive 8020 run.",
+          "availability": "Available at launch"
+        },
+        {
+          "step": "06",
+          "title": "Directive 8020 Online Multiplayer Update",
+          "description": "Five-player online multiplayer is planned as a free post-launch update. It is designed to mirror the couch co-op Movie Night experience and bring the shared survival format online.",
+          "availability": "Free post-launch update"
         }
       ],
       "modes": [
-        "Directive 8020 solo story",
+        "Directive 8020 single-player story",
         "Directive 8020 2-5 player Movie Night",
-        "Directive 8020 shared local decisions",
-        "Directive 8020 online update"
+        "Directive 8020 shared local controller",
+        "Directive 8020 Turning Points replay",
+        "Directive 8020 Survival Mode",
+        "Directive 8020 online co-op update"
       ]
     },
     "directive8020TurningPoints": {

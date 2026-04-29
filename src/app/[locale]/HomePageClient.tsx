@@ -4,26 +4,46 @@ import { useEffect, useState, Suspense, lazy } from 'react'
 import {
   AlertTriangle,
   ArrowRight,
+  BadgeCheck,
   BookOpen,
+  Brain,
+  Building2,
   Check,
   ChevronDown,
+  Clapperboard,
   ClipboardCheck,
   Clock,
   ExternalLink,
   Eye,
+  Film,
+  FlaskConical,
   Gamepad2,
   Hammer,
+  HeartPulse,
   Home,
+  ListVideo,
   MessageCircle,
+  MonitorPlay,
+  Orbit,
   Package,
+  PlayCircle,
+  Radio,
+  Rocket,
+  RotateCcw,
+  Satellite,
   Settings,
+  Shield,
   Sparkles,
   Star,
   TrendingUp,
+  UserCircle,
   Users,
+  Wrench,
+  type LucideIcon,
 } from 'lucide-react'
 import Link from 'next/link'
 import { useMessages } from 'next-intl'
+import enMessages from '@/locales/en.json'
 import { VideoFeature } from '@/components/home/VideoFeature'
 import { LatestGuidesAccordion } from '@/components/home/LatestGuidesAccordion'
 import { NativeBannerAd, AdBanner } from '@/components/ads'
@@ -52,7 +72,24 @@ interface HomePageClientProps {
 }
 
 export default function HomePageClient({ latestArticles, locale, featuredVideo }: HomePageClientProps) {
-  const t = useMessages() as any
+  const messages = useMessages() as any
+  const t = messages.tools?.title === 'Directive 8020' ? messages : enMessages as any
+  const storyOverviewIcons: LucideIcon[] = [Rocket, Orbit, AlertTriangle, Home]
+  const storyItemIcons: LucideIcon[] = [BookOpen, AlertTriangle, Home, MessageCircle, Star]
+  const trailerIcons: LucideIcon[] = [PlayCircle, Users, MonitorPlay, Clapperboard, Film, ListVideo]
+  const characterIcons: LucideIcon[] = [
+    UserCircle,
+    Shield,
+    Brain,
+    Wrench,
+    HeartPulse,
+    FlaskConical,
+    Rocket,
+    Clock,
+    Satellite,
+    Building2,
+  ]
+  const coopStepIcons: LucideIcon[] = [UserCircle, Users, Gamepad2, RotateCcw, BadgeCheck, Radio]
 
   // Accordion states for modules that contain expandable choices.
   const [beginnerExpanded, setBeginnerExpanded] = useState<number | null>(null)
@@ -503,23 +540,60 @@ export default function HomePageClient({ latestArticles, locale, featuredVideo }
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.directive8020Story.title}</h2>
+            <p className="text-[hsl(var(--nav-theme-light))] text-base font-medium max-w-3xl mx-auto mb-3">
+              {t.modules.directive8020Story.subtitle}
+            </p>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.directive8020Story.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-            {t.modules.directive8020Story.chapters.map((chapter: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex items-center gap-2 mb-3">
-                  <Home className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{chapter.label}</span>
-                </div>
-                <h3 className="font-bold text-lg mb-2 text-[hsl(var(--nav-theme-light))]">{chapter.name}</h3>
-                <p className="text-muted-foreground text-sm">{chapter.description}</p>
+          <div className="scroll-reveal grid grid-cols-1 lg:grid-cols-[0.9fr_1.4fr] gap-6 items-start mb-8">
+            <aside className="lg:sticky lg:top-24 p-6 bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.3)] rounded-xl">
+              <div className="flex items-center gap-3 mb-5">
+                <Rocket className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+                <h3 className="font-bold text-lg">{t.modules.directive8020Story.overviewTitle}</h3>
               </div>
-            ))}
+              <div className="space-y-3">
+                {t.modules.directive8020Story.overviewStats.map((stat: any, index: number) => {
+                  const Icon = storyOverviewIcons[index % storyOverviewIcons.length]
+                  return (
+                    <div key={stat.label} className="flex items-center gap-3 p-3 bg-white/5 border border-border rounded-lg">
+                      <div className="w-10 h-10 rounded-lg bg-[hsl(var(--nav-theme)/0.12)] flex items-center justify-center">
+                        <Icon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                      </div>
+                      <div>
+                        <p className="text-xs text-muted-foreground">{stat.label}</p>
+                        <p className="font-semibold">{stat.value}</p>
+                      </div>
+                    </div>
+                  )
+                })}
+              </div>
+            </aside>
+
+            <div className="space-y-3">
+              {t.modules.directive8020Story.items.map((item: any, index: number) => {
+                const Icon = storyItemIcons[index % storyItemIcons.length]
+                return (
+                  <details key={item.question} className="group border border-border rounded-xl overflow-hidden bg-white/5">
+                    <summary className="flex cursor-pointer list-none items-center justify-between gap-4 p-5 hover:bg-white/5 transition-colors">
+                      <span className="flex items-center gap-3 font-semibold">
+                        <span className="w-10 h-10 rounded-lg bg-[hsl(var(--nav-theme)/0.12)] flex items-center justify-center flex-shrink-0">
+                          <Icon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                        </span>
+                        {item.question}
+                      </span>
+                      <ChevronDown className="w-5 h-5 text-muted-foreground flex-shrink-0 transition-transform group-open:rotate-180" />
+                    </summary>
+                    <div className="px-5 pb-5 pl-16 text-muted-foreground text-sm leading-relaxed">
+                      {item.answer}
+                    </div>
+                  </details>
+                )
+              })}
+            </div>
           </div>
-          <div className="scroll-reveal grid grid-cols-2 md:grid-cols-4 gap-4">
-            {t.modules.directive8020Story.highlights.map((highlight: string, i: number) => (
-              <div key={i} className="p-4 bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.3)] rounded-xl text-center">
+          <div className="scroll-reveal grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {t.modules.directive8020Story.highlights.map((highlight: string) => (
+              <div key={highlight} className="p-4 bg-white/5 border border-border rounded-xl text-center">
                 <Sparkles className="w-6 h-6 text-[hsl(var(--nav-theme-light))] mx-auto mb-2" />
                 <p className="text-sm">{highlight}</p>
               </div>
@@ -533,19 +607,34 @@ export default function HomePageClient({ latestArticles, locale, featuredVideo }
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.directive8020Trailer.title}</h2>
+            <p className="text-[hsl(var(--nav-theme-light))] text-base font-medium max-w-3xl mx-auto mb-3">
+              {t.modules.directive8020Trailer.subtitle}
+            </p>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.directive8020Trailer.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
-            {t.modules.directive8020Trailer.videos.map((video: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex items-center gap-3 mb-3">
-                  <Eye className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{video.type}</span>
-                </div>
-                <h3 className="font-bold mb-2">{video.title}</h3>
-                <p className="text-muted-foreground text-sm">{video.description}</p>
-              </div>
-            ))}
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+            {t.modules.directive8020Trailer.videos.map((video: any, index: number) => {
+              const Icon = trailerIcons[index % trailerIcons.length]
+              return (
+                <a
+                  key={video.href}
+                  href={video.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] hover:bg-[hsl(var(--nav-theme)/0.05)] transition-colors"
+                >
+                  <div className="flex items-center justify-between gap-3 mb-4">
+                    <span className="inline-flex items-center gap-2 text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">
+                      <Icon className="w-4 h-4" />
+                      {video.type}
+                    </span>
+                    <ExternalLink className="w-4 h-4 text-muted-foreground group-hover:text-[hsl(var(--nav-theme-light))] transition-colors" />
+                  </div>
+                  <h3 className="font-bold mb-2">{video.title}</h3>
+                  <p className="text-muted-foreground text-sm leading-relaxed">{video.description}</p>
+                </a>
+              )
+            })}
           </div>
         </div>
       </section>
@@ -555,19 +644,42 @@ export default function HomePageClient({ latestArticles, locale, featuredVideo }
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.directive8020Characters.title}</h2>
+            <p className="text-[hsl(var(--nav-theme-light))] text-base font-medium max-w-3xl mx-auto mb-3">
+              {t.modules.directive8020Characters.subtitle}
+            </p>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.directive8020Characters.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {t.modules.directive8020Characters.crew.map((member: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="mb-3 flex items-center gap-2">
-                  <Users className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{member.role}</span>
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
+            {t.modules.directive8020Characters.crew.map((member: any, index: number) => {
+              const Icon = characterIcons[index % characterIcons.length]
+              return (
+                <div key={member.name} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                  <div className="flex items-start justify-between gap-4 mb-4">
+                    <div className="flex items-center gap-3">
+                      <div className="w-11 h-11 rounded-lg bg-[hsl(var(--nav-theme)/0.12)] flex items-center justify-center">
+                        <Icon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                      </div>
+                      <div>
+                        <h3 className="font-bold">{member.name}</h3>
+                        <p className="text-xs text-muted-foreground">{member.cast}</p>
+                      </div>
+                    </div>
+                    <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))] whitespace-nowrap">
+                      {member.age}
+                    </span>
+                  </div>
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    <span className="text-xs px-2 py-1 rounded-full border border-border bg-white/5">{member.role}</span>
+                    {member.relationships.map((relationship: string) => (
+                      <span key={relationship} className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.08)] text-[hsl(var(--nav-theme-light))]">
+                        {relationship}
+                      </span>
+                    ))}
+                  </div>
+                  <p className="text-muted-foreground text-sm leading-relaxed">{member.description}</p>
                 </div>
-                <h3 className="font-bold mb-2">{member.name}</h3>
-                <p className="text-muted-foreground text-sm">{member.description}</p>
-              </div>
-            ))}
+              )
+            })}
           </div>
         </div>
       </section>
@@ -577,25 +689,56 @@ export default function HomePageClient({ latestArticles, locale, featuredVideo }
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.directive8020CoOpMultiplayer.title}</h2>
+            <p className="text-[hsl(var(--nav-theme-light))] text-base font-medium max-w-3xl mx-auto mb-3">
+              {t.modules.directive8020CoOpMultiplayer.subtitle}
+            </p>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.directive8020CoOpMultiplayer.intro}</p>
           </div>
-          <div className="scroll-reveal space-y-4 mb-8">
-            {t.modules.directive8020CoOpMultiplayer.steps.map((step: any, index: number) => (
-              <div key={index} className="flex gap-4 p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[hsl(var(--nav-theme)/0.2)] border-2 border-[hsl(var(--nav-theme)/0.5)] flex items-center justify-center">
-                  <Gamepad2 className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                </div>
-                <div>
-                  <h3 className="text-xl font-bold mb-2">{step.title}</h3>
-                  <p className="text-muted-foreground">{step.description}</p>
-                </div>
-              </div>
-            ))}
+          <div className="scroll-reveal relative mb-8">
+            <div className="hidden md:block absolute left-1/2 top-0 bottom-0 w-px bg-[hsl(var(--nav-theme)/0.3)]" />
+            <div className="space-y-4">
+              {t.modules.directive8020CoOpMultiplayer.steps.map((step: any, index: number) => {
+                const Icon = coopStepIcons[index % coopStepIcons.length]
+                const isEven = index % 2 === 0
+                const stepCard = (
+                  <div className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                    <div className="flex items-start gap-4">
+                      <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.3)] flex items-center justify-center">
+                        <Icon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                      </div>
+                      <div>
+                        <div className="flex flex-wrap items-center gap-2 mb-2">
+                          <span className="text-xs font-semibold px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.12)] text-[hsl(var(--nav-theme-light))]">{step.step}</span>
+                          <span className="text-xs px-2 py-1 rounded-full border border-border bg-white/5">{step.availability}</span>
+                        </div>
+                        <h3 className="text-xl font-bold mb-2">{step.title}</h3>
+                        <p className="text-muted-foreground text-sm leading-relaxed">{step.description}</p>
+                      </div>
+                    </div>
+                  </div>
+                )
+                return (
+                  <div key={step.title} className="relative grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {isEven ? (
+                      <>
+                        {stepCard}
+                        <div className="hidden md:block" />
+                      </>
+                    ) : (
+                      <>
+                        <div className="hidden md:block" />
+                        {stepCard}
+                      </>
+                    )}
+                  </div>
+                )
+              })}
+            </div>
           </div>
-          <div className="scroll-reveal flex flex-wrap gap-3 justify-center">
-            {t.modules.directive8020CoOpMultiplayer.modes.map((mode: string, i: number) => (
-              <span key={i} className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm">
-                <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />{mode}
+          <div className="scroll-reveal grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            {t.modules.directive8020CoOpMultiplayer.modes.map((mode: string) => (
+              <span key={mode} className="inline-flex items-center gap-2 px-4 py-3 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm">
+                <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] flex-shrink-0" />{mode}
               </span>
             ))}
           </div>
