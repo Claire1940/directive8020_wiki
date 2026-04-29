@@ -14,46 +14,46 @@ interface ArticleWithType extends ContentItem {
 
 // Module sub-field mapping: moduleKey -> { field, nameKey }
 const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
-  lucidBlocksBeginnerGuide: { field: 'steps', nameKey: 'title' },
-  lucidBlocksApotheosisCrafting: { field: 'cards', nameKey: 'name' },
-  lucidBlocksToolsAndWeapons: { field: 'items', nameKey: 'name' },
-  lucidBlocksStorageAndInventory: { field: 'solutions', nameKey: 'name' },
-  lucidBlocksQualiaAndBaseBuilding: { field: 'cards', nameKey: 'name' },
-  lucidBlocksWorldRegions: { field: 'regions', nameKey: 'name' },
-  lucidBlocksCreaturesAndEnemies: { field: 'creatures', nameKey: 'name' },
-  lucidBlocksMobilityGear: { field: 'items', nameKey: 'name' },
-  lucidBlocksFarmingAndGrowth: { field: 'sections', nameKey: 'name' },
-  lucidBlocksBestEarlyUnlocks: { field: 'priorities', nameKey: 'name' },
-  lucidBlocksAchievementTracker: { field: 'groups', nameKey: 'name' },
-  lucidBlocksSingleplayerAndPlatformFAQ: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSteamDeckAndController: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSettingsAndAccessibility: { field: 'settings', nameKey: 'name' },
-  lucidBlocksUpdatesAndPatchNotes: { field: 'entries', nameKey: 'title' },
-  lucidBlocksCrashFixAndTroubleshooting: { field: 'steps', nameKey: 'title' },
+  directive8020ReleaseDate: { field: 'cards', nameKey: 'label' },
+  directive8020SteamPreOrder: { field: 'stores', nameKey: 'platform' },
+  directive8020SystemRequirements: { field: 'requirements', nameKey: 'requirement' },
+  directive8020Gameplay: { field: 'features', nameKey: 'title' },
+  directive8020Story: { field: 'items', nameKey: 'question' },
+  directive8020Trailer: { field: 'videos', nameKey: 'title' },
+  directive8020Characters: { field: 'crew', nameKey: 'name' },
+  directive8020CoOpMultiplayer: { field: 'steps', nameKey: 'title' },
+  directive8020TurningPoints: { field: 'steps', nameKey: 'title' },
+  directive8020Platforms: { field: 'platforms', nameKey: 'name' },
+  directive8020DigitalDeluxeEdition: { field: 'benefits', nameKey: 'title' },
+  directive8020BeginnerGuide: { field: 'steps', nameKey: 'title' },
+  directive8020ChoicesConsequences: { field: 'items', nameKey: 'title' },
+  directive8020DarkPicturesConnection: { field: 'items', nameKey: 'title' },
+  directive8020AgeRating: { field: 'items', nameKey: 'category' },
+  directive8020LatestNews: { field: 'items', nameKey: 'title' },
 }
 
 // Extra semantic keywords per module to boost matching for h2 titles
 // These supplement the module title text when matching against articles
 const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
-  lucidBlocksBeginnerGuide: ['guide', 'mastering', 'progression', 'crafting', 'starter'],
-  lucidBlocksApotheosisCrafting: ['apotheosis', 'fusion', 'essence'],
-  lucidBlocksToolsAndWeapons: ['crafting recipes', 'frost pick', 'osmium', 'azrael', 'faith wand'],
-  lucidBlocksStorageAndInventory: ['chest', 'cache cube', 'cabinet', 'storage'],
-  lucidBlocksQualiaAndBaseBuilding: ['qualia', 'clonaqualia', 'personal dimensions'],
-  lucidBlocksWorldRegions: ['tiamana', 'leyline', 'biomes', 'regions'],
-  lucidBlocksCreaturesAndEnemies: ['survival', 'combat', 'surreal creatures'],
-  lucidBlocksMobilityGear: ['bee glider', 'hookshot', 'glider', 'movement'],
-  lucidBlocksFarmingAndGrowth: ['seed', 'farming', 'growth', 'material', 'progression', 'crafting'],
-  lucidBlocksBestEarlyUnlocks: ['early', 'osmium', 'frost pick', 'starter', 'progression'],
-  lucidBlocksAchievementTracker: ['achievement', 'tiamana', 'leyline'],
-  lucidBlocksSingleplayerAndPlatformFAQ: ['multiplayer', 'platform', 'co op'],
-  lucidBlocksSteamDeckAndController: ['steam deck', 'controller', 'proton'],
-  lucidBlocksSettingsAndAccessibility: ['full screen', 'controls', 'display'],
-  lucidBlocksUpdatesAndPatchNotes: ['update', 'patch', 'fix'],
-  lucidBlocksCrashFixAndTroubleshooting: ['crash', 'vulkan', 'troubleshooting', 'full screen', 'controls', 'gameplay'],
+  directive8020ReleaseDate: ['may 12', 'launch date', 'release timing', 'cassiopeia', 'tau ceti'],
+  directive8020SteamPreOrder: ['steam', 'pre order', 'price', 'digital deluxe', 'store options'],
+  directive8020SystemRequirements: ['system requirements', 'windows', 'ram', 'rtx 2060', 'pc specs'],
+  directive8020Gameplay: ['survival horror', 'alien threat', 'stealth', 'trust system', 'branching choices'],
+  directive8020Story: ['cassiopeia', 'tau ceti f', 'mimic threat', 'earth is dying', 'crew survival'],
+  directive8020Trailer: ['official trailer', 'story reveal', 'pre order trailer', 'movie night', 'playlist'],
+  directive8020Characters: ['brianna young', 'lashana lynch', 'nolan stafford', 'cassiopeia crew', 'cast'],
+  directive8020CoOpMultiplayer: ['movie night', 'couch co op', 'online multiplayer', 'five players', 'shared decisions'],
+  directive8020TurningPoints: ['turning points', 'story tree', 'rewind choices', 'alternate routes', 'survival mode'],
+  directive8020Platforms: ['pc steam', 'playstation 5', 'xbox series', 'platforms', 'physical edition'],
+  directive8020DigitalDeluxeEdition: ['digital deluxe', 'outfit pack', 'collectibles', 'artbook', 'soundtrack'],
+  directive8020BeginnerGuide: ['beginner guide', 'survive cassiopeia', 'stealth first', 'qte', 'trust no one'],
+  directive8020ChoicesConsequences: ['choices', 'consequences', 'fatal moments', 'trust decisions', 'branching story'],
+  directive8020DarkPicturesConnection: ['dark pictures', 'supermassive games', 'until dawn', 'the quarry', 'sci fi anthology'],
+  directive8020AgeRating: ['age rating', 'esrb', 'pegi', 'blood and gore', 'content warnings'],
+  directive8020LatestNews: ['latest news', 'official updates', 'trailers', 'release update', 'steam community'],
 }
 
-const FILLER_WORDS = ['lucid', 'blocks', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
+const FILLER_WORDS = ['directive', '8020', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
 
 function normalize(text: string): string {
   return text
@@ -77,9 +77,9 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
 
   let score = 0
 
-  // Exact phrase match in title (stripped of "Lucid Blocks")
-  const strippedQuery = normalizedQuery.replace(/lucid blocks?\s*/g, '').trim()
-  const strippedTitle = normalizedTitle.replace(/lucid blocks?\s*/g, '').trim()
+  // Exact phrase match in title (stripped of "Directive 8020")
+  const strippedQuery = normalizedQuery.replace(/directive\s*8020\s*/g, '').trim()
+  const strippedTitle = normalizedTitle.replace(/directive\s*8020\s*/g, '').trim()
   if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {
     score += 100
   }
