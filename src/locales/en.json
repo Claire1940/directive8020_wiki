@@ -1,20 +1,20 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Directive 8020 - Release Date, Trailer & Guide",
+      "description": "Explore Directive 8020 release date, Steam preorder info, trailers, story, characters, co-op mode, Turning Points, and survival horror guides in one place.",
+      "keywords": "Directive 8020, Directive 8020 wiki, Directive 8020 release date, Directive 8020 trailer, Directive 8020 Steam, Directive 8020 co-op",
+      "ogTitle": "Directive 8020 - Release Date, Trailer & Guide",
+      "ogDescription": "Track Directive 8020 release date, Steam preorder details, official trailers, story setup, characters, co-op modes, and survival horror gameplay.",
+      "twitterTitle": "Directive 8020 - Release Date, Trailer & Guide",
+      "twitterDescription": "Directive 8020 Wiki covers release date, Steam preorder info, trailers, story, characters, co-op, Turning Points, and survival horror guides."
     }
   },
   "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Pre-purchase on Steam",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -52,877 +52,799 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Directive 8020 Gameplay",
+    "description": "Survive the Cassiopeia, read the crew, evade a mimic organism, and make choices that reshape Directive 8020 outcomes."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Directive 8020",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "subtitle": "Jump to Directive 8020 release, preorder, story, gameplay, co-op, trailer, and guide sections.",
     "cards": [
       {
         "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
-      },
-      {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
-      },
-      {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "title": "Directive 8020 Release Date",
+        "description": "Launch date, launch time, platforms, and release status"
       },
       {
         "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
-      },
-      {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
+        "title": "Directive 8020 Steam Pre-Order",
+        "description": "Steam, PS5, Xbox, price, and preorder bonus details"
       },
       {
         "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
+        "title": "Directive 8020 System Requirements",
+        "description": "Minimum specs, recommended specs, storage, CPU, and GPU"
       },
       {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
+        "icon": "AlertTriangle",
+        "title": "Directive 8020 Gameplay",
+        "description": "Alien threats, stealth, choices, QTEs, and survival pressure"
+      },
+      {
+        "icon": "Home",
+        "title": "Directive 8020 Story",
+        "description": "Cassiopeia, Tau Ceti f, Earth crisis, and the mimic organism"
+      },
+      {
+        "icon": "Eye",
+        "title": "Directive 8020 Trailer",
+        "description": "Official trailers, gameplay clips, and 60-second overview"
+      },
+      {
+        "icon": "Users",
+        "title": "Directive 8020 Characters",
+        "description": "Cassiopeia crew, Young, roles, and cast details"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Directive 8020 Co-Op Multiplayer",
+        "description": "Solo play, Movie Night, couch co-op, and online plans"
+      },
+      {
+        "icon": "ArrowRight",
+        "title": "Directive 8020 Turning Points",
+        "description": "Story tree, rewind choices, hidden paths, and endings"
       },
       {
         "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "title": "Directive 8020 Platforms",
+        "description": "PC Steam, PlayStation 5, and Xbox Series X|S support"
+      },
+      {
+        "icon": "Star",
+        "title": "Directive 8020 Digital Deluxe Edition",
+        "description": "Deluxe upgrade content, outfit pack, soundtrack, and artbook"
+      },
+      {
+        "icon": "Hammer",
+        "title": "Directive 8020 Beginner Guide",
+        "description": "First-play priorities for story, survival, and co-op"
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "Directive 8020 Choices and Consequences",
+        "description": "Trust decisions, relationships, character survival, and routes"
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Directive 8020 The Dark Pictures Connection",
+        "description": "Anthology context, Supermassive lineage, and horror DNA"
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Directive 8020 Age Rating",
+        "description": "ESRB, PEGI, violence, language, and content descriptors"
+      },
+      {
+        "icon": "Clock",
+        "title": "Directive 8020 Latest News",
+        "description": "Official announcements, trailer updates, and Steam news"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
-      "steps": [
-        {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
-        },
-        {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
-        },
-        {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
-        },
-        {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
-        }
-      ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
+    "directive8020ReleaseDate": {
+      "title": "Directive 8020 Release Date: May 12, 2026",
+      "intro": "Directive 8020 launches on May 12, 2026 for PC via Steam, PlayStation 5, and Xbox Series X|S. This section covers the launch date, platform status, release timing, and day-one setup players need before boarding the Cassiopeia.",
       "cards": [
         {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "label": "Release Date",
+          "value": "May 12, 2026",
+          "description": "Directive 8020 is scheduled to launch worldwide on May 12, 2026.",
+          "badge": "Launch"
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "label": "Launch Time",
+          "value": "14:00 UTC",
+          "description": "Store listings show Directive 8020 unlocking at 14:00 UTC on launch day.",
+          "badge": "Store Time"
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
+          "label": "Platforms",
+          "value": "PC Steam, PS5, Xbox Series X|S",
+          "description": "Directive 8020 launches on Steam for PC, PlayStation 5, and Xbox Series X|S.",
+          "badge": "Confirmed"
         },
         {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
+          "label": "Release Status",
+          "value": "Pre-order live",
+          "description": "Directive 8020 is available to pre-order or pre-purchase before launch.",
+          "badge": "Available"
+        },
+        {
+          "label": "Game Type",
+          "value": "Cinematic sci-fi survival horror",
+          "description": "Directive 8020 blends story-driven horror, real-time alien danger, and branching choices.",
+          "badge": "Dark Pictures"
+        },
+        {
+          "label": "Story Setup",
+          "value": "Cassiopeia on Tau Ceti f",
+          "description": "Directive 8020 follows a deep-space mission where the crew faces a mimic organism.",
+          "badge": "Sci-Fi Horror"
         }
       ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
+      "notesTitle": "Directive 8020 Release Notes",
+      "notes": [
+        "Directive 8020 is built around a new deep-space setting in The Dark Pictures Anthology.",
+        "Directive 8020 launch platforms focus on current-generation console and PC hardware.",
+        "Directive 8020 preorder pages highlight both standard purchase options and Digital Deluxe upgrade content.",
+        "Directive 8020 release planning should prioritize platform choice, co-op group size, and PC requirements."
       ]
     },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
-      "items": [
+    "directive8020SteamPreOrder": {
+      "title": "Directive 8020 Steam Pre-Order, Price, and Store Options",
+      "intro": "Directive 8020 is available to pre-purchase on Steam, with console pre-orders live on PlayStation Store and Xbox Store. Compare price, edition status, platform features, and preorder bonuses before choosing where to play.",
+      "stores": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "platform": "PC Steam",
+          "status": "Pre-purchase live",
+          "price": "$49.99",
+          "bonus": "Digital Deluxe Edition Upgrade",
+          "detail": "Best fit for PC players who want Steam achievements, Steam Cloud, controller support, and Remote Play features.",
+          "href": "https://store.steampowered.com/app/2255370/Directive_8020/"
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "platform": "PlayStation 5",
+          "status": "Pre-order live",
+          "price": "$49.99",
+          "bonus": "Digital Deluxe Edition Upgrade",
+          "detail": "Best fit for console players who want PS5 features, local play, and DualSense support.",
+          "href": "https://store.playstation.com/en-us/concept/10008357"
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
-        },
-        {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
-        }
-      ]
-    },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
+          "platform": "Xbox Series X|S",
+          "status": "Pre-order live",
+          "price": "$49.99+",
+          "bonus": "Digital Deluxe Edition Upgrade",
+          "detail": "Best fit for Xbox players who want local co-op, cloud saves, 4K Ultra HD support, and achievements.",
+          "href": "https://www.xbox.com/en-US/games/store/directive-8020/9pf9qdh98k8l"
         }
       ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
+      "bonuses": [
+        "Directive 8020 Outfit Pack",
+        "Directive 8020 Dark Pictures Collectables",
+        "Directive 8020 Cinematic Filter Pack",
+        "Directive 8020 Digital Soundtrack",
+        "Directive 8020 Digital Artbook"
       ]
     },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
+    "directive8020SystemRequirements": {
+      "title": "Directive 8020 System Requirements for PC",
+      "intro": "Directive 8020 requires a 64-bit Windows 10 or Windows 11 PC, 16 GB RAM, and a modern DirectX-capable GPU. Use this table to compare the minimum and recommended PC setup before pre-purchasing on Steam.",
+      "requirements": [
         {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
+          "requirement": "Operating System",
+          "minimum": "Windows 10/11 64-bit",
+          "recommended": "Windows 10/11 64-bit",
+          "note": "Directive 8020 requires a 64-bit processor and operating system."
         },
         {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
+          "requirement": "Processor",
+          "minimum": "Intel Core i5-8500 / AMD Ryzen 5 3500",
+          "recommended": "Intel Core i5-12400F / AMD Ryzen 5 5600X",
+          "note": "Directive 8020 recommended play favors a newer mid-range CPU class."
         },
         {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
+          "requirement": "Memory",
+          "minimum": "16 GB RAM",
+          "recommended": "16 GB RAM",
+          "note": "Directive 8020 lists 16 GB RAM for both minimum and recommended setups."
         },
         {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
+          "requirement": "Graphics",
+          "minimum": "NVIDIA GeForce RTX 2060 / AMD Radeon RX 5700",
+          "recommended": "NVIDIA GeForce RTX 3070 Ti / AMD Radeon RX 6800",
+          "note": "Directive 8020 PC planning should check GPU class first, then CPU and storage."
+        },
+        {
+          "requirement": "Storage",
+          "minimum": "40 GB available space",
+          "recommended": "40 GB available space",
+          "note": "Directive 8020 benefits from SSD storage for smoother loading."
+        }
+      ],
+      "summary": [
+        "Directive 8020 minimum PC planning starts around RTX 2060 or Radeon RX 5700 class graphics.",
+        "Directive 8020 recommended PC planning moves toward RTX 3070 Ti or Radeon RX 6800 class graphics.",
+        "Directive 8020 storage planning should keep at least 40 GB free before installation."
+      ]
+    },
+    "directive8020Gameplay": {
+      "title": "Directive 8020 Gameplay: Choices, Alien Threats, and Survival Horror",
+      "intro": "Directive 8020 keeps the cinematic choice-driven DNA of The Dark Pictures Anthology while adding stronger real-time survival pressure. Players must survive alien threats, make deadly decisions, and manage trust inside the Cassiopeia crew.",
+      "features": [
+        {
+          "type": "Cinematic Horror",
+          "title": "Directive 8020 Story-Driven Survival",
+          "description": "Directive 8020 combines interactive movie pacing with survival-focused decision making in a deep-space horror setting.",
+          "mechanics": ["cinematic scenes", "survival horror", "branching story"]
+        },
+        {
+          "type": "Alien Threat",
+          "title": "Directive 8020 Real-Time Danger",
+          "description": "Directive 8020 adds direct pressure through dark corridors, stealth moments, quick reactions, and improvised survival choices.",
+          "mechanics": ["stealth", "reflexes", "improvised tools"]
+        },
+        {
+          "type": "Trust System",
+          "title": "Directive 8020 Trust No One",
+          "description": "Directive 8020 turns crew suspicion into a gameplay problem because the organism can imitate its prey.",
+          "mechanics": ["mimic threat", "crew suspicion", "choice pressure"]
+        },
+        {
+          "type": "Branching Choices",
+          "title": "Directive 8020 Consequence Routes",
+          "description": "Directive 8020 choices affect relationships, routes, character survival, and the outcome of critical scenes.",
+          "mechanics": ["major choices", "relationships", "multiple outcomes"]
+        },
+        {
+          "type": "Story Tree",
+          "title": "Directive 8020 Turning Points",
+          "description": "Directive 8020 lets players revisit key decisions through a story tree built for alternate paths and character saves.",
+          "mechanics": ["rewind choices", "hidden paths", "alternate endings"]
+        },
+        {
+          "type": "Co-Op",
+          "title": "Directive 8020 Movie Night",
+          "description": "Directive 8020 supports solo play and up to five-player couch co-op for groups sharing the horror story.",
+          "mechanics": ["single-player", "2-5 local co-op", "shared decisions"]
+        }
+      ],
+      "notesTitle": "Directive 8020 Gameplay Priorities",
+      "survivalNotes": [
+        "Directive 8020 rewards careful reading of crew behavior because the mimic threat changes how trust works.",
+        "Directive 8020 survival depends on stealth, timing, and quick reactions as much as dialogue choices.",
+        "Directive 8020 replay value comes from branching routes, Turning Points, and alternate character outcomes."
+      ]
+    },
+    "directive8020Story": {
+      "title": "Directive 8020 Story",
+      "intro": "Directive 8020 follows the Cassiopeia mission as humanity searches for a new future on Tau Ceti f. The story mixes Earth-scale stakes with shipboard paranoia, alien mimicry, and crew decisions that shape who makes it home.",
+      "chapters": [
+        {
+          "label": "Premise",
+          "name": "Directive 8020 Earth Crisis",
+          "description": "Directive 8020 begins with humanity looking beyond Earth for survival, sending the Cassiopeia toward Tau Ceti f."
+        },
+        {
+          "label": "Location",
+          "name": "Directive 8020 Cassiopeia",
+          "description": "Directive 8020 places the crew inside a stranded vessel where every corridor can hide danger."
+        },
+        {
+          "label": "Destination",
+          "name": "Directive 8020 Tau Ceti f",
+          "description": "Directive 8020 frames Tau Ceti f as a possible future for humanity and the center of the mission."
+        },
+        {
+          "label": "Threat",
+          "name": "Directive 8020 Mimic Organism",
+          "description": "Directive 8020 turns imitation into horror by making the crew question who is still human."
         }
       ],
       "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
+        "Directive 8020 deep-space horror",
+        "Directive 8020 crew paranoia",
+        "Directive 8020 alien mimicry",
+        "Directive 8020 branching story"
       ]
     },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
+    "directive8020Trailer": {
+      "title": "Directive 8020 Trailer",
+      "intro": "Directive 8020 trailers focus on the Cassiopeia, Lashana Lynch as Young, alien mimic tension, the May 12, 2026 launch date, and the survival horror systems driving the next Dark Pictures story.",
+      "videos": [
         {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
+          "type": "60-Second Overview",
+          "title": "Directive 8020 Official 60 Second Trailer",
+          "description": "Directive 8020 explains its release date, platform plan, preorder details, story setup, and survival focus in a fast overview."
         },
         {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
+          "type": "Announce Trailer",
+          "title": "Directive 8020 Announce Trailer",
+          "description": "Directive 8020 introduces the Cassiopeia mission, the deep-space horror tone, and the alien threat."
         },
         {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
+          "type": "Story Trailer",
+          "title": "Directive 8020 Story Trailer",
+          "description": "Directive 8020 story footage highlights crew tension, Young, Tau Ceti f, and the consequences of trust."
         },
         {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
+          "type": "Multiplayer Trailer",
+          "title": "Directive 8020 Co-Op Trailer",
+          "description": "Directive 8020 multiplayer footage focuses on local Movie Night play and shared decision pressure."
         }
       ]
     },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
+    "directive8020Characters": {
+      "title": "Directive 8020 Characters",
+      "intro": "Directive 8020 characters center on the Cassiopeia crew, including Young, their mission roles, and the relationships tested by a mimic organism that can turn trust into danger.",
+      "crew": [
         {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
+          "name": "Directive 8020 Brianna Young",
+          "role": "Pilot",
+          "description": "Directive 8020 features Young as a central crew member, portrayed by Lashana Lynch, with leadership and survival pressure at the heart of the story."
         },
         {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
+          "name": "Directive 8020 Cassiopeia Crew",
+          "role": "Mission Team",
+          "description": "Directive 8020 follows a spacefaring crew forced to make fast decisions as the ship and mission break down."
         },
         {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
+          "name": "Directive 8020 Compromised Crew",
+          "role": "Mimic Suspicion",
+          "description": "Directive 8020 builds character tension around the possibility that someone trusted has been replaced."
         },
         {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
+          "name": "Directive 8020 Player-Controlled Survivors",
+          "role": "Branching Cast",
+          "description": "Directive 8020 character survival changes through choices, relationships, timing, and Turning Points."
         },
         {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
+          "name": "Directive 8020 Command Figures",
+          "role": "Crew Authority",
+          "description": "Directive 8020 uses mission hierarchy to create conflict when survival choices and orders collide."
         },
         {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
+          "name": "Directive 8020 Unknown Threat",
+          "role": "Alien Presence",
+          "description": "Directive 8020 treats the organism as both a monster and a character pressure point inside the crew."
         }
       ]
     },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
-        },
-        {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
-        },
-        {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
+    "directive8020CoOpMultiplayer": {
+      "title": "Directive 8020 Co-Op Multiplayer",
+      "intro": "Directive 8020 supports single-player and Movie Night couch co-op for up to five local players. Online multiplayer is planned as a free post-launch update, giving groups more ways to share the Cassiopeia story.",
       "steps": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "title": "Directive 8020 Single-Player",
+          "description": "Directive 8020 can be played solo, with one player making story, exploration, and survival choices."
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "title": "Directive 8020 Movie Night",
+          "description": "Directive 8020 Movie Night lets 2-5 local players pass control between characters and share major decisions."
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "title": "Directive 8020 Local Co-Op Setup",
+          "description": "Directive 8020 couch co-op works best when each player owns a crew member and tracks their choices."
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "title": "Directive 8020 Online Multiplayer",
+          "description": "Directive 8020 online multiplayer is planned for a free update after launch."
+        }
+      ],
+      "modes": [
+        "Directive 8020 solo story",
+        "Directive 8020 2-5 player Movie Night",
+        "Directive 8020 shared local decisions",
+        "Directive 8020 online update"
+      ]
+    },
+    "directive8020TurningPoints": {
+      "title": "Directive 8020 Turning Points",
+      "intro": "Directive 8020 Turning Points gives players a story tree for revisiting major decisions, exploring hidden paths, changing character outcomes, and replaying decisive moments without restarting the full journey.",
+      "steps": [
+        {
+          "title": "Directive 8020 Story Tree",
+          "description": "Directive 8020 maps major choice nodes so players can understand how routes branch."
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "title": "Directive 8020 Rewind Choices",
+          "description": "Directive 8020 lets players return to pivotal scenes and try a different decision."
+        },
+        {
+          "title": "Directive 8020 Hidden Paths",
+          "description": "Directive 8020 Turning Points encourages replaying scenes to uncover routes that were missed before."
+        },
+        {
+          "title": "Directive 8020 Character Saves",
+          "description": "Directive 8020 uses Turning Points to help players pursue alternate survival outcomes."
+        }
+      ],
+      "uses": [
+        "Directive 8020 route replay",
+        "Directive 8020 ending exploration",
+        "Directive 8020 crew survival",
+        "Directive 8020 choice comparison"
+      ]
+    },
+    "directive8020Platforms": {
+      "title": "Directive 8020 Platforms",
+      "intro": "Directive 8020 launches on PC via Steam, PlayStation 5, and Xbox Series X|S. This section keeps the platform picture clear for players choosing between PC, PlayStation, and Xbox.",
+      "platforms": [
+        {
+          "name": "Directive 8020 PC Steam",
+          "status": "Confirmed",
+          "description": "Directive 8020 on Steam supports PC preorder, Steam features, controller support, achievements, and cloud saves."
+        },
+        {
+          "name": "Directive 8020 PlayStation 5",
+          "status": "Confirmed",
+          "description": "Directive 8020 on PS5 focuses on current-generation console play, local co-op, and DualSense support."
+        },
+        {
+          "name": "Directive 8020 Xbox Series X|S",
+          "status": "Confirmed",
+          "description": "Directive 8020 on Xbox Series X|S supports current-generation Xbox play, achievements, and local co-op."
+        }
+      ]
+    },
+    "directive8020DigitalDeluxeEdition": {
+      "title": "Directive 8020 Digital Deluxe Edition",
+      "intro": "Directive 8020 Digital Deluxe Edition content expands the launch package with cosmetics, collectibles, music, art, and visual extras. Preorder listings highlight the Digital Deluxe Edition Upgrade as a key bonus.",
+      "groups": [
+        {
+          "name": "Directive 8020 Digital Deluxe Upgrade Content",
+          "items": [
+            {
+              "title": "Directive 8020 Outfit Pack",
+              "description": "Extra Directive 8020 crew cosmetics for players who want alternate looks."
+            },
+            {
+              "title": "Directive 8020 Dark Pictures Collectables",
+              "description": "Additional Directive 8020 anthology collectable content tied to the wider series."
+            },
+            {
+              "title": "Directive 8020 Cinematic Filter Pack",
+              "description": "Directive 8020 visual filters for players who want a different cinematic presentation."
+            },
+            {
+              "title": "Directive 8020 Digital Soundtrack",
+              "description": "Directive 8020 music content for players who want the score outside the game."
+            }
+          ]
+        },
+        {
+          "name": "Directive 8020 Deluxe Buying Notes",
+          "items": [
+            {
+              "title": "Directive 8020 Digital Artbook",
+              "description": "Directive 8020 concept and visual material for players interested in the game's production design."
+            },
+            {
+              "title": "Directive 8020 Preorder Bonus",
+              "description": "Directive 8020 preorder pages highlight the upgrade as a launch-period incentive."
+            }
+          ]
+        }
+      ]
+    },
+    "directive8020BeginnerGuide": {
+      "title": "Directive 8020 Beginner Guide",
+      "intro": "Directive 8020 rewards players who pay attention to crew behavior, route consequences, exploration cues, and co-op communication. These beginner questions focus on the first playthrough mindset.",
+      "faqs": [
+        {
+          "question": "What should Directive 8020 beginners focus on first?",
+          "answer": "Directive 8020 beginners should focus on listening carefully, checking the environment, protecting key crew members, and treating trust as a gameplay resource."
+        },
+        {
+          "question": "How should Directive 8020 players handle choices?",
+          "answer": "Directive 8020 choices should be made with relationships, survival pressure, and mimic suspicion in mind, because major decisions can change future scenes."
+        },
+        {
+          "question": "What matters in Directive 8020 co-op?",
+          "answer": "Directive 8020 co-op works best when each player tracks their character, shares observations, and agrees how much risk the group will take."
+        },
+        {
+          "question": "How does Directive 8020 replay value work?",
+          "answer": "Directive 8020 replay value comes from Turning Points, alternate choices, hidden paths, and different character survival outcomes."
+        }
+      ]
+    },
+    "directive8020ChoicesConsequences": {
+      "title": "Directive 8020 Choices and Consequences",
+      "intro": "Directive 8020 choices can alter trust, relationships, scene routes, and survival outcomes. This section frames the story decisions players should watch closely during the Cassiopeia mission.",
+      "faqs": [
+        {
+          "question": "Do Directive 8020 choices affect character survival?",
+          "answer": "Yes. Directive 8020 is built around branching decisions where timing, trust, and player responses can change who survives."
+        },
+        {
+          "question": "Why does trust matter in Directive 8020?",
+          "answer": "Directive 8020 uses a mimic organism to make trust dangerous, so the crew's relationships and suspicious behavior matter during major decisions."
+        },
+        {
+          "question": "Can Directive 8020 choices be revisited?",
+          "answer": "Directive 8020 Turning Points gives players a way to return to key decisions and explore alternate branches."
+        },
+        {
+          "question": "What makes Directive 8020 endings different?",
+          "answer": "Directive 8020 endings are shaped by route decisions, character survival, relationship outcomes, and how players handle alien threat moments."
+        }
+      ]
+    },
+    "directive8020DarkPicturesConnection": {
+      "title": "Directive 8020 The Dark Pictures Connection",
+      "intro": "Directive 8020 is the next cinematic horror entry in The Dark Pictures Anthology from Supermassive Games. It carries forward choice-driven storytelling while moving the series into deep-space sci-fi survival horror.",
+      "items": [
+        {
+          "name": "Directive 8020 Anthology Entry",
+          "type": "Series",
+          "description": "Directive 8020 belongs to The Dark Pictures Anthology and extends the series into a new sci-fi chapter."
+        },
+        {
+          "name": "Directive 8020 Supermassive Style",
+          "type": "Studio",
+          "description": "Directive 8020 continues Supermassive Games' focus on interactive horror, cinematic scenes, and player-driven outcomes."
+        },
+        {
+          "name": "Directive 8020 Until Dawn Lineage",
+          "type": "Horror DNA",
+          "description": "Directive 8020 appeals to players who enjoy character survival, group tension, and dramatic choices."
+        },
+        {
+          "name": "Directive 8020 Sci-Fi Shift",
+          "type": "Setting",
+          "description": "Directive 8020 changes the anthology texture by moving from earthly horror into a stranded deep-space mission."
+        }
+      ]
+    },
+    "directive8020AgeRating": {
+      "title": "Directive 8020 Age Rating",
+      "intro": "Directive 8020 is positioned as mature cinematic survival horror with violence, blood, strong language, and tense alien threat scenes. Rating details help players and families understand the content profile before launch.",
+      "ratings": [
+        {
+          "type": "ESRB",
+          "title": "Directive 8020 ESRB M",
+          "description": "Directive 8020 carries a mature content profile built around horror violence, blood, strong language, and intense scenes."
+        },
+        {
+          "type": "PEGI",
+          "title": "Directive 8020 PEGI 18",
+          "description": "Directive 8020 European rating context aligns with adult horror themes, violence, and fear-driven storytelling."
+        },
+        {
+          "type": "Content",
+          "title": "Directive 8020 Horror Descriptors",
+          "description": "Directive 8020 includes deep-space body horror, creature threat, crew tension, and cinematic danger."
+        },
+        {
+          "type": "Player Fit",
+          "title": "Directive 8020 Audience",
+          "description": "Directive 8020 is designed for players comfortable with mature survival horror, stressful choices, and intense scenes."
+        }
+      ]
+    },
+    "directive8020LatestNews": {
+      "title": "Directive 8020 Latest News",
+      "intro": "Directive 8020 latest news covers official announcements, trailer drops, multiplayer updates, preorder information, Steam posts, and launch preparation before May 12, 2026.",
+      "updates": [
+        {
+          "title": "Directive 8020 May 12, 2026 Launch Announcement",
+          "description": "Directive 8020 launch news confirms the release date, platforms, and preorder rollout for PC, PS5, and Xbox Series X|S."
+        },
+        {
+          "title": "Directive 8020 60-Second Trailer",
+          "description": "Directive 8020 trailer updates summarize the story setup, gameplay pillars, preorder details, and survival horror tone."
+        },
+        {
+          "title": "Directive 8020 Multiplayer Updates",
+          "description": "Directive 8020 multiplayer news highlights Movie Night couch co-op and the planned online multiplayer update."
+        },
+        {
+          "title": "Directive 8020 Steam News",
+          "description": "Directive 8020 Steam updates help PC players track preorder details, system requirements, and launch posts."
+        }
+      ],
+      "linksTitle": "Follow Directive 8020 Official Updates",
+      "linksDescription": "Use these official Directive 8020 channels for launch news, trailers, community discussion, and store updates.",
+      "links": [
+        {
+          "label": "Directive 8020 Official Site",
+          "href": "https://www.directive8020.com/"
+        },
+        {
+          "label": "Directive 8020 Steam News",
+          "href": "https://store.steampowered.com/news/app/2255370"
+        },
+        {
+          "label": "Directive 8020 Steam Community",
+          "href": "https://steamcommunity.com/app/2255370"
+        },
+        {
+          "label": "Directive 8020 YouTube",
+          "href": "https://www.youtube.com/@SupermassiveGamesOfficial"
         }
       ]
     }
   },
   "faq": {
-    "title": "Frequently Asked",
-    "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "title": "Directive 8020",
+    "titleHighlight": "FAQ",
+    "subtitle": "Common Directive 8020 questions about release date, platforms, preorder, co-op, story, and gameplay.",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "When is the Directive 8020 release date?",
+        "answer": "Directive 8020 launches on May 12, 2026 for PC via Steam, PlayStation 5, and Xbox Series X|S."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "What platforms is Directive 8020 on?",
+        "answer": "Directive 8020 is confirmed for PC Steam, PlayStation 5, and Xbox Series X|S."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "How much does Directive 8020 cost on Steam?",
+        "answer": "Directive 8020 is listed at $49.99 on Steam for pre-purchase."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "Does Directive 8020 have co-op?",
+        "answer": "Directive 8020 supports single-player and up to five-player local Movie Night co-op, with online multiplayer planned as a free post-launch update."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "What is Directive 8020 about?",
+        "answer": "Directive 8020 follows the Cassiopeia mission to Tau Ceti f, where the crew faces a mimic organism and choices that decide who survives."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "What are Directive 8020 Turning Points?",
+        "answer": "Directive 8020 Turning Points are a story tree system that lets players revisit major decisions, explore alternate branches, and change outcomes."
       }
     ]
   },
   "cta": {
-    "title": "Ready for Directive 8020?",
-    "description": "Follow Directive 8020 through official channels for trailers, release updates, Steam preorder details, and community discussions.",
+    "title": "Prepare for Directive 8020",
+    "description": "Track Directive 8020 release details, preorder options, trailers, co-op plans, characters, and survival horror systems before launch.",
     "joinCommunity": "Join Supermassive Discord",
-    "joinGame": "Pre-purchase Directive 8020 on Steam"
+    "joinGame": "Pre-purchase Directive 8020"
   },
   "footer": {
-    "title": "Directive 8020",
+    "title": "Directive 8020 Wiki",
     "description": "Your resource hub for Directive 8020 release date, trailers, Steam preorder info, story, characters, co-op, and survival horror guides.",
     "resources": "Resources",
     "community": "Community",
-    "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "reddit": "Reddit",
-    "youtube": "YouTube",
+    "discord": "Supermassive Discord",
+    "twitter": "The Dark Pictures X",
+    "reddit": "Dark Pictures Reddit",
+    "youtube": "Supermassive YouTube",
     "steamCommunity": "Steam Community",
     "steamStore": "Steam Store",
     "officialSite": "Official Site",
+    "legal": "Legal",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
-    "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Directive 8020 Wiki. Not affiliated with Supermassive Games, Bandai Namco Entertainment, or The Dark Pictures Anthology.",
-    "disclaimer": "Unofficial fan-made resource website."
+    "copyrightNotice": "Copyright Notice",
+    "copyright": "© 2026 Directive 8020 Wiki. All rights reserved.",
+    "disclaimer": "Independent fan resource for Directive 8020 players."
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
-      "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Guides"
+    "release": {
+      "title": "Directive 8020 Release",
+      "description": "Directive 8020 release date, launch time, platforms, preorder status, and day-one details.",
+      "metaTitle": "Directive 8020 Release - Date, Platforms & Launch Info",
+      "metaDescription": "Track Directive 8020 release date, launch platforms, release timing, Steam status, PS5 support, Xbox support, and preorder details.",
+      "whatIsTitle": "What Is Directive 8020 Release Info?",
+      "whatIsDescription": "Directive 8020 release info explains when the game launches, where it launches, and what players need before day one.",
+      "howToTitle": "How to Use Directive 8020 Release Guides",
+      "step1Title": "Check Release Date",
+      "step1Description": "Confirm Directive 8020 launch timing and platform availability.",
+      "step2Title": "Pick Platform",
+      "step2Description": "Compare Directive 8020 Steam, PS5, and Xbox options.",
+      "step3Title": "Prepare Purchase",
+      "step3Description": "Review Directive 8020 preorder and edition details before launch."
     },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
-      "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+    "editions": {
+      "title": "Directive 8020 Editions",
+      "description": "Directive 8020 preorder, Digital Deluxe Edition, upgrade content, bonuses, and buying notes.",
+      "metaTitle": "Directive 8020 Editions - Deluxe Upgrade & Preorder Bonus",
+      "metaDescription": "Compare Directive 8020 editions, Digital Deluxe Edition upgrade content, preorder bonuses, storefronts, and buying recommendations.",
+      "whatIsTitle": "What Are Directive 8020 Editions?",
+      "whatIsDescription": "Directive 8020 editions explain what comes with the standard purchase, preorder offer, and Digital Deluxe upgrade.",
+      "howToTitle": "How to Compare Directive 8020 Editions",
+      "step1Title": "Review Content",
+      "step1Description": "Check Directive 8020 outfit, soundtrack, artbook, filter, and collectable content.",
+      "step2Title": "Compare Stores",
+      "step2Description": "Compare Directive 8020 Steam, PlayStation, and Xbox purchase options.",
+      "step3Title": "Choose Edition",
+      "step3Description": "Pick the Directive 8020 edition that matches your platform and bonus preference."
     },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
-      "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Items"
+    "story": {
+      "title": "Directive 8020 Story",
+      "description": "Directive 8020 story background, Cassiopeia, Tau Ceti f, Earth crisis, alien mimic threat, and crew tension.",
+      "metaTitle": "Directive 8020 Story - Cassiopeia, Tau Ceti f & Alien Threat",
+      "metaDescription": "Learn Directive 8020 story setup, Cassiopeia mission, Tau Ceti f, Earth crisis, mimic organism, and branching narrative stakes.",
+      "whatIsTitle": "What Is Directive 8020 Story?",
+      "whatIsDescription": "Directive 8020 story follows a deep-space mission where survival, trust, and alien mimicry collide.",
+      "howToTitle": "How to Follow Directive 8020 Story",
+      "step1Title": "Understand Mission",
+      "step1Description": "Start with the Directive 8020 Cassiopeia mission and Tau Ceti f objective.",
+      "step2Title": "Track Crew",
+      "step2Description": "Follow Directive 8020 character roles and relationships.",
+      "step3Title": "Watch Choices",
+      "step3Description": "Connect Directive 8020 decisions to story routes and outcomes."
     },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
-      "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Biomes"
+    "characters": {
+      "title": "Directive 8020 Characters",
+      "description": "Directive 8020 characters, Cassiopeia crew, Brianna Young, cast details, roles, and survival outcomes.",
+      "metaTitle": "Directive 8020 Characters - Cast, Crew & Young Guide",
+      "metaDescription": "Explore Directive 8020 characters, Cassiopeia crew roles, Brianna Young, Lashana Lynch, cast details, and relationship stakes.",
+      "whatIsTitle": "Who Are Directive 8020 Characters?",
+      "whatIsDescription": "Directive 8020 characters are the Cassiopeia crew members whose trust, choices, and survival shape the story.",
+      "howToTitle": "How to Track Directive 8020 Characters",
+      "step1Title": "Learn Roles",
+      "step1Description": "Identify Directive 8020 crew roles and relationships.",
+      "step2Title": "Watch Trust",
+      "step2Description": "Pay attention to Directive 8020 mimic suspicion and crew behavior.",
+      "step3Title": "Compare Outcomes",
+      "step3Description": "Replay Directive 8020 paths to see how character survival changes."
     },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
-      "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Building Guides"
+    "choices": {
+      "title": "Directive 8020 Choices",
+      "description": "Directive 8020 choices, Turning Points, branching outcomes, trust decisions, consequences, and endings.",
+      "metaTitle": "Directive 8020 Choices - Turning Points & Consequences",
+      "metaDescription": "Understand Directive 8020 choices, Turning Points, branching story routes, character survival, trust decisions, and alternate endings.",
+      "whatIsTitle": "What Are Directive 8020 Choices?",
+      "whatIsDescription": "Directive 8020 choices decide routes, relationships, survival outcomes, and the shape of the Cassiopeia story.",
+      "howToTitle": "How to Handle Directive 8020 Choices",
+      "step1Title": "Read Scene Context",
+      "step1Description": "Use Directive 8020 clues before major decisions.",
+      "step2Title": "Track Consequences",
+      "step2Description": "Connect Directive 8020 decisions to character outcomes.",
+      "step3Title": "Use Turning Points",
+      "step3Description": "Replay Directive 8020 story nodes to discover alternate paths."
     },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
+    "survival": {
+      "title": "Directive 8020 Survival",
+      "description": "Directive 8020 survival tips for alien threats, stealth, quick reactions, improvised tools, and shipboard danger.",
+      "metaTitle": "Directive 8020 Survival - Alien Threats, Stealth & Tips",
+      "metaDescription": "Prepare for Directive 8020 survival gameplay with alien threat tips, stealth priorities, quick reaction advice, and shipboard survival notes.",
+      "whatIsTitle": "What Is Directive 8020 Survival?",
+      "whatIsDescription": "Directive 8020 survival blends cinematic choices with real-time alien danger, stealth, and quick reactions.",
+      "howToTitle": "How to Survive Directive 8020",
+      "step1Title": "Stay Observant",
+      "step1Description": "Watch Directive 8020 crew behavior, corridors, and environmental cues.",
+      "step2Title": "React Quickly",
+      "step2Description": "Use Directive 8020 stealth, timing, and quick reactions during danger.",
+      "step3Title": "Protect Crew",
+      "step3Description": "Make Directive 8020 choices that keep key characters alive."
+    },
+    "multiplayer": {
+      "title": "Directive 8020 Multiplayer",
+      "description": "Directive 8020 co-op, Movie Night mode, local multiplayer, online multiplayer update, and group play advice.",
+      "metaTitle": "Directive 8020 Multiplayer - Co-Op & Movie Night Guide",
+      "metaDescription": "Learn Directive 8020 multiplayer details, Movie Night couch co-op, 2-5 player local play, online multiplayer update plans, and group play tips.",
+      "whatIsTitle": "What Is Directive 8020 Multiplayer?",
+      "whatIsDescription": "Directive 8020 multiplayer lets groups share the cinematic horror story through Movie Night co-op and planned online play.",
+      "howToTitle": "How to Play Directive 8020 Multiplayer",
+      "step1Title": "Choose Mode",
+      "step1Description": "Pick Directive 8020 solo play or Movie Night co-op.",
+      "step2Title": "Assign Characters",
+      "step2Description": "Give Directive 8020 players crew responsibilities.",
+      "step3Title": "Discuss Choices",
+      "step3Description": "Coordinate Directive 8020 decisions before major consequences."
+    },
+    "trailers": {
+      "title": "Directive 8020 Trailers",
+      "description": "Directive 8020 official trailers, 60-second overview, announce trailer, gameplay footage, and multiplayer videos.",
+      "metaTitle": "Directive 8020 Trailers - Official Videos & Gameplay",
+      "metaDescription": "Watch Directive 8020 trailers and learn what the official videos show about release date, story, gameplay, alien threat, and co-op.",
+      "whatIsTitle": "What Are Directive 8020 Trailers?",
+      "whatIsDescription": "Directive 8020 trailers introduce the Cassiopeia, the mimic threat, the launch date, and survival horror systems.",
+      "howToTitle": "How to Read Directive 8020 Trailers",
+      "step1Title": "Watch Story Beats",
+      "step1Description": "Follow Directive 8020 Cassiopeia and Tau Ceti f clues.",
+      "step2Title": "Spot Gameplay",
+      "step2Description": "Look for Directive 8020 stealth, QTE, and alien threat moments.",
+      "step3Title": "Track Updates",
+      "step3Description": "Use Directive 8020 official trailers to follow launch news."
     }
   }
 }
