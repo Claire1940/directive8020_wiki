@@ -94,6 +94,10 @@ export default function HomePageClient({ latestArticles, locale, featuredVideo }
   const platformIcons: LucideIcon[] = [MonitorPlay, Gamepad2, Shield, AlertTriangle]
   const deluxeBenefitIcons: LucideIcon[] = [Package, UserCircle, ClipboardCheck, Film, BookOpen, Radio]
   const beginnerStepIcons: LucideIcon[] = [Clapperboard, AlertTriangle, Eye, Shield, Clock, BookOpen, Users, RotateCcw]
+  const choicesConsequenceIcons: LucideIcon[] = [MessageCircle, AlertTriangle, Brain, Shield, Users]
+  const darkPicturesIcons: LucideIcon[] = [BookOpen, Clapperboard, Orbit, Eye, Users]
+  const ageRatingIcons: LucideIcon[] = [ClipboardCheck, Shield, BadgeCheck, MonitorPlay, Rocket, AlertTriangle, MessageCircle, HeartPulse]
+  const latestNewsIcons: LucideIcon[] = [ListVideo, Clapperboard, Clock, Radio, MessageCircle]
 
   // Accordion states for modules that contain expandable choices.
   const [choicesExpanded, setChoicesExpanded] = useState<number | null>(null)
@@ -319,7 +323,7 @@ export default function HomePageClient({ latestArticles, locale, featuredVideo }
               <h3 className="font-semibold mb-2">{t.tools.cards[11].title}</h3>
               <p className="text-sm text-muted-foreground">{t.tools.cards[11].description}</p>
             </a>
-            <a href="#choices-consequences" onClick={(event) => { event.preventDefault(); scrollToSection('choices-consequences'); window.history.replaceState(null, '', '#choices-consequences') }} className="scroll-reveal group p-6 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 cursor-pointer text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]">
+            <a href="#choices-and-consequences" onClick={(event) => { event.preventDefault(); scrollToSection('choices-and-consequences'); window.history.replaceState(null, '', '#choices-and-consequences') }} className="scroll-reveal group p-6 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 cursor-pointer text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]">
               <div className="w-12 h-12 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
                 <DynamicIcon name={t.tools.cards[12].icon} className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
               </div>
@@ -951,119 +955,208 @@ export default function HomePageClient({ latestArticles, locale, featuredVideo }
       </section>
 
       {/* Module 13: Directive 8020 Choices and Consequences */}
-      <section id="choices-consequences" className="scroll-mt-24 px-4 py-20">
-        <div className="container mx-auto max-w-5xl">
+      <section id="choices-and-consequences" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm text-[hsl(var(--nav-theme-light))] mb-4">
+              <MessageCircle className="w-4 h-4" />
+              {t.modules.directive8020ChoicesConsequences.eyebrow}
+            </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.directive8020ChoicesConsequences.title}</h2>
+            <p className="text-[hsl(var(--nav-theme-light))] font-medium max-w-3xl mx-auto mb-3">{t.modules.directive8020ChoicesConsequences.subtitle}</p>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.directive8020ChoicesConsequences.intro}</p>
           </div>
-          <div className="scroll-reveal space-y-2">
-            {t.modules.directive8020ChoicesConsequences.faqs.map((faq: any, index: number) => (
-              <div key={index} className="border border-border rounded-xl overflow-hidden">
-                <button
-                  onClick={() => setChoicesExpanded(choicesExpanded === index ? null : index)}
-                  className="w-full flex items-center justify-between gap-4 p-5 text-left hover:bg-white/5 transition-colors"
-                >
-                  <span className="font-semibold">{faq.question}</span>
-                  <ChevronDown className={`w-5 h-5 flex-shrink-0 transition-transform ${choicesExpanded === index ? 'rotate-180' : ''}`} />
-                </button>
-                {choicesExpanded === index && (
-                  <div className="px-5 pb-5 text-muted-foreground text-sm">{faq.answer}</div>
-                )}
+
+          <div className="scroll-reveal grid grid-cols-1 lg:grid-cols-[1.35fr_0.75fr] gap-6 items-start">
+            <div className="space-y-3">
+              {t.modules.directive8020ChoicesConsequences.items.map((item: any, index: number) => {
+                const Icon = choicesConsequenceIcons[index % choicesConsequenceIcons.length]
+                return (
+                  <div key={item.title} className="border border-border rounded-xl overflow-hidden bg-white/5">
+                    <button
+                      onClick={() => setChoicesExpanded(choicesExpanded === index ? null : index)}
+                      className="w-full flex items-center justify-between gap-4 p-5 text-left hover:bg-[hsl(var(--nav-theme)/0.06)] transition-colors"
+                    >
+                      <span className="flex items-center gap-3 font-semibold">
+                        <span className="w-11 h-11 rounded-lg bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.3)] flex items-center justify-center flex-shrink-0">
+                          <Icon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                        </span>
+                        {item.title}
+                      </span>
+                      <ChevronDown className={`w-5 h-5 flex-shrink-0 transition-transform ${choicesExpanded === index ? 'rotate-180' : ''}`} />
+                    </button>
+                    {choicesExpanded === index && (
+                      <div className="px-5 pb-5 pl-20">
+                        <p className="text-muted-foreground text-sm leading-relaxed mb-4">{item.content}</p>
+                        <ul className="space-y-2">
+                          {item.points.map((point: string) => (
+                            <li key={point} className="flex items-start gap-2 text-sm">
+                              <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                              <span className="text-muted-foreground">{point}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+                  </div>
+                )
+              })}
+            </div>
+
+            <aside className="lg:sticky lg:top-24 p-6 rounded-xl bg-[hsl(var(--nav-theme)/0.06)] border border-[hsl(var(--nav-theme)/0.3)]">
+              <div className="flex items-center gap-3 mb-3">
+                <Brain className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+                <h3 className="font-bold text-lg">{t.modules.directive8020ChoicesConsequences.summaryTitle}</h3>
               </div>
-            ))}
+              <p className="text-sm text-muted-foreground mb-5">{t.modules.directive8020ChoicesConsequences.summaryDescription}</p>
+              <div className="space-y-3">
+                {t.modules.directive8020ChoicesConsequences.summaryPoints.map((point: string) => (
+                  <div key={point} className="flex items-start gap-3 p-3 rounded-lg bg-white/5 border border-border">
+                    <ArrowRight className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                    <span className="text-sm text-muted-foreground">{point}</span>
+                  </div>
+                ))}
+              </div>
+            </aside>
           </div>
         </div>
       </section>
 
       {/* Module 14: Directive 8020 The Dark Pictures Connection */}
       <section id="dark-pictures-connection" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
-        <div className="container mx-auto max-w-5xl">
+        <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm text-[hsl(var(--nav-theme-light))] mb-4">
+              <Sparkles className="w-4 h-4" />
+              {t.modules.directive8020DarkPicturesConnection.eyebrow}
+            </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.directive8020DarkPicturesConnection.title}</h2>
+            <p className="text-[hsl(var(--nav-theme-light))] font-medium max-w-3xl mx-auto mb-3">{t.modules.directive8020DarkPicturesConnection.subtitle}</p>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.directive8020DarkPicturesConnection.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
-            {t.modules.directive8020DarkPicturesConnection.items.map((item: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex items-center gap-3 mb-3">
-                  <BookOpen className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                  <h3 className="font-bold">{item.name}</h3>
-                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{item.type}</span>
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-4">
+            {t.modules.directive8020DarkPicturesConnection.items.map((item: any, index: number) => {
+              const Icon = darkPicturesIcons[index % darkPicturesIcons.length]
+              return (
+                <div key={item.title} className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                  <div className="w-12 h-12 rounded-lg bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.3)] flex items-center justify-center mb-4">
+                    <Icon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                  </div>
+                  <span className="inline-flex text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))] mb-3">{item.meta}</span>
+                  <h3 className="font-bold mb-3">{item.title}</h3>
+                  <p className="text-muted-foreground text-sm leading-relaxed">{item.description}</p>
                 </div>
-                <p className="text-muted-foreground text-sm">{item.description}</p>
-              </div>
-            ))}
+              )
+            })}
           </div>
         </div>
       </section>
 
       {/* Module 15: Directive 8020 Age Rating */}
       <section id="age-rating" className="scroll-mt-24 px-4 py-20">
-        <div className="container mx-auto max-w-5xl">
+        <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm text-[hsl(var(--nav-theme-light))] mb-4">
+              <ClipboardCheck className="w-4 h-4" />
+              {t.modules.directive8020AgeRating.eyebrow}
+            </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.directive8020AgeRating.title}</h2>
+            <p className="text-[hsl(var(--nav-theme-light))] font-medium max-w-3xl mx-auto mb-3">{t.modules.directive8020AgeRating.subtitle}</p>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.directive8020AgeRating.intro}</p>
           </div>
-          <div className="scroll-reveal relative pl-6 border-l-2 border-[hsl(var(--nav-theme)/0.3)] space-y-8">
-            {t.modules.directive8020AgeRating.ratings.map((rating: any, index: number) => (
-              <div key={index} className="relative">
-                <div className="absolute -left-[1.4rem] w-4 h-4 rounded-full bg-[hsl(var(--nav-theme))] border-2 border-background" />
-                <div className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                  <div className="flex items-center gap-2 mb-2">
-                    <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{rating.type}</span>
-                    <ClipboardCheck className="w-4 h-4 text-muted-foreground" />
+
+          <div className="scroll-reveal hidden md:block overflow-hidden rounded-xl border border-border bg-white/5">
+            <table className="w-full text-sm">
+              <thead className="bg-[hsl(var(--nav-theme)/0.1)] text-[hsl(var(--nav-theme-light))]">
+                <tr>
+                  <th className="p-4 text-left font-semibold">Directive 8020 Rating Area</th>
+                  <th className="p-4 text-left font-semibold">Value</th>
+                  <th className="p-4 text-left font-semibold">Details</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-border">
+                {t.modules.directive8020AgeRating.items.map((item: any, index: number) => {
+                  const Icon = ageRatingIcons[index % ageRatingIcons.length]
+                  return (
+                    <tr key={item.category} className="align-top hover:bg-white/5 transition-colors">
+                      <td className="p-4">
+                        <div className="flex items-start gap-3">
+                          <div className="w-10 h-10 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] flex items-center justify-center flex-shrink-0">
+                            <Icon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                          </div>
+                          <span className="font-bold">{item.category}</span>
+                        </div>
+                      </td>
+                      <td className="p-4 font-semibold text-[hsl(var(--nav-theme-light))]">{item.value}</td>
+                      <td className="p-4 text-muted-foreground leading-relaxed">{item.details}</td>
+                    </tr>
+                  )
+                })}
+              </tbody>
+            </table>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 gap-4 md:hidden">
+            {t.modules.directive8020AgeRating.items.map((item: any, index: number) => {
+              const Icon = ageRatingIcons[index % ageRatingIcons.length]
+              return (
+                <div key={item.category} className="p-5 bg-white/5 border border-border rounded-xl">
+                  <div className="flex items-start gap-3 mb-4">
+                    <div className="w-11 h-11 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] flex items-center justify-center flex-shrink-0">
+                      <Icon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <div>
+                      <h3 className="font-bold">{item.category}</h3>
+                      <p className="text-[hsl(var(--nav-theme-light))] text-sm font-semibold mt-1">{item.value}</p>
+                    </div>
                   </div>
-                  <h3 className="font-bold mb-1">{rating.title}</h3>
-                  <p className="text-muted-foreground text-sm">{rating.description}</p>
+                  <p className="text-muted-foreground text-sm leading-relaxed">{item.details}</p>
                 </div>
-              </div>
-            ))}
+              )
+            })}
           </div>
         </div>
       </section>
 
       {/* Module 16: Directive 8020 Latest News */}
       <section id="latest-news" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
-        <div className="container mx-auto max-w-5xl">
+        <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm text-[hsl(var(--nav-theme-light))] mb-4">
+              <Clock className="w-4 h-4" />
+              {t.modules.directive8020LatestNews.eyebrow}
+            </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.directive8020LatestNews.title}</h2>
+            <p className="text-[hsl(var(--nav-theme-light))] font-medium max-w-3xl mx-auto mb-3">{t.modules.directive8020LatestNews.subtitle}</p>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.directive8020LatestNews.intro}</p>
           </div>
-          <div className="scroll-reveal space-y-4 mb-8">
-            {t.modules.directive8020LatestNews.updates.map((update: any, index: number) => (
-              <div key={index} className="flex gap-4 p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[hsl(var(--nav-theme)/0.2)] border-2 border-[hsl(var(--nav-theme)/0.5)] flex items-center justify-center">
-                  <TrendingUp className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                </div>
-                <div>
-                  <h3 className="text-xl font-bold mb-2">{update.title}</h3>
-                  <p className="text-muted-foreground">{update.description}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-          <div className="scroll-reveal p-6 bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.3)] rounded-xl">
-            <div className="flex items-start gap-3">
-              <MessageCircle className="w-6 h-6 text-[hsl(var(--nav-theme-light))] flex-shrink-0 mt-1" />
-              <div>
-                <h3 className="font-bold text-[hsl(var(--nav-theme-light))] mb-2">{t.modules.directive8020LatestNews.linksTitle}</h3>
-                <p className="text-sm text-muted-foreground mb-3">{t.modules.directive8020LatestNews.linksDescription}</p>
-                <div className="flex flex-wrap gap-3">
-                  {t.modules.directive8020LatestNews.links.map((link: any, index: number) => (
-                    <a
-                      key={index}
-                      href={link.href}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"
-                    >
-                      {link.label} <ExternalLink className="w-3 h-3" />
-                    </a>
-                  ))}
-                </div>
-              </div>
-            </div>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-4">
+            {t.modules.directive8020LatestNews.items.map((item: any, index: number) => {
+              const Icon = latestNewsIcons[index % latestNewsIcons.length]
+              return (
+                <a
+                  key={item.href}
+                  href={item.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] hover:bg-[hsl(var(--nav-theme)/0.05)] transition-colors"
+                >
+                  <div className="flex items-start justify-between gap-3 mb-4">
+                    <div className="w-11 h-11 rounded-lg bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.3)] flex items-center justify-center flex-shrink-0">
+                      <Icon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <ExternalLink className="w-4 h-4 text-muted-foreground group-hover:text-[hsl(var(--nav-theme-light))] transition-colors" />
+                  </div>
+                  <div className="flex flex-wrap gap-2 mb-3">
+                    <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">{item.date}</span>
+                    <span className="text-xs px-2 py-1 rounded-full border border-border bg-white/5">{item.category}</span>
+                  </div>
+                  <h3 className="font-bold mb-3">{item.title}</h3>
+                  <p className="text-muted-foreground text-sm leading-relaxed">{item.summary}</p>
+                </a>
+              )
+            })}
           </div>
         </div>
       </section>

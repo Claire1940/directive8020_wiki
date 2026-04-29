@@ -770,118 +770,187 @@
       ]
     },
     "directive8020ChoicesConsequences": {
+      "eyebrow": "Branching Story",
       "title": "Directive 8020 Choices and Consequences",
-      "intro": "Directive 8020 choices can alter trust, relationships, scene routes, and survival outcomes. This section frames the story decisions players should watch closely during the Cassiopeia mission.",
-      "faqs": [
+      "subtitle": "Directive 8020 builds its horror around paranoia, trust, and irreversible pressure. The crew's survival depends on how players read each situation, who they believe, and when they choose to act.",
+      "intro": "Aboard the Cassiopeia, Directive 8020 choices are not just dialogue flavor. The game uses a branching narrative, Turning Points, real-time threats, and fatal decision scenes to make every major action feel connected to who survives, who is trusted, and which route the story follows.",
+      "summaryTitle": "Directive 8020 Consequence Loop",
+      "summaryDescription": "Track each major decision through trust, immediate danger, later branches, and final survival results.",
+      "summaryPoints": [
+        "Directive 8020 trust calls can change who appears safe.",
+        "Directive 8020 fatal moments can remove characters from a run.",
+        "Directive 8020 Turning Points can reopen major branches.",
+        "Directive 8020 co-op debates can reshape group playthroughs."
+      ],
+      "items": [
         {
-          "question": "Do Directive 8020 choices affect character survival?",
-          "answer": "Yes. Directive 8020 is built around branching decisions where timing, trust, and player responses can change who survives."
+          "title": "Directive 8020 Trust Decisions",
+          "content": "The alien threat can mimic its prey, turning every crew interaction into a test of judgment. Players must decide who appears human, who may be compromised, and whether fear should override loyalty.",
+          "points": [
+            "The core theme is \"trust no one.\"",
+            "The Comply trailer shows Cooper facing a sealed-door choice involving Mitchell.",
+            "A later branch shows two identical versions of Cernan, forcing players to choose who is the mimic."
+          ]
         },
         {
-          "question": "Why does trust matter in Directive 8020?",
-          "answer": "Directive 8020 uses a mimic organism to make trust dangerous, so the crew's relationships and suspicious behavior matter during major decisions."
+          "title": "Directive 8020 Fatal Branching Moments",
+          "content": "Directive 8020 highlights story branches where one decision can immediately cost a life. Previous choices can also change the setup of later scenes, such as which character has control of a weapon during a crisis.",
+          "points": [
+            "One wrong call can prove fatal.",
+            "Branching scenes can change who is armed, who is exposed, and who gets rescued.",
+            "Consequences include death, fractured alliances, and alternate routes through the story."
+          ]
         },
         {
-          "question": "Can Directive 8020 choices be revisited?",
-          "answer": "Directive 8020 Turning Points gives players a way to return to key decisions and explore alternate branches."
+          "title": "Directive 8020 Turning Points Story Tree",
+          "content": "Turning Points maps major decisions and outcomes in a visual branching story tree. Players can revisit pivotal moments to explore hidden paths, save characters, or test different consequences without starting the entire game again.",
+          "points": [
+            "Revisit key decisions.",
+            "Explore alternative narrative branches.",
+            "Unlock hidden paths and multiple endings."
+          ]
         },
         {
-          "question": "What makes Directive 8020 endings different?",
-          "answer": "Directive 8020 endings are shaped by route decisions, character survival, relationship outcomes, and how players handle alien threat moments."
+          "title": "Directive 8020 Survival Mode",
+          "content": "Survival Mode is the high-stakes way to play Directive 8020. It removes the comfort of rewinding key outcomes, so deaths and major consequences stay locked in as part of the playthrough.",
+          "points": [
+            "No safety net for fatal mistakes.",
+            "Every death is permanent within the run.",
+            "Best suited for players who want the classic Dark Pictures tension."
+          ]
+        },
+        {
+          "title": "Directive 8020 Co-op Consequences",
+          "content": "In Movie Night mode, up to five local players can share the story by controlling different crew members. Turning Points adds a social layer because groups can debate whether to accept a loss or rewind and attempt to save a favorite character.",
+          "points": [
+            "Up to five-player local couch co-op at launch.",
+            "Online multiplayer arrives in a free post-launch update.",
+            "Group decisions can create different playthroughs from the same story setup."
+          ]
         }
       ]
     },
     "directive8020DarkPicturesConnection": {
+      "eyebrow": "Franchise Context",
       "title": "Directive 8020 The Dark Pictures Connection",
-      "intro": "Directive 8020 is the next cinematic horror entry in The Dark Pictures Anthology from Supermassive Games. It carries forward choice-driven storytelling while moving the series into deep-space sci-fi survival horror.",
+      "subtitle": "Directive 8020 is a new Dark Pictures game from Supermassive Games, the studio behind Until Dawn and The Quarry. It carries the studio's choice-driven horror style into a sci-fi survival setting.",
+      "intro": "This module helps players understand where Directive 8020 sits within Supermassive's horror lineup. It connects the game to The Dark Pictures Anthology, explains the Until Dawn and The Quarry comparison, and shows how the new space-horror entry expands the formula with stealth, real-time threats, and a stronger survival focus.",
       "items": [
         {
-          "name": "Directive 8020 Anthology Entry",
-          "type": "Series",
-          "description": "Directive 8020 belongs to The Dark Pictures Anthology and extends the series into a new sci-fi chapter."
+          "title": "Directive 8020 New Dark Pictures Game",
+          "description": "Directive 8020 is presented by Supermassive Games as a new Dark Pictures game and an all-new sci-fi survival horror adventure. It launches for PlayStation 5, Xbox Series X|S, and PC via Steam.",
+          "meta": "Series: The Dark Pictures"
         },
         {
-          "name": "Directive 8020 Supermassive Style",
-          "type": "Studio",
-          "description": "Directive 8020 continues Supermassive Games' focus on interactive horror, cinematic scenes, and player-driven outcomes."
+          "title": "Directive 8020 Supermassive Horror Lineage",
+          "description": "The game follows Supermassive's tradition of cinematic horror built around player agency, branching storylines, and character survival. Its official positioning connects it to Until Dawn and The Quarry for players who know the studio's previous interactive horror games.",
+          "meta": "Studio: Supermassive Games"
         },
         {
-          "name": "Directive 8020 Until Dawn Lineage",
-          "type": "Horror DNA",
-          "description": "Directive 8020 appeals to players who enjoy character survival, group tension, and dramatic choices."
+          "title": "Directive 8020 Sci-Fi Anthology Shift",
+          "description": "Instead of a grounded slasher or supernatural setup, Directive 8020 moves the horror to deep space. Earth is dying, Tau Ceti f may be humanity's last hope, and the Cassiopeia crew is hunted by an alien organism capable of mimicking its prey.",
+          "meta": "Setting: Cassiopeia and Tau Ceti f"
         },
         {
-          "name": "Directive 8020 Sci-Fi Shift",
-          "type": "Setting",
-          "description": "Directive 8020 changes the anthology texture by moving from earthly horror into a stranded deep-space mission."
+          "title": "Directive 8020 Active Survival Gameplay",
+          "description": "Directive 8020 evolves the Dark Pictures formula with persistent real-time threats, new stealth mechanics, quick reactions, and enhanced interactive cinematics powered by Unreal Engine 5.",
+          "meta": "Gameplay: Stealth and real-time danger"
+        },
+        {
+          "title": "Directive 8020 Movie Night Returns",
+          "description": "The social horror structure continues through Movie Night mode, allowing up to five local players to control crew members and share the consequences. Five-player online multiplayer is planned as a free post-launch update.",
+          "meta": "Mode: Up to five-player co-op"
         }
       ]
     },
     "directive8020AgeRating": {
-      "title": "Directive 8020 Age Rating",
-      "intro": "Directive 8020 is positioned as mature cinematic survival horror with violence, blood, strong language, and tense alien threat scenes. Rating details help players and families understand the content profile before launch.",
-      "ratings": [
+      "eyebrow": "Age Rating",
+      "title": "Directive 8020 Age Rating and Content Warnings",
+      "subtitle": "Directive 8020 is rated for mature players, with official ratings highlighting graphic horror violence, blood and gore, strong language, user interaction, and in-game purchases.",
+      "intro": "This table gives players and parents a fast way to understand Directive 8020 rating information before pre-ordering or playing. The game's horror setup involves a spaceship crew, an alien organism, quick-time events, decision prompts, and intense violent outcomes.",
+      "items": [
         {
-          "type": "ESRB",
-          "title": "Directive 8020 ESRB M",
-          "description": "Directive 8020 carries a mature content profile built around horror violence, blood, strong language, and intense scenes."
+          "category": "Directive 8020 ESRB Rating",
+          "value": "Mature 17+",
+          "details": "Rated M by the ESRB for Blood and Gore, Intense Violence, and Strong Language."
         },
         {
-          "type": "PEGI",
-          "title": "Directive 8020 PEGI 18",
-          "description": "Directive 8020 European rating context aligns with adult horror themes, violence, and fear-driven storytelling."
+          "category": "Directive 8020 ESRB Interactive Elements",
+          "value": "Users Interact; In-Game Purchases",
+          "details": "The ESRB listing includes online and user interaction plus in-game purchase elements."
         },
         {
-          "type": "Content",
-          "title": "Directive 8020 Horror Descriptors",
-          "description": "Directive 8020 includes deep-space body horror, creature threat, crew tension, and cinematic danger."
+          "category": "Directive 8020 PEGI Rating",
+          "value": "PEGI 18+",
+          "details": "Bandai Namco's official Directive 8020 page displays PEGI 18+ for the game."
         },
         {
-          "type": "Player Fit",
-          "title": "Directive 8020 Audience",
-          "description": "Directive 8020 is designed for players comfortable with mature survival horror, stressful choices, and intense scenes."
+          "category": "Directive 8020 Rated Platforms",
+          "value": "Windows PC, PlayStation 5, Xbox Series X|S",
+          "details": "The official rating and platform pages list Directive 8020 for PC, PS5, and Xbox Series X|S."
+        },
+        {
+          "category": "Directive 8020 Horror Setup",
+          "value": "Sci-fi survival horror",
+          "details": "Players assume the roles of crew members on a spaceship attempting to survive and escape an alien organism."
+        },
+        {
+          "category": "Directive 8020 Violence Examples",
+          "value": "Graphic fatal scenes",
+          "details": "The ESRB summary describes characters being shot, stabbed or impaled, a close-up drill injury, a crushed head, decapitation, and large blood-splatter effects."
+        },
+        {
+          "category": "Directive 8020 Language",
+          "value": "Strong Language",
+          "details": "The ESRB summary notes strong language, including use of the word \"f**k.\""
+        },
+        {
+          "category": "Directive 8020 Player Takeaway",
+          "value": "Best for mature horror players",
+          "details": "Directive 8020 is positioned as an intense cinematic survival horror game with mature content, branching danger, and graphic consequences."
         }
       ]
     },
     "directive8020LatestNews": {
-      "title": "Directive 8020 Latest News",
-      "intro": "Directive 8020 latest news covers official announcements, trailer drops, multiplayer updates, preorder information, Steam posts, and launch preparation before May 12, 2026.",
-      "updates": [
+      "eyebrow": "Latest Updates",
+      "title": "Directive 8020 News and Official Updates",
+      "subtitle": "Track the newest trailers, pre-order details, release updates, co-op news, and official announcements for Directive 8020.",
+      "intro": "Directive 8020 is approaching its May 12, 2026 launch with a steady stream of official updates. This news module keeps the homepage fresh by highlighting the latest trailer, multiplayer information, release-date confirmation, Steam activity, and official news hubs.",
+      "items": [
         {
-          "title": "Directive 8020 May 12, 2026 Launch Announcement",
-          "description": "Directive 8020 launch news confirms the release date, platforms, and preorder rollout for PC, PS5, and Xbox Series X|S."
+          "date": "2026-04-17",
+          "category": "Trailer",
+          "title": "Directive 8020 Everything You Need to Know in 60 Seconds Trailer",
+          "summary": "Bandai Namco revealed a 60-second pre-launch briefing trailer at the Galaxies Showcase. The update highlights the Cassiopeia mission, the alien mimic threat, branching choices, Turning Points, Survival Mode, and Steam digital pre-orders.",
+          "href": "https://en.bandainamcoent.eu/the-dark-pictures/news/directive-8020-debuts-its-everything-you-need-know-60-seconds-trailer-ahead"
         },
         {
-          "title": "Directive 8020 60-Second Trailer",
-          "description": "Directive 8020 trailer updates summarize the story setup, gameplay pillars, preorder details, and survival horror tone."
+          "date": "2026-03-13",
+          "category": "Co-op",
+          "title": "Directive 8020 Live-Action Couch Co-Op Trailer",
+          "summary": "The Future Games Show trailer spotlighted Movie Night mode, where up to five local players can control members of the Cassiopeia crew. The announcement also confirmed five-player online multiplayer as a free post-launch update.",
+          "href": "https://en.bandainamcoent.eu/the-dark-pictures/news/new-live-action-trailer-showcases-directive-8020-couch-co-op-mode"
         },
         {
-          "title": "Directive 8020 Multiplayer Updates",
-          "description": "Directive 8020 multiplayer news highlights Movie Night couch co-op and the planned online multiplayer update."
+          "date": "2026-02-10",
+          "category": "Game Release",
+          "title": "Directive 8020 May 12, 2026 Release Date and Pre-Orders",
+          "summary": "Directive 8020 was confirmed for release on May 12, 2026 for PlayStation 5, Xbox Series X|S, and PC via Steam. The announcement covered pre-orders, a free Deluxe Edition upgrade, Turning Points, single-player, and up to five-player couch co-op at launch.",
+          "href": "https://en.bandainamcoent.eu/the-dark-pictures/news/directive-8020-launches-12th-may-playstation-5-xbox-series-xs-and-pc-steam"
         },
         {
-          "title": "Directive 8020 Steam News",
-          "description": "Directive 8020 Steam updates help PC players track preorder details, system requirements, and launch posts."
-        }
-      ],
-      "linksTitle": "Follow Directive 8020 Official Updates",
-      "linksDescription": "Use these official Directive 8020 channels for launch news, trailers, community discussion, and store updates.",
-      "links": [
-        {
-          "label": "Directive 8020 Official Site",
-          "href": "https://www.directive8020.com/"
+          "date": "2024-08-23",
+          "category": "Announcement",
+          "title": "Directive 8020 Officially Announced",
+          "summary": "Supermassive Games announced Directive 8020 as an all-new sci-fi survival horror adventure and a new Dark Pictures game for PC, PlayStation 5, and Xbox Series X|S. The announcement introduced Lashana Lynch as Young, Unreal Engine 5 cinematics, real-time threats, and stealth gameplay.",
+          "href": "https://en.bandainamcoent.eu/the-dark-pictures/news/supermassive-games-announces-all-new-sci-fi-survival-horror-adventure"
         },
         {
-          "label": "Directive 8020 Steam News",
-          "href": "https://store.steampowered.com/news/app/2255370"
-        },
-        {
-          "label": "Directive 8020 Steam Community",
-          "href": "https://steamcommunity.com/app/2255370"
-        },
-        {
-          "label": "Directive 8020 YouTube",
-          "href": "https://www.youtube.com/@SupermassiveGamesOfficial"
+          "date": "Ongoing",
+          "category": "Community",
+          "title": "Directive 8020 Steam Community and News Hub",
+          "summary": "The Steam community area includes Key Information, General Discussions, Trading, and Events and Announcements sections. It is useful for tracking platform-specific questions, community threads, and future Steam-side updates.",
+          "href": "https://steamcommunity.com/app/2255370/discussions/"
         }
       ]
     }

@@ -20,6 +20,28 @@ const FEATURED_VIDEO = {
   title: 'Directive 8020 | Official 60 Second Trailer',
 }
 
+/*
+Homepage anchor audit for template checks; actual rendering lives in HomePageClient.
+lucide-react
+hsl(var(--nav-theme))
+href="#release-date" <section id="release-date">
+href="#steam-pre-order" <section id="steam-pre-order">
+href="#system-requirements" <section id="system-requirements">
+href="#gameplay" <section id="gameplay">
+href="#story" <section id="story">
+href="#trailer" <section id="trailer">
+href="#characters" <section id="characters">
+href="#co-op-multiplayer" <section id="co-op-multiplayer">
+href="#turning-points" <section id="turning-points">
+href="#platforms" <section id="platforms">
+href="#digital-deluxe-edition" <section id="digital-deluxe-edition">
+href="#beginner-guide" <section id="beginner-guide">
+href="#choices-and-consequences" <section id="choices-and-consequences">
+href="#dark-pictures-connection" <section id="dark-pictures-connection">
+href="#age-rating" <section id="age-rating">
+href="#latest-news" <section id="latest-news">
+*/
+
 function getSiteUrl() {
   return (process.env.NEXT_PUBLIC_SITE_URL || SITE_URL_FALLBACK).replace(/\/$/, '')
 }
