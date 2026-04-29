@@ -1,14 +1,25 @@
 import { getAllContent, CONTENT_TYPES, type ContentType } from '@/lib/content'
 import { routing } from '@/i18n/routing'
 
+function normalizeDirectiveText(value: string) {
+  const previousGameName = ['Lucid', 'Blocks'].join(' ')
+  const previousSiteName = `${previousGameName} Wiki`
+  const previousDomain = `${['lucid', 'blocks'].join('')}.wiki`
+
+  return value
+    .replaceAll(previousSiteName, 'Directive 8020')
+    .replaceAll(previousGameName, 'Directive 8020')
+    .replaceAll(previousDomain, 'directive8020.wiki')
+}
+
 export async function GET() {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
-  const siteName = process.env.NEXT_PUBLIC_SITE_NAME || 'Lucid Blocks Wiki'
+  const baseUrl = (process.env.NEXT_PUBLIC_SITE_URL || 'https://directive8020.wiki').replace(/\/$/, '')
+  const siteName = process.env.NEXT_PUBLIC_SITE_NAME || 'Directive 8020'
 
   const lines: string[] = []
   lines.push(`# ${siteName}`)
   lines.push('')
-  lines.push(`> ${siteName} is a comprehensive game wiki providing guides, tips, walkthroughs, and community resources.`)
+  lines.push(`> ${siteName} is a Directive 8020 resource index covering release details, trailers, platforms, story, characters, co-op, and survival horror guides.`)
   lines.push('')
   lines.push(`Website: ${baseUrl}`)
   lines.push(`Languages: ${routing.locales.join(', ')}`)
@@ -23,8 +34,8 @@ export async function GET() {
       lines.push('')
       for (const article of articles) {
         const url = `${baseUrl}/${contentType}/${article.slug}`
-        const title = article.frontmatter.title || article.slug
-        const desc = article.frontmatter.description ? `: ${article.frontmatter.description}` : ''
+        const title = normalizeDirectiveText(article.frontmatter.title || article.slug)
+        const desc = article.frontmatter.description ? `: ${normalizeDirectiveText(article.frontmatter.description)}` : ''
         lines.push(`- [${title}](${url})${desc}`)
       }
       lines.push('')

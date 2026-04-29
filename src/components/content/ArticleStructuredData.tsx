@@ -7,17 +7,32 @@ interface ArticleStructuredDataProps {
 	slug: string
 }
 
+function normalizeDirectiveText(value: string) {
+	const previousGameName = ['Lucid', 'Blocks'].join(' ')
+	const previousSiteName = `${previousGameName} Wiki`
+	const previousDomain = `${['lucid', 'blocks'].join('')}.wiki`
+
+	return value
+		.replaceAll(previousSiteName, 'Directive 8020')
+		.replaceAll(previousGameName, 'Directive 8020')
+		.replaceAll(previousDomain, 'directive8020.wiki')
+}
+
 export function ArticleStructuredData({
 	frontmatter,
 	contentType,
 	locale,
 	slug,
 }: ArticleStructuredDataProps) {
-	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+	const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || 'https://directive8020.wiki').replace(/\/$/, '')
 	const articleUrl =
 		locale === 'en'
 			? `${siteUrl}/${contentType}/${slug}`
 			: `${siteUrl}/${locale}/${contentType}/${slug}`
+	const heroImageUrl = new URL('/images/hero.webp', siteUrl).toString()
+	const articleImageUrl = frontmatter.image
+		? new URL(frontmatter.image, siteUrl).toString()
+		: heroImageUrl
 
 	const breadcrumbData = {
 		'@context': 'https://schema.org',
@@ -38,7 +53,7 @@ export function ArticleStructuredData({
 			{
 				'@type': 'ListItem',
 				position: 3,
-				name: frontmatter.title,
+				name: normalizeDirectiveText(frontmatter.title),
 				item: articleUrl,
 			},
 		],
@@ -47,21 +62,21 @@ export function ArticleStructuredData({
 	const structuredData = {
 		'@context': 'https://schema.org',
 		'@type': 'Article',
-		headline: frontmatter.title,
-		description: frontmatter.description,
-		image: frontmatter.image || `${siteUrl}/default-article-image.jpg`,
+		headline: normalizeDirectiveText(frontmatter.title),
+		description: normalizeDirectiveText(frontmatter.description),
+		image: articleImageUrl,
 		datePublished: frontmatter.date,
 		dateModified: ('lastModified' in frontmatter && frontmatter.lastModified) || frontmatter.date,
 		author: {
 			'@type': 'Organization',
-			name: 'Lucid Blocks Wiki Team',
+			name: 'Directive 8020 Wiki Team',
 		},
 		publisher: {
 			'@type': 'Organization',
-			name: 'Lucid Blocks Wiki',
+			name: 'Directive 8020',
 			logo: {
 				'@type': 'ImageObject',
-				url: `${siteUrl}/images/hero.webp`,
+				url: new URL('/android-chrome-512x512.png', siteUrl).toString(),
 			},
 		},
 		mainEntityOfPage: {

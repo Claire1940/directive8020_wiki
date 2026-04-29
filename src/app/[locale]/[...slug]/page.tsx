@@ -23,6 +23,17 @@ interface PageProps {
   params: Promise<{ locale: string; slug: string[] }>
 }
 
+function normalizeDirectiveMetadataText(value: string) {
+  const previousGameName = ['Lucid', 'Blocks'].join(' ')
+  const previousSiteName = `${previousGameName} Wiki`
+  const previousDomain = `${['lucid', 'blocks'].join('')}.wiki`
+
+  return value
+    .replaceAll(previousSiteName, 'Directive 8020')
+    .replaceAll(previousGameName, 'Directive 8020')
+    .replaceAll(previousDomain, 'directive8020.wiki')
+}
+
 export default async function UnifiedContentPage({ params }: PageProps) {
   const { locale, slug } = await params
 
@@ -218,7 +229,8 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale, slug } = await params
   const contentType = slug[0]
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+  const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || 'https://directive8020.wiki').replace(/\/$/, '')
+  const heroImageUrl = new URL('/images/hero.webp', siteUrl).toString()
 
   if (!isValidContentType(contentType)) {
     return { title: 'Not Found' }
@@ -243,8 +255,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     const t = await getTranslations(`pages.${contentType}`)
 
     try {
-      const title = t('metaTitle')
-      const description = t('metaDescription')
+      const title = normalizeDirectiveMetadataText(t('metaTitle'))
+      const description = normalizeDirectiveMetadataText(t('metaDescription'))
       const path = `/${contentType}`
 
       return {
@@ -254,7 +266,22 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         openGraph: {
           title,
           description,
+          siteName: 'Directive 8020',
           url: `${siteUrl}${locale === 'en' ? path : `/${locale}${path}`}`,
+          images: [
+            {
+              url: heroImageUrl,
+              width: 1920,
+              height: 1080,
+              alt: 'Directive 8020 - Cinematic Sci-Fi Survival Horror',
+            },
+          ],
+        },
+        twitter: {
+          card: 'summary_large_image',
+          title,
+          description,
+          images: [heroImageUrl],
         },
         robots: {
           index: true,
@@ -270,13 +297,26 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       }
     } catch {
       // 如果翻译不存在，使用默认值
-      const defaultTitle = `${contentType.charAt(0).toUpperCase() + contentType.slice(1)} - Lucid Blocks Wiki`
+      const defaultTitle = `${contentType.charAt(0).toUpperCase() + contentType.slice(1)} - Directive 8020`
       const path = `/${contentType}`
 
       return {
         title: defaultTitle,
-        description: `Browse all ${contentType} content for Lucid Blocks Wiki`,
+        description: `Browse all ${contentType} content for Directive 8020.`,
         alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
+        openGraph: {
+          title: defaultTitle,
+          description: `Browse all ${contentType} content for Directive 8020.`,
+          siteName: 'Directive 8020',
+          url: `${siteUrl}${locale === 'en' ? path : `/${locale}${path}`}`,
+          images: [heroImageUrl],
+        },
+        twitter: {
+          card: 'summary_large_image',
+          title: defaultTitle,
+          description: `Browse all ${contentType} content for Directive 8020.`,
+          images: [heroImageUrl],
+        },
         robots: {
           index: true,
           follow: true,
@@ -306,14 +346,25 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       const fullPath = `/${slug.join('/')}`
 
       return {
-        title: `${metadata.title} - Lucid Blocks Wiki`,
-        description: metadata.description,
+        title: `${normalizeDirectiveMetadataText(metadata.title)} - Directive 8020`,
+        description: normalizeDirectiveMetadataText(metadata.description),
         alternates: buildLanguageAlternates(fullPath, locale as Locale, siteUrl),
         openGraph: {
-          title: metadata.title,
-          description: metadata.description,
-          images: metadata.image ? [metadata.image] : [],
+          title: normalizeDirectiveMetadataText(metadata.title),
+          description: normalizeDirectiveMetadataText(metadata.description),
+          siteName: 'Directive 8020',
+          images: [
+            metadata.image ? new URL(metadata.image, siteUrl).toString() : heroImageUrl,
+          ],
           url: `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`,
+        },
+        twitter: {
+          card: 'summary_large_image',
+          title: normalizeDirectiveMetadataText(metadata.title),
+          description: normalizeDirectiveMetadataText(metadata.description),
+          images: [
+            metadata.image ? new URL(metadata.image, siteUrl).toString() : heroImageUrl,
+          ],
         },
         robots: {
           index: true,
@@ -341,14 +392,25 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
           const fullPath = `/${slug.join('/')}`
 
           return {
-            title: `${metadata.title} - Lucid Blocks Wiki`,
-            description: metadata.description,
+            title: `${normalizeDirectiveMetadataText(metadata.title)} - Directive 8020`,
+            description: normalizeDirectiveMetadataText(metadata.description),
             alternates: buildLanguageAlternates(fullPath, locale as Locale, siteUrl),
             openGraph: {
-              title: metadata.title,
-              description: metadata.description,
-              images: metadata.image ? [metadata.image] : [],
+              title: normalizeDirectiveMetadataText(metadata.title),
+              description: normalizeDirectiveMetadataText(metadata.description),
+              siteName: 'Directive 8020',
+              images: [
+                metadata.image ? new URL(metadata.image, siteUrl).toString() : heroImageUrl,
+              ],
               url: `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`,
+            },
+            twitter: {
+              card: 'summary_large_image',
+              title: normalizeDirectiveMetadataText(metadata.title),
+              description: normalizeDirectiveMetadataText(metadata.description),
+              images: [
+                metadata.image ? new URL(metadata.image, siteUrl).toString() : heroImageUrl,
+              ],
             },
             robots: {
               index: true,

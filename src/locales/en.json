@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Cinematic Sci-Fi Survival Horror",
+    "title": "Directive 8020",
+    "description": "Directive 8020 is a cinematic sci-fi survival horror adventure set aboard the Cassiopeia, where player choices, alien mimicry, co-op tension, and branching outcomes decide who survives.",
+    "getFreeCodesCTA": "Visit Official Site",
+    "playOnSteamCTA": "Pre-purchase on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "May 12, 2026",
+        "label": "Release Date"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "$49.99",
+        "label": "Steam Price"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "5",
+        "label": "Couch Co-op Players"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "3",
+        "label": "Launch Platforms"
       }
     }
   },
@@ -785,26 +785,29 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready for Directive 8020?",
+    "description": "Follow Directive 8020 through official channels for trailers, release updates, Steam preorder details, and community discussions.",
+    "joinCommunity": "Join Supermassive Discord",
+    "joinGame": "Pre-purchase Directive 8020 on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Directive 8020",
+    "description": "Your resource hub for Directive 8020 release date, trailers, Steam preorder info, story, characters, co-op, and survival horror guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
+    "reddit": "Reddit",
+    "youtube": "YouTube",
     "steamCommunity": "Steam Community",
     "steamStore": "Steam Store",
+    "officialSite": "Official Site",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Directive 8020 Wiki. Not affiliated with Supermassive Games, Bandai Namco Entertainment, or The Dark Pictures Anthology.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
