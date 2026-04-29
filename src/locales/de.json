@@ -1,965 +1,1147 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "description": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps, Steuerung, Mods und Community-Links für das Steam-Stealth-Heist-Spiel.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, Demo-Download, Anfängerleitfaden, Koop-Leitfaden, Crafting, Ausrüstung, Mods, BepInEx, Steam-Spiel, Stealth-Spiel",
-      "ogTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "ogDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps und Mods für das Steam-Stealth-Heist-Spiel.",
-      "twitterTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "twitterDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien und Crafting-Tipps."
+      "title": "Directive 8020 Wiki – Erscheinungsdatum, Trailer und Anleitung",
+      "description": "Entdecken Sie das Veröffentlichungsdatum von Directive 8020, Informationen zur Vorbestellung von Steam, Trailer, Story, Charaktere, den Koop-Modus, Turning Points und Survival-Horror-Guides an einem Ort.",
+      "keywords": "Directive 8020, Directive 8020-Wiki, Directive 8020-Veröffentlichungsdatum, Directive 8020-Trailer, Directive 8020 Steam, Directive 8020-Koop",
+      "ogTitle": "Directive 8020 Wiki – Erscheinungsdatum, Trailer und Anleitung",
+      "ogDescription": "Verfolgen Sie das Erscheinungsdatum von Directive 8020, Details zur Vorbestellung von Steam, offizielle Trailer, Story-Setup, Charaktere, Koop-Modi und Survival-Horror-Gameplay.",
+      "twitterTitle": "Directive 8020 Wiki – Erscheinungsdatum, Trailer und Anleitung",
+      "twitterDescription": "Directive 8020 Wiki umfasst Veröffentlichungsdatum, Steam-Vorbestellungsinformationen, Trailer, Story, Charaktere, Koop, Turning Points und Survival-Horror-Guides."
     }
   },
   "nav": {
-    "release": "Release",
-    "platforms": "Platforms",
-    "purchase": "Purchase",
-    "multiplayer": "Multiplayer",
-    "story": "Story"
+    "release": "Veröffentlichung",
+    "platforms": "Plattformen",
+    "purchase": "Kauf",
+    "multiplayer": "Mehrspielermodus",
+    "story": "Geschichte"
   },
   "common": {
     "home": "Startseite",
     "more": "Mehr",
-    "playNow": "Demo herunterladen",
+    "playNow": "Vorverkauf auf Steam",
     "switchLanguage": "Sprache wechseln",
-    "switchTheme": "Design wechseln",
-    "lightMode": "Heller Modus",
+    "switchTheme": "Thema wechseln",
+    "lightMode": "Lichtmodus",
     "darkMode": "Dunkler Modus",
     "notFound": "Seite nicht gefunden",
-    "notFoundDescription": "Die Seite, die du suchst, existiert nicht.",
-    "backToHome": "Zurück zur Startseite",
-    "relatedArticles": "Ähnliche Artikel",
-    "readMore": "Mehr lesen",
-    "articlesComingSoon": "Artikel folgen bald"
+    "notFoundDescription": "Die gesuchte Seite existiert nicht.",
+    "backToHome": "Zurück nach Hause",
+    "relatedArticles": "Verwandte Artikel",
+    "readMore": "Weiterlesen",
+    "articlesComingSoon": "Artikel folgen in Kürze"
   },
   "hero": {
-    "badge": "Winzige Gnome. Große Häuser. Stealth-Raubzüge mit Freunden.",
-    "title": "Lucid Blocks Wiki",
-    "description": "Deine zentrale Anlaufstelle für Lucid Blocks: wie die Raubzüge funktionieren, High-Gnome-Aufträge, Crafting & Upgrades, Gegner, Steuerung und die schnellsten Wege, um jeden Durchgang zu überleben.",
-    "getFreeCodesCTA": "Demo herunterladen",
-    "playOnSteamCTA": "Auf die Wunschliste bei Steam",
+    "badge": "Filmischer Sci-Fi-Survival-Horror",
+    "title": "Directive 8020",
+    "description": "Directive 8020 ist ein filmisches Science-Fiction-Survival-Horror-Abenteuer, das an Bord der Cassiopeia spielt und in dem Spielerentscheidungen, Alien-Mimikry, Koop-Spannung und verzweigte Ergebnisse darüber entscheiden, wer überlebt.",
+    "getFreeCodesCTA": "Besuchen Sie die offizielle Website",
+    "playOnSteamCTA": "Vorverkauf auf Steam",
     "stats": {
       "stat1": {
-        "value": "15.000",
-        "label": "Gleichzeitige Spieler (Demo)"
+        "value": "12. Mai 2026",
+        "label": "Veröffentlichungsdatum"
       },
       "stat2": {
-        "value": "6",
-        "label": "Koop-Spieler"
+        "value": "$49.99",
+        "label": "Steam Preis"
       },
       "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo-Veröffentlichung"
+        "value": "5",
+        "label": "Couch-Koop-Spieler"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Plattform"
+        "value": "3",
+        "label": "Plattformen starten"
       }
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Sieh dir an, wie winzige Gnome in chaotischen 6-Spieler-Koop-Stealth-Missionen große Raubzüge durchführen!"
+    "title": "Directive 8020 Gameplay",
+    "description": "Überlebe die Cassiopeia, entdecke die Besatzung, entkomme einem mimischen Organismus und treffe Entscheidungen, die die Ergebnisse von Directive 8020 verändern."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Directive 8020",
     "titleHighlight": "Ressourcen",
-    "subtitle": "Alles, was du brauchst, um Raubzüge und Koop-Stealth zu meistern",
+    "subtitle": "Springe zu Directive 8020-Abschnitten zu Veröffentlichung, Vorbestellung, Story, Gameplay, Koop, Trailer und Guide.",
     "cards": [
       {
-        "icon": "Herunterladen",
-        "title": "Demo-Download",
-        "description": "Hol dir die kostenlose Steam-Demo"
+        "icon": "BookOpen",
+        "title": "Directive 8020 Erscheinungsdatum",
+        "description": "Startdatum, Startzeit, Plattformen und Veröffentlichungsstatus"
       },
       {
-        "icon": "Buch offen",
-        "title": "Anfängerleitfaden",
-        "description": "Kernschleife und häufige Fallstricke"
+        "icon": "Package",
+        "title": "Directive 8020 Steam Vorbestellung",
+        "description": "Steam, PS5, Xbox, Preis und Details zum Vorbestellungsbonus"
       },
       {
-        "icon": "Benutzer",
-        "title": "Koop-Leitfaden",
-        "description": "6-Spieler-Rollen und Rettungstaktiken"
+        "icon": "Settings",
+        "title": "Directive 8020 Systemanforderungen",
+        "description": "Mindestspezifikationen, empfohlene Spezifikationen, Speicher, CPU und GPU"
       },
       {
-        "icon": "Klemmbrett-Check",
-        "title": "Aufgaben & Ziele",
-        "description": "Was High-Gnome von dir will"
+        "icon": "AlertTriangle",
+        "title": "Directive 8020 Gameplay",
+        "description": "Außerirdische Bedrohungen, Heimlichkeit, Entscheidungen, QTEs und Überlebensdruck"
       },
       {
-        "icon": "Tastatur",
-        "title": "Steuerung & Tastenbelegung",
-        "description": "Standardtasten und wie man sie ändert"
+        "icon": "Home",
+        "title": "Directive 8020 Geschichte",
+        "description": "Cassiopeia, Tau Ceti f, Erdkrise und der mimische Organismus"
       },
       {
-        "icon": "Schild",
-        "title": "Inhaltseinstellungen",
-        "description": "Inhalte für Erwachsene und Umschaltoptionen"
+        "icon": "Eye",
+        "title": "Directive 8020 Trailer",
+        "description": "Offizielle Trailer, Gameplay-Clips und 60-Sekunden-Übersicht"
       },
       {
-        "icon": "Hammer",
-        "title": "Crafting & Ausrüstung",
-        "description": "Rüste dich mit gestohlenen Materialien aus"
-      },
-      {
-        "icon": "Paket",
-        "title": "Beute & Gegenstände",
-        "description": "Was man stehlen sollte und Trage-Tipps"
-      },
-      {
-        "icon": "Warndreieck",
-        "title": "Gegner & Gefahren",
-        "description": "Bedrohungen und wie man mit ihnen umgeht"
-      },
-      {
-        "icon": "Auge",
-        "title": "Stealth & Flucht",
-        "description": "Bleib versteckt und extrahiere sicher"
-      },
-      {
-        "icon": "Startseite",
-        "title": "Haus-Upgrades",
-        "description": "Verbessere deine schwebende Inselbasis"
-      },
-      {
-        "icon": "Sprechblase",
-        "title": "Community & Discord",
-        "description": "Offizielle Links und Gruppensuche"
-      },
-      {
-        "icon": "Einstellungen",
-        "title": "Mods & BepInEx",
-        "description": "Installiere Framework und Mod-Setup"
-      },
-      {
-        "icon": "Stern",
-        "title": "Beliebte Mods",
-        "description": "Top-Community-Auswahlen und -Funktionen"
+        "icon": "Users",
+        "title": "Directive 8020 Zeichen",
+        "description": "Cassiopeia Crew, Young, Rollen und Besetzungsdetails"
       },
       {
         "icon": "Gamepad2",
-        "title": "Controller-Unterstützung",
-        "description": "Volle Gamepad-Steuerung mit UI-Cursor"
+        "title": "Directive 8020 Koop-Mehrspielermodus",
+        "description": "Solospiel, Movie Night, Couch-Koop und Online-Pläne"
       },
       {
-        "icon": "TrendingUp",
-        "title": "Spielerzahl & Trend",
-        "description": "Live-Statistiken und Peak-Tracking"
+        "icon": "ArrowRight",
+        "title": "Directive 8020 Turning Points",
+        "description": "Story-Baum, Rückspuloptionen, versteckte Pfade und Enden"
+      },
+      {
+        "icon": "Shield",
+        "title": "Directive 8020 Plattformen",
+        "description": "Unterstützung für PC Steam, PlayStation 5 und Xbox Series X|S"
+      },
+      {
+        "icon": "Star",
+        "title": "Directive 8020 Digitale Deluxe Edition",
+        "description": "Deluxe-Upgrade-Inhalte, Outfit-Paket, Soundtrack und Artbook"
+      },
+      {
+        "icon": "Hammer",
+        "title": "Directive 8020 Anfängerleitfaden",
+        "description": "First-Play-Prioritäten für Story, Überleben und Koop"
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "Directive 8020 Entscheidungen und Konsequenzen",
+        "description": "Vertrauensentscheidungen, Beziehungen, Charakterüberleben und Routen"
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Directive 8020 The Dark Pictures Verbindung",
+        "description": "Anthologie-Kontext, Supermassive-Abstammung und Horror-DNA"
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Directive 8020 Altersfreigabe",
+        "description": "ESRB, PEGI, Gewalt, Sprache und Inhaltsdeskriptoren"
+      },
+      {
+        "icon": "Clock",
+        "title": "Directive 8020 Neueste Nachrichten",
+        "description": "Offizielle Ankündigungen, Trailer-Updates und Steam-Neuigkeiten"
       }
     ]
   },
   "modules": {
-    "demoDownload": {
-      "title": "Lucid Blocks Demo-Download",
-      "subtitle": "Hol dir die kostenlose Demo auf Steam",
-      "downloadSize": "2,62 GiB",
-      "diskSize": "4,88 GiB",
-      "releaseDate": "30. Januar 2026",
-      "price": "Kostenlos",
-      "platform": "PC (Steam) / Windows",
-      "engine": "Unity",
-      "primaryCTA": "Demo herunterladen",
-      "secondaryCTA": "Technische Infos ansehen",
-      "installPath": "Steam\\steamapps\\common\\Lucid Blocks Demo",
-      "sections": [
+    "directive8020ReleaseDate": {
+      "title": "Directive 8020 Erscheinungsdatum: 12. Mai 2026",
+      "intro": "Directive 8020 erscheint am 12. Mai 2026 für PC über Steam, PlayStation 5 und Xbox Series X|S. In diesem Abschnitt werden das Startdatum, der Plattformstatus, der Veröffentlichungszeitpunkt und die Einrichtung für den ersten Tag behandelt, die Spieler benötigen, bevor sie an Bord des Cassiopeia gehen.",
+      "cards": [
         {
-          "heading": "Wo man es herunterladen kann",
-          "items": [
-            "Öffne die offizielle Steam-Store-Seite und nutze den Abschnitt \"Demo herunterladen\".",
-            "Wenn Steam dich auffordert, dich anzumelden, melde dich zuerst an und versuche es erneut."
-          ]
+          "label": "Erscheinungsdatum",
+          "value": "12. Mai 2026",
+          "description": "Directive 8020 soll am 12. Mai 2026 weltweit eingeführt werden.",
+          "badge": "Start"
         },
         {
-          "heading": "Schnelle Überprüfung von Installation und Start",
-          "items": [
-            "Standardinstallationsort: Steam-Bibliotheksordner → steamapps → common → (Spielordner).",
-            "Wenn es nicht startet: Überprüfe die Spieldateien in Steam und starte Steam neu."
-          ]
+          "label": "Startzeit",
+          "value": "14:00 UTC",
+          "description": "Store-Einträge zeigen, dass Directive 8020 am Tag der Markteinführung um 14:00 UTC freigeschaltet wird.",
+          "badge": "Speicherzeit"
+        },
+        {
+          "label": "Plattformen",
+          "value": "PC Steam, PS5, Xbox Series X|S",
+          "description": "Directive 8020 startet auf Steam für PC, PlayStation 5 und Xbox Series X|S.",
+          "badge": "Bestätigt"
+        },
+        {
+          "label": "Freigabestatus",
+          "value": "Live vorbestellen",
+          "description": "Directive 8020 kann vor der Veröffentlichung vorbestellt oder vorab gekauft werden.",
+          "badge": "Verfügbar"
+        },
+        {
+          "label": "Spieltyp",
+          "value": "Filmischer Science-Fiction-Survival-Horror",
+          "description": "Directive 8020 vereint storybasierten Horror, Echtzeit-Aliengefahr und verzweigte Entscheidungen.",
+          "badge": "Dark Pictures"
+        },
+        {
+          "label": "Story-Setup",
+          "value": "Cassiopeia auf Tau Ceti f",
+          "description": "Directive 8020 folgt einer Weltraummission, bei der die Besatzung einem mimischen Organismus gegenübersteht.",
+          "badge": "Science-Fiction-Horror"
         }
+      ],
+      "notesTitle": "Directive 8020 Versionshinweise",
+      "notes": [
+        "Directive 8020 basiert auf einem neuen Deep-Space-Setting in The Dark Pictures Anthology.",
+        "Directive 8020-Startplattformen konzentrieren sich auf Konsolen- und PC-Hardware der aktuellen Generation.",
+        "Directive 8020-Vorbestellungsseiten heben sowohl Standardkaufoptionen als auch Digital Deluxe-Upgrade-Inhalte hervor.",
+        "Directive 8020 Bei der Veröffentlichungsplanung sollten die Wahl der Plattform, die Größe der Koop-Gruppe und die PC-Anforderungen im Vordergrund stehen."
       ]
     },
-    "beginnerGuide": {
-      "title": "Lucid Blocks Anfängerleitfaden",
-      "subtitle": "Meistere die Kernschleife und vermeide häufige Fehler",
-      "steps": [
+    "directive8020SteamPreOrder": {
+      "title": "Directive 8020 Steam Vorbestellung, Preis und Shop-Optionen",
+      "intro": "Directive 8020 kann auf Steam vorbestellt werden, Konsolenvorbestellungen sind live im PlayStation Store und im Xbox Store möglich. Vergleichen Sie Preis, Editionsstatus, Plattformfunktionen und Vorbestellungsboni, bevor Sie entscheiden, wo Sie spielen möchten.",
+      "stores": [
         {
-          "number": 1,
-          "title": "Betritt das Haus",
-          "description": "Lass dich von deiner schwebenden Inselbasis in ein menschliches Haus fallen. Spawne draußen und schleiche dich durch unverschlossene Türen oder Fenster hinein."
+          "platform": "PC Steam",
+          "status": "Live-Vorverkauf",
+          "price": "$49.99",
+          "bonus": "Digital Deluxe Edition-Upgrade",
+          "detail": "Am besten geeignet für PC-Spieler, die Steam-Erfolge, Steam Cloud, Controller-Unterstützung und Remote Play-Funktionen wünschen.",
+          "href": "https://store.steampowered.com/app/2255370/Directive_8020/"
         },
         {
-          "number": 2,
-          "title": "Schließe Aufgaben ab",
-          "description": "Erledige High-Gnome-Aufgaben, bevor die Zeit abläuft. Überprüfe die Ziele über die Tab-Taste und priorisiere zuerst riskante Aufgaben."
+          "platform": "PlayStation 5",
+          "status": "Live vorbestellen",
+          "price": "$49.99",
+          "bonus": "Digital Deluxe Edition-Upgrade",
+          "detail": "Am besten geeignet für Konsolenspieler, die PS5-Funktionen, lokales Spielen und DualSense-Unterstützung wünschen.",
+          "href": "https://store.playstation.com/en-us/concept/10008357"
         },
         {
-          "number": 3,
-          "title": "Stehle Gegenstände",
-          "description": "Sammle Wertgegenstände und Materialien zum Craften. Vermeide es, Lärm zu machen oder vom Hausbesitzer entdeckt zu werden."
-        },
-        {
-          "number": 4,
-          "title": "Flucht via Tornado",
-          "description": "Wenn der Timer endet, spawnt ein Tornado im Garten – erreiche ihn, um sicher zu extrahieren. Fang früh an, dich zu bewegen!"
-        },
-        {
-          "number": 5,
-          "title": "Upgrade & Wiederholung",
-          "description": "Verwende Belohnungen und Materialien, um Ausrüstung zu Hause herzustellen, und starte dann deinen nächsten Raubzug mit besserer Ausrüstung."
+          "platform": "Xbox Series X|S",
+          "status": "Live vorbestellen",
+          "price": "$49.99+",
+          "bonus": "Digital Deluxe Edition-Upgrade",
+          "detail": "Am besten geeignet für Xbox-Spieler, die lokalen Koop-Modus, Cloud-Speicherungen, 4K-Ultra-HD-Unterstützung und Erfolge wünschen.",
+          "href": "https://www.xbox.com/en-US/games/store/directive-8020/9pf9qdh98k8l"
         }
       ],
-      "pitfalls": [
-        {
-          "title": "Erwischt werden",
-          "description": "Der Hausbesitzer wird dich verfolgen. Bleib versteckt, lenke ab und unterbreche die Sichtlinie, um zu entkommen.",
-          "icon": "Warndreieck"
-        },
-        {
-          "title": "Zeit läuft ab",
-          "description": "Der Tornado-Timer ist streng. Beginne frühzeitig mit dem Weg zur Extraktion, anstatt zu viel zu plündern.",
-          "icon": "Uhr"
-        },
-        {
-          "title": "Teamkollegen ignorieren",
-          "description": "Rette gefangene Verbündete schnell aus Kühl-/Ofenfallen – rufe sofort nach Rettung.",
-          "icon": "Benutzer"
-        }
+      "bonuses": [
+        "Directive 8020 Outfit-Paket",
+        "Directive 8020 Dark Pictures Sammlerstücke",
+        "Directive 8020 Filmfilterpaket",
+        "Directive 8020 Digitaler Soundtrack",
+        "Directive 8020 Digitales Artbook"
       ]
     },
-    "coopGuide": {
-      "title": "Lucid Blocks Koop-Leitfaden",
-      "subtitle": "Koordiniere dich mit bis zu 6 Spielern für maximales Chaos",
-      "maxPlayers": 6,
-      "roles": [
+    "directive8020SystemRequirements": {
+      "title": "Directive 8020 Systemanforderungen für PC",
+      "intro": "Directive 8020 erfordert einen 64-Bit-Windows 10- oder Windows 11-PC, 16 GB RAM und eine moderne DirectX-fähige GPU. Verwenden Sie diese Tabelle, um die minimale und empfohlene PC-Einrichtung vor dem Vorkauf auf Steam zu vergleichen.",
+      "requirements": [
         {
-          "name": "Späher",
-          "description": "Überprüfe auf Bedrohungen, markiere sichere Pfade und leite die Teambewegung",
-          "icon": "Auge"
+          "requirement": "Betriebssystem",
+          "minimum": "Windows 10/11 64-Bit",
+          "recommended": "Windows 10/11 64-Bit",
+          "note": "Directive 8020 erfordert einen 64-Bit-Prozessor und ein Betriebssystem."
         },
         {
-          "name": "Träger",
-          "description": "Konzentriere dich auf schwere Gegenstände mit Rucksack-Upgrades und sichere den Aufgabenfortschritt",
-          "icon": "Paket"
+          "requirement": "Prozessor",
+          "minimum": "Intel Core i5-8500 / AMD Ryzen 5 3500",
+          "recommended": "Intel Core i5-12400F / AMD Ryzen 5 5600X\nDie von",
+          "note": "Directive 8020 empfohlene Wiedergabe bevorzugt eine neuere Mittelklasse-CPU-Klasse."
         },
         {
-          "name": "Ablenkung",
-          "description": "Locke Hausbesitzer/Haustiere vom Team weg, um sichere Fenster zu schaffen",
-          "icon": "Benutzer"
+          "requirement": "Speicher",
+          "minimum": "16 GB RAM",
+          "recommended": "16 GB RAM",
+          "note": "Directive 8020 listet 16 GB RAM sowohl für die minimale als auch für die empfohlene Konfiguration auf."
         },
         {
-          "name": "Retter",
-          "description": "Befreie gefangene Teamkollegen aus Kühl-/Ofen, bevor sie sterben",
-          "icon": "Schild"
+          "requirement": "Grafiken",
+          "minimum": "NVIDIA GeForce RTX 2060 / AMD Radeon RX 5700",
+          "recommended": "NVIDIA GeForce RTX 3070 Ti / AMD Radeon RX 6800",
+          "note": "Directive 8020 Bei der PC-Planung sollte zuerst die GPU-Klasse überprüft werden, dann CPU und Speicher."
+        },
+        {
+          "requirement": "Lagerung",
+          "minimum": "40 GB verfügbarer Speicherplatz",
+          "recommended": "40 GB verfügbarer Speicherplatz",
+          "note": "Directive 8020 profitiert vom SSD-Speicher für ein reibungsloseres Laden."
         }
       ],
-      "threats": [
-        "Hausbesitzer (verfolgt und fängt dich)",
-        "Katzen & Mäuse (Patrouillenwege)",
-        "Staubsaugerroboter (sofortige Gefahr)",
-        "Zeitlimit (Tornado-Extraktion)"
-      ],
-      "communication": "Verwende Voice-Chat (V-Taste), um Aufgaben und Rettungen zu koordinieren. Rufe: \"Entdeckt\", \"Route\", \"Brauche Rettung\", \"Bald extrahieren\"."
-    },
-    "tasksObjectives": {
-      "title": "Lucid Blocks Aufgaben & Ziele",
-      "subtitle": "Was der High-Gnome will: Aufgabenbeispiele",
-      "taskTypes": [
-        {
-          "type": "Stehle Gegenstände",
-          "examples": [
-            "Schnapp dir bestimmte Gegenstände, die durch High-Gnome-Ziele markiert sind"
-          ]
-        },
-        {
-          "type": "Erreiche Orte",
-          "examples": [
-            "Navigiere zu bestimmten Bereichen im Haus"
-          ]
-        },
-        {
-          "type": "Verursache Unfug",
-          "examples": [
-            "Mach einen Fernseher kaputt",
-            "Überflute eine Toilette",
-            "Erzeuge Chaos"
-          ]
-        }
-      ],
-      "efficiency": [
-        "Erledige zuerst riskante Aufgaben, während das Team zusammen ist",
-        "Weise einem Träger Aufgabengegenstände zu, damit sie während der Verfolgungsjagden nicht verloren gehen",
-        "Beginne mit der Bewegung zur Extraktion, bevor die Zeit abläuft"
+      "summary": [
+        "Directive 8020 Die minimale PC-Planung beginnt bei Grafikkarten der RTX 2060- oder Radeon RX 5700-Klasse.",
+        "Directive 8020 empfiehlt, dass die PC-Planung in Richtung Grafikkarten der RTX 3070 Ti- oder Radeon RX 6800-Klasse geht.",
+        "Directive 8020 Bei der Speicherplanung sollten vor der Installation mindestens 40 GB frei bleiben."
       ]
     },
-    "controlsKeybinds": {
-      "title": "Lucid Blocks Steuerung & Tastenbelegung",
-      "subtitle": "Standard-Tastatursteuerung (und wo man sie ändern kann)",
-      "keybinds": [
-        {
-          "action": "Nach links bewegen",
-          "key": "A"
-        },
-        {
-          "action": "Nach rechts bewegen",
-          "key": "D"
-        },
-        {
-          "action": "Nach vorne bewegen",
-          "key": "W"
-        },
-        {
-          "action": "Nach hinten bewegen",
-          "key": "S"
-        },
-        {
-          "action": "Ducken",
-          "key": "Linke Strg"
-        },
-        {
-          "action": "Angreifen",
-          "key": "Linksklick"
-        },
-        {
-          "action": "Rennen",
-          "key": "Linke Umschalttaste"
-        },
-        {
-          "action": "Gegenstand fallen lassen",
-          "key": "G"
-        },
-        {
-          "action": "Interagieren",
-          "key": "E"
-        },
-        {
-          "action": "Springen",
-          "key": "Leertaste"
-        },
-        {
-          "action": "Sprechen",
-          "key": "V"
-        },
-        {
-          "action": "Schieben",
-          "key": "Rechtsklick"
-        },
-        {
-          "action": "Ragdoll",
-          "key": "Q"
-        },
-        {
-          "action": "Ausrüstungsslot 1",
-          "key": "1"
-        },
-        {
-          "action": "Ausrüstungsslot 2",
-          "key": "2"
-        },
-        {
-          "action": "Ausrüstungsslot 3",
-          "key": "3"
-        },
-        {
-          "action": "Ausrüstungsslot 4",
-          "key": "4"
-        },
-        {
-          "action": "Inventar",
-          "key": "Tab"
-        }
-      ],
-      "changePath": "Vom Titelmenü aus: öffne EINSTELLUNGEN und überprüfe dann die Tastatureinstellungen. Verwende das Suchfeld, um die Tastenbelegungszeilen zu filtern."
-    },
-    "contentSettings": {
-      "title": "Lucid Blocks Inhaltseinstellungen",
-      "subtitle": "Inhalte für Erwachsene, Nacktheit-Umschaltung und Steam-Einstellungen",
-      "descriptors": [
-        "Etwas Nacktheit oder sexuelle Inhalte",
-        "Allgemeine Inhalte für Erwachsene"
-      ],
-      "details": [
-        {
-          "heading": "Was die Entwickler angeben",
-          "items": [
-            "Ein Mensch kann nackt erscheinen, während er Aktivitäten wie Baden ausübt.",
-            "Nacktheit wird zensiert und kann optional vollständig ausgeschaltet werden.",
-            "Gnome können zerstückelt werden und auf brutale Weise sterben."
-          ]
-        },
-        {
-          "heading": "Wenn Steam die Community-Seite blockiert",
-          "items": [
-            "Steam kann den Community-Hub je nach deinen Inhaltseinstellungen ausblenden.",
-            "Verwende Steams \"Inhaltseinstellungen aktualisieren\", um anzupassen, was Steam anzeigen darf."
-          ]
-        }
-      ]
-    },
-    "craftingEquipment": {
-      "title": "Lucid Blocks Crafting & Ausrüstung",
-      "subtitle": "Ausrüsten: Crafting-Beispiele und was jedes Werkzeug bewirkt",
-      "equipment": [
-        {
-          "item": "Rucksack",
-          "benefit": "Erweitert die Inventarkapazität für mehr Beute pro Durchgang"
-        },
-        {
-          "item": "Gnom-Handschuhe",
-          "benefit": "Ermöglicht es dir, Türen zu öffnen und mit mehr Objekten zu interagieren"
-        },
-        {
-          "item": "Springschuhe",
-          "benefit": "Verhindert Fallschaden bei hohen Stürzen während der Flucht"
-        },
-        {
-          "item": "Waffe",
-          "benefit": "Hilft dir, Bedrohungen wie Mäuse in die Enge zu treiben"
-        }
-      ],
-      "sections": [
-        {
-          "heading": "Wie Crafting mit Plündern zusammenhängt",
-          "items": [
-            "Stehle während eines Laufs Gegenstände und bringe sie als Crafting-Materialien zurück.",
-            "Nach der Extraktion unterstützen Belohnungen/Materialien neue Handwerke."
-          ]
-        },
-        {
-          "heading": "Basisverbesserung",
-          "items": [
-            "Stelle Möbel her und verbessere dein schwebendes Inselhaus (vollständige Spielfunktion)."
-          ]
-        }
-      ]
-    },
-    "lootItems": {
-      "title": "Lucid Blocks Beute & Gegenstände",
-      "subtitle": "Was man stehlen sollte: Gegenstandstypen, Risiko und Trage-Tipps",
-      "categories": [
-        {
-          "type": "Aufgabengegenstände",
-          "examples": [
-            "Gegenstände, die von High-Gnome für Ziele benötigt werden"
-          ]
-        },
-        {
-          "type": "Crafting-Materialien",
-          "examples": [
-            "Haushaltsgegenstände, die in Gnom-Ausrüstung und -Upgrades umgewandelt werden"
-          ]
-        },
-        {
-          "type": "Unfug-Ziele",
-          "examples": [
-            "Objekte, die an Aufgaben wie Zerstören oder Überfluten beteiligt sind"
-          ]
-        }
-      ],
-      "carryTips": [
-        "Priorisiere den Aufgabenfortschritt und fülle dann die verbleibende Kapazität mit Crafting-Materialien",
-        "Wenn sich Bedrohungen in der Nähe befinden, bewege Gegenstände in kurzen, sicheren Sprüngen anstatt in langen, exponierten Tragen",
-        "Plane die Route zur Gartenextraktion, bevor der Timer endet"
-      ],
-      "riskLevels": [
-        {
-          "level": "Niedrig",
-          "description": "In der Nähe von Eingängen oder sicheren Ecken"
-        },
-        {
-          "level": "Mittel",
-          "description": "Tiefer gelegene Räume oder in der Nähe von umherziehenden Bedrohungen"
-        },
-        {
-          "level": "Hoch",
-          "description": "In der Nähe der Patrouille des Hausbesitzers oder des Staubsaugerroboters"
-        }
-      ]
-    },
-    "enemiesHazards": {
-      "title": "Lucid Blocks Gegner & Gefahren",
-      "subtitle": "Wisse, was dich erwischen kann",
-      "threats": [
-        {
-          "name": "Der Hausbesitzer",
-          "trigger": "Beim Einbrechen oder Erledigen von Aufgaben entdeckt werden",
-          "behavior": "Er verfolgt dich und versucht, dich zu fangen",
-          "counter": "Bleib heimlich, unterbreche Sichtlinien und bleib als Team in Bewegung"
-        },
-        {
-          "name": "Katzen",
-          "trigger": "Zu nahe kommen oder ihren Weg kreuzen",
-          "behavior": "Sie werden zu einer direkten Bedrohung, während du dich schleichst",
-          "counter": "Vermeide ihre Routen und gehe leise vorbei"
-        },
-        {
-          "name": "Mäuse",
-          "trigger": "Bereiche betreten, in denen Mäuse umherstreifen",
-          "behavior": "Sie bedrohen zerbrechliche Gnome während der Läufe",
-          "counter": "Bleib wachsam in engen Räumen und sei bereit, dich zurückzuziehen"
-        },
-        {
-          "name": "Staubsaugerroboter",
-          "trigger": "Sich auf seinem Reinigungspfad befinden",
-          "behavior": "Er kann Gnome einsaugen",
-          "counter": "Höre auf ihn, halte dich von seiner Route fern und positioniere dich schnell neu"
-        },
-        {
-          "name": "Kühlschrank / Ofen-Falle",
-          "trigger": "Vom Hausbesitzer erwischt werden",
-          "behavior": "Du kannst darin eingesperrt werden; wenn Teamkollegen nicht rechtzeitig retten, stirbst du",
-          "counter": "Rufe sofort; Teamkollegen priorisieren die Rettungsroute"
-        },
-        {
-          "name": "Zeitlimit",
-          "trigger": "Der Lauf-Timer erreicht das Limit",
-          "behavior": "Der Extraktions-Tornado erscheint im Garten; du musst ihn erreichen, um zu entkommen",
-          "counter": "Hör auf, zu viel zu plündern, gruppiere dich neu und engagiere dich frühzeitig für die Extraktion"
-        }
-      ]
-    },
-    "stealthEscape": {
-      "title": "Lucid Blocks Stealth & Flucht Tipps",
-      "subtitle": "Stehle mehr, stirb weniger",
-      "do": [
-        "Bleib heimlich und gehe in Deckung, bevor du mit Objekten interagierst",
-        "Nutze die Teamarbeit: rufe Bedrohungen aus und koordiniere Routen",
-        "Rette Teamkollegen schnell, wenn jemand gefangen oder am Boden ist",
-        "Reduziere deine Verluste und mache dich auf den Weg zur Extraktion, wenn der Timer knapp ist"
-      ],
-      "dont": [
-        "Werde gierig, wenn die Extraktion bevorsteht",
-        "Teile dich zu weit vom Team, wenn der Hausbesitzer aktiv ist",
-        "Ignoriere Staubsaugerroboterpfade oder Tierpatrouillen",
-        "Verzögere Rettungen, wenn ein Teamkollege eingesperrt ist"
-      ],
-      "quickTips": [
-        {
-          "title": "Die 3-Sekunden-Regel",
-          "text": "Wenn du deinen nächsten Zug nicht in 3 Sekunden erklären kannst, wirst du gleich entdeckt."
-        },
-        {
-          "title": "Rettung zuerst",
-          "text": "Eine schnelle Rettung hält den Lauf am Leben; Plündern kann warten."
-        },
-        {
-          "title": "Extraktionsdisziplin",
-          "text": "Gruppiere dich frühzeitig neu und engagiere dich für den Tornado, bevor Panik ausbricht."
-        }
-      ]
-    },
-    "homeUpgrades": {
-      "title": "Lucid Blocks Haus-Upgrades",
-      "subtitle": "Craften, bauen, verbessern",
-      "branches": [
-        {
-          "branch": "Lagerung",
-          "summary": "Mehr tragen und mehr zurückbringen",
-          "items": [
-            "Rucksack (Inventarerweiterung)"
-          ]
-        },
-        {
-          "branch": "Dienstprogramm",
-          "summary": "Effektiver mit dem Haus interagieren",
-          "items": [
-            "Gnom-Handschuhe (ermöglichen es dir, Türen zu öffnen und mehr)"
-          ]
-        },
-        {
-          "branch": "Mobilität",
-          "summary": "Sicherer durch vertikale Räume bewegen",
-          "items": [
-            "Springschuhe (reduzieren Fallschaden)"
-          ]
-        },
-        {
-          "branch": "Verteidigung",
-          "summary": "Mit kleinen Bedrohungen umgehen, wenn nötig",
-          "items": [
-            "Waffen (für Bedrohungen wie Mäuse)"
-          ]
-        },
-        {
-          "branch": "Heimatbasis",
-          "summary": "Stelle Möbel her und verbessere dein schwebendes Inselhaus",
-          "items": [
-            "Funktionale Möbel-Upgrades"
-          ]
-        }
-      ],
-      "priority": [
-        {
-          "rank": 1,
-          "title": "Zuerst Lagerung",
-          "reason": "Mehr Tragfähigkeit verbessert die Auszahlung jedes Laufs"
-        },
-        {
-          "rank": 2,
-          "title": "Als nächstes Dienstprogramm",
-          "reason": "Bessere Interaktionen reduzieren die Zeit, die in Gefahrenzonen verbracht wird"
-        },
-        {
-          "rank": 3,
-          "title": "Mobilität zum Überleben",
-          "reason": "Fallschutz verhindert vermeidbare Todesfälle bei der Flucht"
-        }
-      ]
-    },
-    "community": {
-      "title": "Lucid Blocks Community & Discord",
-      "subtitle": "Finde Trupps, Updates, Diskussionen",
-      "links": [
-        {
-          "title": "Offizieller Discord",
-          "subtitle": "Ankündigungen • Feedback • LFG",
-          "url": "https://discord.com/invite/lucidblocks"
-        },
-        {
-          "title": "Offizielles X (Twitter)",
-          "subtitle": "Updates & Entwicklerbeiträge",
-          "url": "https://x.com/lucidblocks"
-        },
-        {
-          "title": "Steam Community Hub",
-          "subtitle": "Diskussionen • Screenshots • Leitfäden",
-          "url": "https://steamcommunity.com/app/3495730"
-        },
-        {
-          "title": "Steam Store Seite",
-          "subtitle": "Wunschliste • Demo • Offizielle Beschreibung",
-          "url": "https://store.steampowered.com/app/3495730/Lucid_Blocks/"
-        }
-      ]
-    },
-    "modsBepInEx": {
-      "title": "Lucid Blocks Mods & BepInEx Setup",
-      "subtitle": "Installiere Mods auf saubere Weise",
-      "steps": [
-        {
-          "step": 1,
-          "title": "Installiere BepInEx 5",
-          "text": "Lade BepInEx 5 herunter und entpacke es in den Spiel-Root-Ordner."
-        },
-        {
-          "step": 2,
-          "title": "Einmal starten, um Ordner zu generieren",
-          "text": "Starte das Spiel bis zum Hauptmenü und schließe es dann. Dadurch wird die BepInEx-Ordnerstruktur erstellt."
-        },
-        {
-          "step": 3,
-          "title": "Mods installieren",
-          "text": "Platziere Mod-.dll-Dateien in den Plugins-Ordner."
-        },
-        {
-          "step": 4,
-          "title": "Installation überprüfen",
-          "text": "Starte das Spiel neu und bestätige, dass die Mod-Funktion verfügbar ist (Kamera-Umschaltung, UI-Cursor usw.)."
-        }
-      ],
-      "paths": [
-        {
-          "label": "Typische Steam-Installation",
-          "path": "Steam\\steamapps\\common\\Lucid Blocks Demo\\"
-        },
-        {
-          "label": "Plugins-Ordner",
-          "path": "Steam\\steamapps\\common\\Lucid Blocks Demo\\BepInEx\\plugins\\"
-        }
-      ],
-      "multiplayerNote": "Für modifizierte Koop-Gameplay-Funktionen sollte jeder BepInEx und dieselben Gameplay-Mods installieren."
-    },
-    "popularMods": {
-      "title": "Lucid Blocks Beliebte Mods",
-      "subtitle": "Top-Community-Auswahlen",
-      "mods": [
-        {
-          "title": "Spawn-Menü",
-          "tags": [
-            "Spaß",
-            "Werkzeuge",
-            "Nur Host"
-          ],
-          "description": "Fügt ein Element-Spawn-Menü mit einem Flugmodus hinzu.",
-          "controls": [
-            {
-              "key": "F",
-              "action": "Spawn-Menü öffnen"
-            },
-            {
-              "key": "V",
-              "action": "Fliegen aktivieren"
-            }
-          ],
-          "note": "Nur Host; andere müssen es nicht installieren, um beizutreten."
-        },
-        {
-          "title": "ThirdPerson-Ansicht",
-          "tags": [
-            "Kamera",
-            "QoL"
-          ],
-          "description": "Fügt eine Third-Person-Kameraansicht hinzu.",
-          "controls": [
-            {
-              "key": "F7",
-              "action": "First-Person / Third-Person umschalten"
-            }
-          ]
-        },
-        {
-          "title": "Mehr Hüte",
-          "tags": [
-            "Kosmetisch"
-          ],
-          "description": "Fügt zusätzliche Hutfarboptionen für Gnome hinzu.",
-          "colors": [
-            "Blau",
-            "Grün",
-            "Orange",
-            "Lila",
-            "Schwarz",
-            "Rot"
-          ]
-        },
-        {
-          "title": "DOOM im Fernsehen",
-          "tags": [
-            "Spaß",
-            "Minispiel"
-          ],
-          "description": "Spiele das Original-DOOM auf einem In-Game-Fernseher, wobei der Ton über den TV-Lautsprecher kommt.",
-          "highlights": [
-            "Funktioniert im Mehrspieler, sodass andere Spieler auf demselben Fernseher zusehen können",
-            "Enthält die Shareware-DOOM-Episodendaten (Episode 1)"
-          ]
-        }
-      ]
-    },
-    "controllerSupport": {
-      "title": "Lucid Blocks Controller-Unterstützung",
-      "subtitle": "Volle Gamepad-Steuerung",
-      "native": {
-        "title": "In-Game-Einstellungen",
-        "description": "Verwende die Bindungs-/Einstellungsmenüs des Spiels, um die Steuerung anzupassen."
-      },
-      "mod": {
-        "title": "Controller-Support-Mod",
-        "description": "Fügt vollständige Gamepad-/Controller-Unterstützung und einen UI-Cursor für die Menünavigation hinzu."
-      },
+    "directive8020Gameplay": {
+      "title": "Directive 8020 Gameplay: Entscheidungen, Bedrohungen durch Außerirdische und Survival-Horror",
+      "intro": "Directive 8020 behält die filmische, entscheidungsorientierte DNA der The Dark Pictures Anthology bei und erhöht gleichzeitig den Überlebensdruck in Echtzeit. Spieler müssen außerirdische Bedrohungen überleben, tödliche Entscheidungen treffen und das Vertrauen innerhalb der Cassiopeia-Crew stärken.",
       "features": [
-        "Volle Gameplay-Steuerung: Bewegung, Kamera, Kampf, Interaktionen und Fähigkeiten, die dem Gamepad zugeordnet sind",
-        "UI-Cursor-Navigation: Ein weißer Kreiscursor erscheint in Menüs; drücke A, um zu klicken und Schieberegler zu ziehen",
-        "Inventarnavigation: Halte Select gedrückt, um das Inventar zu öffnen; verwende den rechten Stick, um zu navigieren, während du ihn hältst",
-        "Scrollbare Menüs: Der rechte Stick scrollt durch Crafting-Rezepte, Einstellungen und andere scrollbare UI-Bereiche",
-        "Hotbar-Cycling: D-Pad links/rechts wechselt durch 4 Hotbar-Slots",
-        "Nahtlose Eingabeumschaltung: Erkennt automatisch Tastatur/Maus vs. Controller"
+        {
+          "type": "Filmischer Horror",
+          "title": "Directive 8020 Geschichtengesteuertes Überleben",
+          "description": "Directive 8020 kombiniert interaktives Filmtempo mit überlebensorientierter Entscheidungsfindung in einer Horrorumgebung im Weltraum.",
+          "mechanics": [
+            "Filmszenen",
+            "Survival-Horror",
+            "verzweigte Geschichte"
+          ]
+        },
+        {
+          "type": "Alien-Bedrohung",
+          "title": "Directive 8020 Echtzeitgefahr",
+          "description": "Directive 8020 sorgt für direkten Druck durch dunkle Korridore, Stealth-Momente, schnelle Reaktionen und improvisierte Überlebensentscheidungen.",
+          "mechanics": [
+            "Heimlichkeit",
+            "Reflexe",
+            "improvisierte Werkzeuge"
+          ]
+        },
+        {
+          "type": "Vertrauenssystem",
+          "title": "Directive 8020 Vertraue niemandem",
+          "description": "Directive 8020 verwandelt den Verdacht der Besatzung in ein Gameplay-Problem, da der Organismus seine Beute nachahmen kann.",
+          "mechanics": [
+            "imitiert eine Bedrohung",
+            "Verdacht der Besatzung",
+            "Wahldruck"
+          ]
+        },
+        {
+          "type": "Verzweigungsoptionen",
+          "title": "Directive 8020 Konsequenzrouten",
+          "description": "Directive 8020-Entscheidungen wirken sich auf Beziehungen, Routen, das Überleben der Charaktere und den Ausgang kritischer Szenen aus.",
+          "mechanics": [
+            "wichtige Entscheidungen",
+            "Beziehungen",
+            "mehrere Ergebnisse"
+          ]
+        },
+        {
+          "type": "Story-Baum",
+          "title": "Directive 8020 Turning Points",
+          "description": "Directive 8020 ermöglicht es Spielern, wichtige Entscheidungen über einen Story-Baum zu überdenken, der für alternative Pfade und Charakterspeicherungen erstellt wurde.",
+          "mechanics": [
+            "Auswahlmöglichkeiten zurückspulen",
+            "versteckte Pfade",
+            "alternative Enden"
+          ]
+        },
+        {
+          "type": "Genossenschaft",
+          "title": "Directive 8020 Movie Night",
+          "description": "Directive 8020 unterstützt Solospiele und Couch-Koop für bis zu fünf Spieler für Gruppen, die die Horrorgeschichte teilen.",
+          "mechanics": [
+            "Einzelspieler",
+            "2-5 lokale Genossenschaft",
+            "gemeinsame Entscheidungen"
+          ]
+        }
+      ],
+      "notesTitle": "Directive 8020 Gameplay-Prioritäten",
+      "survivalNotes": [
+        "Directive 8020 belohnt das sorgfältige Lesen des Verhaltens der Besatzung, da die mimische Bedrohung die Funktionsweise von Vertrauen verändert.",
+        "Directive 8020 Das Überleben hängt ebenso von Heimlichkeit, Timing und schnellen Reaktionen ab wie von Dialogentscheidungen.",
+        "Der Wiederspielwert von Directive 8020 ergibt sich aus Verzweigungsrouten, Turning Points und alternativen Charakterergebnissen."
       ]
     },
-    "playerCount": {
-      "title": "Lucid Blocks Spielerzahl & Trend",
-      "subtitle": "Live-Popularitäts-Schnappschuss",
-      "stats": {
-        "now": {
-          "value": "6.047",
-          "label": "Spieler gerade jetzt"
+    "directive8020Story": {
+      "title": "Directive 8020 Geschichte: Cassiopeia, Tau Ceti f und die mimische Bedrohung",
+      "subtitle": "Die Erde liegt im Sterben, Tau Ceti f könnte die letzte Hoffnung der Menschheit sein und die Besatzung von Cassiopeia muss einen außerirdischen Organismus überleben, der seine Beute perfekt nachahmen kann.",
+      "intro": "Directive 8020 ist eine filmische Science-Fiction-Survival-Horrorgeschichte, die an Bord des Kolonieschiffs Cassiopeia spielt, nachdem eine Mission zu Tau Ceti f katastrophal schief geht. Die Besatzung muss entscheiden, wem sie vertrauen kann, wie sie überlebt und ob ihre Rettung alle Menschen auf der Erde gefährden könnte.",
+      "overviewTitle": "Directive 8020 Missionsübersicht",
+      "overviewStats": [
+        {
+          "label": "Directive 8020 Versand",
+          "value": "Cassiopeia"
         },
-        "peak24h": {
-          "value": "13.859",
-          "label": "24-Stunden-Peak"
+        {
+          "label": "Directive 8020 Ziel",
+          "value": "Tau Ceti f"
         },
-        "allTimePeak": {
-          "value": "15.272",
-          "label": "Allzeit-Peak"
+        {
+          "label": "Directive 8020 Bedrohung",
+          "value": "Mimischer Organismus"
+        },
+        {
+          "label": "Directive 8020 Einsätze",
+          "value": "Die Zukunft der Erde"
         }
-      },
-      "milestones": [
+      ],
+      "items": [
         {
-          "date": "30. Jan. 2026",
-          "title": "Demo auf Steam veröffentlicht",
-          "detail": "Öffentliche Demo wurde auf PC (Steam) verfügbar."
+          "question": "Worum geht es in Directive 8020?",
+          "answer": "Directive 8020 folgt der Besatzung des Kolonieschiffs Cassiopeia auf einer Mission, bei der es um das Überleben der Menschheit geht. Die Erde stirbt und Tau Ceti f, 12 Lichtjahre von unserem Zuhause entfernt, bietet eine kleine Chance auf eine neue Zukunft. Nach der Absturzlandung der Cassiopeia stellt die Besatzung fest, dass sie nicht allein ist."
         },
         {
-          "date": "8. Feb. 2026",
-          "title": "Allzeit-Peak erreicht",
-          "detail": "Die Demo erreichte ihre höchste aufgezeichnete Anzahl gleichzeitiger Spieler."
+          "question": "Was ist die größte Horrorbedrohung von Directive 8020?",
+          "answer": "Die Kernbedrohung ist ein außerirdischer Organismus, der seine Beute nachahmen kann. Dies verwandelt die Geschichte in ein von Paranoia getriebenes Überlebensszenario, in dem jedes Besatzungsmitglied ein Mensch, ein Infizierter oder ein Betrüger sein kann, der sich in aller Öffentlichkeit versteckt."
+        },
+        {
+          "question": "Warum ist Tau Ceti f in Directive 8020 wichtig?",
+          "answer": "Tau Ceti f steht für Hoffnung für die Menschheit, denn der Erde läuft die Zeit davon. Bei der Mission Directive 8020 geht es darum, ein mögliches zukünftiges Zuhause zu finden, doch der Absturz und die Bedrohung durch Außerirdische verwandeln diese Mission in einen verzweifelten Kampf ums Überleben."
+        },
+        {
+          "question": "Welche Rolle spielen die Entscheidungen der Directive 8020-Spieler?",
+          "answer": "Entscheidungen stehen im Mittelpunkt von Directive 8020. Spieler müssen vertrauensbasierte Entscheidungen treffen, auf Bedrohungen in Echtzeit reagieren und bestimmen, welche Charaktere überleben oder sterben, während die Cassiopeia-Crew mit außerirdischen Eindringlingen, tödlichen Dilemmata und katastrophalen Fehlschlägen konfrontiert wird."
+        },
+        {
+          "question": "Was ist das größte Directive 8020-Story-Dilemma?",
+          "answer": "Die Directive 8020-Crew steht vor einem brutalen Dilemma: Um sich selbst zu retten, müssen sie möglicherweise das Leben aller Menschen auf der Erde riskieren. Dies gibt der Geschichte mehr Gewicht als das bloße Überleben an Bord."
+        }
+      ],
+      "highlights": [
+        "Directive 8020 Weltraum-Survival-Horror",
+        "Directive 8020 Cassiopeia Missionsabsturz",
+        "Directive 8020 Außerirdische imitieren Paranoia",
+        "Directive 8020 vertrauensbasierte Verzweigungsoptionen"
+      ]
+    },
+    "directive8020Trailer": {
+      "title": "Directive 8020 Trailer und offizielle Videos",
+      "subtitle": "Sehen Sie sich die wichtigsten Directive 8020-Videos an, einschließlich Ankündigungstrailer, Story-Enthüllung, Vorbestellungstrailer, 60-Sekunden-Übersicht und Multiplayer-Trailer.",
+      "intro": "Das offizielle Directive 8020-Trailer-Lineup beleuchtet die Science-Fiction-Horror-Prämisse, die Cassiopeia-Mission, die Alien-Mimic-Bedrohung, das Survival-Gameplay, Verzweigungsoptionen, Vorbestellungsdetails und den Movie Night-Multiplayer.",
+      "videos": [
+        {
+          "type": "Übersichtstrailer",
+          "title": "Directive 8020 | Alles, was Sie wissen müssen, in 60 Sekunden",
+          "description": "Ein kurzes Directive 8020-Pre-Launch-Briefing mit Informationen zum Survival-Horror-Setup, dem Veröffentlichungszeitpunkt, den Plattformen und den Kernfunktionen.",
+          "href": "https://www.youtube.com/watch?v=erzlg1ZwK18"
+        },
+        {
+          "type": "Multiplayer-Trailer",
+          "title": "Directive 8020 – Nicht alleine spielen | Multiplayer-Trailer",
+          "description": "Spotlights Directive 8020 Movie Night Couch-Koop, bis zu fünf Spieler, gemeinsame Entscheidungen und der Online-Mehrspielerplan nach der Veröffentlichung.",
+          "href": "https://www.youtube.com/watch?v=ub7Vt6pgThw"
+        },
+        {
+          "type": "Trailer vorbestellen",
+          "title": "Directive 8020 | Trailer vorbestellen",
+          "description": "Zeigt Directive 8020-Startnachrichten, die Positionierung vor der Bestellung und den auf Entscheidungen basierenden Horrorton mit hohen Einsätzen.",
+          "href": "https://www.youtube.com/watch?v=DLV01hfnu1Q"
+        },
+        {
+          "type": "Ankündigungstrailer",
+          "title": "Directive 8020 | Trailer ankündigen",
+          "description": "Stellt die Directive 8020-Weltraum-Horror-Prämisse, die Cassiopeia-Crew und den außerirdischen Organismus vor, der seine Beute nachahmen kann.",
+          "href": "https://www.youtube.com/watch?v=etXhOhzbXso"
+        },
+        {
+          "type": "Trailer zur Story-Enthüllung",
+          "title": "Directive 8020 – Trailer zur Story-Enthüllung | PS5 Spiele",
+          "description": "Taucht tiefer in die Mission Directive 8020 Cassiopeia, fragile Allianzen, neue Charaktere, außerirdische Gefahren und Überlebenschancen ein.",
+          "href": "https://www.youtube.com/watch?v=4a_VXgNSfME"
+        },
+        {
+          "type": "Offizielle Playlist",
+          "title": "The Dark Pictures Anthologie: Directive 8020 Playlist",
+          "description": "Sammelt mehrere offizielle Directive 8020-Videos von BANDAI NAMCO Europe an einem Ort.",
+          "href": "https://www.youtube.com/playlist?list=PL2tV1eq7EZhCGrM-Wo31kck6zxVHARJP4"
+        }
+      ]
+    },
+    "directive8020Characters": {
+      "title": "Directive 8020 Charaktere und Besetzung",
+      "subtitle": "Lernen Sie die öffentlich bekannt gegebene Crew von Directive 8020 Cassiopeia kennen, darunter Brianna Young, der von Lashana Lynch gespielte Pilot.",
+      "intro": "Directive 8020 dreht sich um die Cassiopeia-Crew, deren persönliche Geschichten, Missionsrollen und Beziehungen Teil des Horrors werden, sobald das Vertrauen zusammenbricht. Zu den öffentlichen Charakteren gehören Piloten, Missionsleiter, Wissenschafts- und Medizinspezialisten, Ingenieure, Schlaftechniker und der CEO von Corinth.",
+      "crew": [
+        {
+          "name": "Directive 8020 Brianna Young",
+          "age": "28",
+          "role": "Pilot",
+          "cast": "Lashana Lynch",
+          "description": "Young ist einer der aufstrebenden Stars von Corinth und der Pilot des Cassiopeia. Sie ist die Tochter des verstorbenen Astronauten Bill Young und sieht die Mission als Chance, sich gegenüber dem Erbe ihres Vaters und sich selbst zu beweisen.",
+          "relationships": [
+            "Mentor: Nolan Stafford",
+            "Nah am Erbe der Familie Young",
+            "Zentraler Directive 8020 öffentlich zugänglicher Charakter"
+          ]
+        },
+        {
+          "name": "Directive 8020 Nolan Stafford",
+          "age": "52",
+          "role": "Kommandant",
+          "cast": "Cassiopeia-Befehl",
+          "description": "Stafford ist der erste Mann auf dem Mars und der Kommandant der Directive 8020-Mission zu Tau Ceti f. Er half beim Aufbau von Corinths Raumfahrtprogramm und versprach Bill Young, dass er über Brianna wachen würde.",
+          "relationships": [
+            "Mentor von Brianna Young",
+            "Ehemaliger Missionspartner von Bill Young",
+            "Anführer der Cassiopeia-Crew"
+          ]
+        },
+        {
+          "name": "Directive 8020 Laura Eisele",
+          "age": "33",
+          "role": "Leitender Missionsoffizier",
+          "cast": "Missionsarchitektur",
+          "description": "Eisele ist der Hauptdesigner der Mission und Architekt des Cassiopeia. Sie ist wissenschaftlich brillant, äußerst diszipliniert und mit wichtigen Systemen verbunden, darunter dem Schiffscomputer „The Oracle“.",
+          "relationships": [
+            "Entwarf die Cassiopeia-Mission",
+            "Verantwortlich für die Missionsarchitektur",
+            "Mit dem Orakel verknüpft"
+          ]
+        },
+        {
+          "name": "Directive 8020 Josef Cernan",
+          "age": "32",
+          "role": "Technischer Ingenieur",
+          "cast": "Cassiopeia Ingenieurwesen",
+          "description": "Cernan ist ein scharfsinniger technischer Ingenieur mit einem Talent für die Lösung mechanischer und menschlicher Probleme. Er wird als gutherzig, aufgeschlossen und eine verbindende Präsenz innerhalb der Crew beschrieben.",
+          "relationships": [
+            "Fungiert als emotionaler Klebstoff für die Crew",
+            "Trat der Cetus-Mission nach einem persönlichen Versprechen bei",
+            "Glaubt, dass es für jedes Problem eine Lösung gibt"
+          ]
+        },
+        {
+          "name": "Directive 8020 Samantha Cooper",
+          "age": "27",
+          "role": "Facharzt",
+          "cast": "Cassiopeia Medizinisch",
+          "description": "Dr. Cooper ist ein erfahrener Sanitäter mit Erfahrung in der militärischen Evakuierung. Nachdem sie die Tragödie auf der Jessops Station überlebt hatte, baute sie sich wieder auf und schloss sich der Mission sowohl als Ärztin als auch als Kämpferin an.",
+          "relationships": [
+            "Alter Freund von Zoe Anders",
+            "hat Anders für die Mission empfohlen",
+            "Trägt ein Trauma von der Jessops Station"
+          ]
+        },
+        {
+          "name": "Directive 8020 Zoe Anders",
+          "age": "29",
+          "role": "Wissenschaftlicher Offizier",
+          "cast": "Cassiopeia Wissenschaft",
+          "description": "Anders schließt sich der Cassiopeia-Crew spät nach dem Tod des vorherigen Wissenschaftsoffiziers George McNamara an. Sie begeistert sich für Entdeckungen, ist aber einer ethischen wissenschaftlichen Praxis verpflichtet.",
+          "relationships": [
+            "Studienfreundin von Samantha Cooper",
+            "Späte Ergänzung der Crew",
+            "Ersatz für George McNamara"
+          ]
+        },
+        {
+          "name": "Directive 8020 Noah Mitchell",
+          "age": "27",
+          "role": "Pilot",
+          "cast": "Cassiopeia Flug",
+          "description": "Mitchell ist der ehrgeizige, kluge Co-Pilot der Cassiopeia. Sein riskanter Flugstil führte zu Abstürzen in der Simulation, bewies aber auch, dass er Manöver ausführen konnte, die anderen nicht gelang.",
+          "relationships": [
+            "Enger Freund von Brianna Young",
+            "Schaut zu Nolan Stafford auf",
+            "Teilt die Pilotenrolle an Bord von Cassiopeia"
+          ]
+        },
+        {
+          "name": "Directive 8020 Tomas Carter",
+          "age": "27",
+          "role": "Schlaftechniker",
+          "cast": "Hypersleep-Operationen",
+          "description": "Carter ist ein geduldiger und verantwortungsbewusster Schlaftechniker, der dabei hilft, den Cassiopeia betriebsbereit zu halten, während die Besatzung im Hyperschlaf reist. Seine Motivation hängt damit zusammen, seiner Tochter Luna eine Zukunft zu sichern.",
+          "relationships": [
+            "Arbeitskollege von Pari Simms",
+            "Vater von Luna",
+            "Teil des Hypersleep-Operationsteams"
+          ]
+        },
+        {
+          "name": "Directive 8020 Pari Simms",
+          "age": "29",
+          "role": "Schlaftechniker",
+          "cast": "Hypersleep-Operationen",
+          "description": "Simms ist eine fähige Schlaftechnikerin, die aufgrund ihrer technischen Fähigkeiten und ihrer positiven Einstellung ausgewählt wurde. Sie zeichnet Nachrichten für ihre Mutter auf und arbeitet während der langen Reise nach Tau Ceti f eng mit Carter zusammen.",
+          "relationships": [
+            "Arbeitskollege von Tomas Carter",
+            "Unterstützt ihre Mutter durch Missionsprotokolle",
+            "Teil des Hypersleep-Operationsteams"
+          ]
+        },
+        {
+          "name": "Directive 8020 LaMarcus Williams",
+          "age": "30",
+          "role": "CEO von Corinth",
+          "cast": "Unternehmensunterstützer",
+          "description": "Williams ist der milliardenschwere CEO von Corinth und eine umstrittene Persönlichkeit des öffentlichen Lebens, die glaubt, dass die Erde nicht mehr zu retten ist. Er unterstützt Corinths Mission und begibt sich auf die Aufklärungsmission als Pionier und nicht als Siedler.",
+          "relationships": [
+            "CEO von Corinth",
+            "Verbunden mit der Unternehmensunterstützung der Mission",
+            "Inspiriert von der historischen Marsmission von Stafford und Bill Young"
+          ]
+        }
+      ]
+    },
+    "directive8020CoOpMultiplayer": {
+      "title": "Directive 8020 Koop-Mehrspielermodus: Movie Night, lokales Spielen und Online-Update",
+      "subtitle": "Directive 8020 unterstützt beim Start Einzelspieler- und lokalen Couch-Koop-Modus für bis zu fünf Spieler. Der Online-Mehrspielermodus ist als kostenloses Update nach dem Start geplant.",
+      "intro": "Directive 8020 behält das filmische Solo-Erlebnis bei, bringt aber auch Movie Night zurück, den lokalen Couch-Koop-Modus, der auf gemeinsamen Entscheidungen und der Weitergabe eines Controllers zwischen den Spielern basiert. Die Online-Version soll nach der Veröffentlichung das Couch-Koop-Erlebnis widerspiegeln.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Directive 8020 Komplette Story Solo",
+          "description": "Directive 8020 kann als kinoreifes Einzelspieler-Survival-Horror-Erlebnis gespielt werden. Sie kontrollieren wichtige Besatzungsmitglieder, treffen Entscheidungen über Leben und Tod, weichen außerirdischen Bedrohungen aus und gestalten die verzweigte Geschichte an Bord der Cassiopeia.",
+          "availability": "Verfügbar beim Start"
+        },
+        {
+          "step": "02",
+          "title": "Directive 8020 Movie Night Couch Co-Op",
+          "description": "Im Movie Night-Modus können bis zu fünf Spieler Directive 8020 gemeinsam lokal erleben. Jeder Spieler kann die Kontrolle über ein Cassiopeia-Crewmitglied übernehmen, während die Gruppe entscheidet, wem sie vertrauen und wie sie überleben möchte.",
+          "availability": "Verfügbar zum Start"
+        },
+        {
+          "step": "03",
+          "title": "Directive 8020 Shared Controller Play",
+          "description": "Im lokalen Movie Night teilen sich die Spieler einen einzigen Controller und geben ihn im Verlauf der Geschichte zwischen den Besatzungsmitgliedern weiter. Jede Entscheidung kann Einfluss darauf haben, wer lebt, wer stirbt und wie die Gruppe auf die Bedrohung durch Alien-Nachahmer reagiert.",
+          "availability": "Verfügbar beim Start"
+        },
+        {
+          "step": "04",
+          "title": "Directive 8020 Turning Points für Gruppen",
+          "description": "Directive 8020 stellt Turning Points vor, einen visuell verzweigten Story-Baum, der es Spielern ermöglicht, wichtige Entscheidungen noch einmal zu überdenken. In Gruppensitzungen kann dies dazu führen, dass der Tod von Charakteren und fehlgeschlagene Entscheidungen zu Debatten darüber führen, ob man fortfahren oder zurückspulen soll.",
+          "availability": "Verfügbar beim Start"
+        },
+        {
+          "step": "05",
+          "title": "Directive 8020 Konsequenzen des Überlebensmodus",
+          "description": "Für Gruppen, die möchten, dass jede Entscheidung dauerhaft von Bedeutung ist, legt der Überlebensmodus Konsequenzen fest, sodass Entscheidungen endgültig sind. Dies ist für Spieler gedacht, die einen Directive 8020-Lauf ohne Rücknahme wünschen.",
+          "availability": "Verfügbar beim Start"
+        },
+        {
+          "step": "06",
+          "title": "Directive 8020 Online-Multiplayer-Update",
+          "description": "Der Online-Mehrspielermodus für fünf Spieler ist als kostenloses Post-Launch-Update geplant. Es soll das Couch-Koop-Erlebnis Movie Night widerspiegeln und das Shared-Survival-Format online bringen.",
+          "availability": "Kostenloses Post-Launch-Update"
+        }
+      ],
+      "modes": [
+        "Directive 8020 Einzelspieler-Story",
+        "Directive 8020 2-5 Spieler Movie Night",
+        "Directive 8020 gemeinsam genutzter lokaler Controller",
+        "Directive 8020 Turning Points Wiederholung",
+        "Directive 8020 Überlebensmodus",
+        "Directive 8020 Online-Koop-Update"
+      ]
+    },
+    "directive8020TurningPoints": {
+      "title": "Wie Turning Points Ihren Directive 8020-Lauf ändert",
+      "subtitle": "Turning Points ist Directive 8020s auf das Zurückspulen ausgerichtetes Story-Tree-System zum Überdenken wichtiger Entscheidungen, zum Aufdecken versteckter Pfade und zum Verfolgen mehrerer Enden.",
+      "intro": "Directive 8020 fügt ein neues Turning Points-System hinzu, das auf wichtigen Story-Zweigen basiert. Anstatt das gesamte Abenteuer noch einmal von Anfang an zu spielen, können Spieler mithilfe des Story-Baums zu entscheidenden Momenten zurückkehren, alternative Routen erkunden und versuchen, Besatzungsmitglieder vor tödlichen Folgen zu bewahren.",
+      "previewTitle": "Directive 8020 Vorschau des Story-Baums",
+      "previewDescription": "Verwenden Sie Turning Points, um entscheidende Routen zu vergleichen, wichtige Entscheidungen zu wiederholen und einen strengeren Survivor-Modus-Lauf zu planen.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Directive 8020 Wichtiger Entscheidungspunkt",
+          "description": "Turning Points dreht sich um entscheidende Entscheidungen und bahnbrechende Momente an Bord der Cassiopeia. Diese Momente können darüber entscheiden, wer überlebt, welche Wege sich eröffnen und wie sich die Geschichte verzweigt."
+        },
+        {
+          "step": "02",
+          "title": "Directive 8020 Story Tree Review",
+          "description": "Das System stellt Verzweigungsmöglichkeiten durch eine Story-Tree-Ansicht dar und hilft den Spielern zu verstehen, wo wichtige Alternativen existieren und welche Momente zu unterschiedlichen Ergebnissen führen können."
+        },
+        {
+          "step": "03",
+          "title": "Directive 8020 Auswahl Zurückspulen",
+          "description": "Spieler können zu ausgewählten Entscheidungspunkten zurückkehren und einen anderen Weg ausprobieren. Dies ist besonders nützlich nach einem fehlgeschlagenen QTE, einer fatalen Entscheidung oder einer Route, die einen Charakter in Gefahr bringt."
+        },
+        {
+          "step": "04",
+          "title": "Directive 8020 Versteckte Pfade",
+          "description": "Das erneute Abspielen von Zweigen kann alternative Szenen, versteckte Routen und Charakterergebnisse offenbaren, die beim ersten Durchspielen möglicherweise nicht erscheinen."
+        },
+        {
+          "step": "05",
+          "title": "Directive 8020 Mehrere Endungen",
+          "description": "Turning Points unterstützt Spieler, die sich auf den Abschluss konzentrieren und das Spiel noch einmal spielen, verschiedene Enden freischalten und testen möchten, wie sich Entscheidungen auf die Erzählung auswirken."
+        },
+        {
+          "step": "06",
+          "title": "Directive 8020 Überlebensmodus",
+          "description": "Für Spieler, die dauerhafte Konsequenzen wünschen, sorgt der Survivor-Modus dafür, dass die Verzweigungsstruktur sichtbar bleibt, während die Möglichkeit zum Zurückspulen während des Durchspielens entfernt wird."
+        }
+      ],
+      "uses": [
+        "Directive 8020 Routenwiedergabe",
+        "Directive 8020 versteckte Pfade",
+        "Directive 8020 mehrere Endungen",
+        "Directive 8020 Überlebensmodus"
+      ]
+    },
+    "directive8020Platforms": {
+      "title": "Directive 8020 Plattformen: PC, PS5 und Xbox Series X|S",
+      "subtitle": "Directive 8020 wird am 12. Mai 2026 über Steam, PlayStation 5 und Xbox Series X|S auf dem PC gestartet.",
+      "intro": "Directive 8020 ist ein filmisches Science-Fiction-Horrorspiel der aktuellen Generation von Supermassive Games. Das offizielle Plattformangebot konzentriert sich auf PC Steam, PS5 und Xbox Series X|S. Digitale Vorbestellungen sind möglich und physische Konsolen-Editionen sind bei teilnehmenden Einzelhändlern erhältlich.",
+      "platforms": [
+        {
+          "name": "Directive 8020 PC Steam",
+          "storefront": "Steam",
+          "releaseDate": "12. Mai 2026",
+          "format": "Digital",
+          "preOrderStatus": "Verfügbar auf Steam",
+          "multiplayer": "Einzelspieler- und lokaler Couch-Koop beim Start; Online-Multiplayer als kostenloses Post-Launch-Update geplant",
+          "notes": "Digitale Vorbestellungen für Steam beinhalten für begrenzte Zeit den Digital Deluxe Upgrade."
+        },
+        {
+          "name": "Directive 8020 PlayStation 5",
+          "storefront": "PlayStation Store und teilnehmende Einzelhändler",
+          "releaseDate": "12. Mai 2026",
+          "format": "Digital und physisch",
+          "preOrderStatus": "Verfügbar im PlayStation Store",
+          "multiplayer": "Offline-Wiedergabe aktiviert; 1–5 Spieler im PlayStation Store gelistet",
+          "notes": "Die PS5-Auflistung umfasst DualSense-Vibrationsfunktion und Unterstützung für Triggereffekte."
+        },
+        {
+          "name": "Directive 8020 Xbox Series X|S",
+          "storefront": "Xbox Store und teilnehmende Einzelhändler",
+          "releaseDate": "12. Mai 2026",
+          "format": "Digital und physisch",
+          "preOrderStatus": "Verfügbar im Xbox Store",
+          "multiplayer": "Einzelspieler, Xbox lokaler Koop 2-5, geteilter/geteilter Bildschirm",
+          "notes": "Die Xbox-Liste zeigt „Optimiert für Xbox Series X|S, 4K Ultra HD, Xbox-Erfolge, Xbox-Präsenz und Xbox-Cloud-Speicherungen“."
+        },
+        {
+          "name": "Directive 8020 PS4 / Xbox One / Nintendo Switch",
+          "storefront": "Nicht in der offiziellen Startplattformliste aufgeführt",
+          "releaseDate": "Nicht angekündigt",
+          "format": "Nicht angekündigt",
+          "preOrderStatus": "Kein offizieller Store-Eintrag",
+          "multiplayer": "Nicht angekündigt",
+          "notes": "Offizielle Startmaterialien führen PS5, Xbox Series X|S und PC Steam als unterstützte Plattformen auf."
+        }
+      ]
+    },
+    "directive8020DigitalDeluxeEdition": {
+      "title": "Was in der Directive 8020 Digital Deluxe Edition enthalten ist",
+      "subtitle": "Der Digital Deluxe-Inhalt enthält Dark Pictures-Outfits, zusätzliche Sammlerstücke, Filmfilter, ein digitales Artbook und einen exklusiven Soundtrack.",
+      "intro": "Digital Deluxe Upgrade von Directive 8020 ist als Bonuspaket für Spieler positioniert, die mehr kosmetische, sammelbare und hinter den Kulissen liegende Inhalte wünschen. Vorbestellungen enthalten für begrenzte Zeit den Digital Deluxe Upgrade ohne zusätzliche Kosten in unterstützten Storefronts.",
+      "benefits": [
+        {
+          "title": "Directive 8020 Digital Deluxe Upgrade",
+          "category": "Edition-Upgrade",
+          "description": "Das Upgrade umfasst das The Dark Pictures-Outfit-Paket, zusätzliche Dark Pictures-Sammlerstücke, Filmfilterpakete, ein digitales Artbook und einen exklusiven Soundtrack.",
+          "availability": "Für begrenzte Zeit bei Vorbestellungen in unterstützten Stores enthalten; Für das eigenständige Upgrade ist das Basisspiel erforderlich."
+        },
+        {
+          "title": "Directive 8020 The Dark Pictures Outfit-Paket",
+          "category": "Kosmetik",
+          "description": "Tragen Sie Outfits, die von früheren Dark Pictures-Charakteren an Bord der Cassiopeia inspiriert sind, darunter Carter in Jasons Armee-Outfit aus House of Ashes und Anders in Julias Tauchausflug-Outfit aus Man of Medan.",
+          "availability": "Im Digital Deluxe Upgrade enthalten."
+        },
+        {
+          "title": "Directive 8020 Erbstück-Rückholmission und Sammlerstücke",
+          "category": "Bonusmission",
+          "description": "Spüren Sie versteckte Puppen, Relikte und Figuren auf, die mit Man of Medan, Little Hope, House of Ashes und The Devil in Me in Verbindung stehen. Diese Sammlerstücke erweitern die Verbindung zwischen Directive 8020 und dem weiteren Dark Pictures-Universum.",
+          "availability": "Im Digital Deluxe Upgrade enthalten."
+        },
+        {
+          "title": "Directive 8020 Kosmisches visuelles Filterpaket",
+          "category": "Visuelle Filter",
+          "description": "Passen Sie den filmischen Look des Spiels mit drei Filtern an, die von verschiedenen Epochen von Weltraummissionen inspiriert sind: einem klassischen Schwarz-Weiß-Filter aus den 60ern, einem grobkörnigen 8-mm-Filmkornfilter aus den 70ern und einem Retro-VHS-Filter aus den 80ern.",
+          "availability": "Im Digital Deluxe Upgrade enthalten."
+        },
+        {
+          "title": "Directive 8020 Digitales Artbook",
+          "category": "Hinter den Kulissen",
+          "description": "Sehen Sie sich Konzeptzeichnungen und Material hinter den Kulissen an, einschließlich kreativer Arbeiten im Zusammenhang mit Tau Ceti f, dem Cassiopeia und den Body-Horror-Transformationen des Spiels.",
+          "availability": "Im Digital Deluxe Upgrade enthalten."
+        },
+        {
+          "title": "Directive 8020 Exklusiver Soundtrack",
+          "category": "Audio-Bonus",
+          "description": "Hören Sie sich den Soundtrack von Directive 8020 mit Materialien aus dem Xbox Store an, in denen der preisgekrönte Komponist Jason Graves hervorgehoben wird.",
+          "availability": "Im Digital Deluxe Upgrade enthalten."
+        }
+      ]
+    },
+    "directive8020BeginnerGuide": {
+      "title": "Directive 8020 Anfängerleitfaden: Wie man den Cassiopeia überlebt",
+      "subtitle": "Beginnen Sie mit den Grundlagen: Gehen Sie sorgfältig mit Entscheidungen um, bleiben Sie bei Bedrohungen durch Außerirdische in Echtzeit wachsam, nutzen Sie nach Möglichkeit Tarnung und koordinieren Sie Entscheidungen im Movie Night-Koop.",
+      "intro": "Directive 8020 ist ein filmisches Science-Fiction-Survival-Horror-Abenteuer, das auf sinnvollen Entscheidungen, verzweigten Ergebnissen, Echtzeitbedrohungen, Heimlichkeit und sozialem Misstrauen basiert. Dieser Anfängerleitfaden konzentriert sich auf die offizielle Mechanik und die frühe Spielstruktur, die Spieler verstehen sollten, bevor sie ihren ersten Lauf beginnen.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Directive 8020 Interaktive Horrorfilm-Denkweise",
+          "description": "Directive 8020 verbindet filmisches Storytelling mit Survival-Gameplay und einer verzweigten Erzählung. Beobachten Sie das Verhalten der Charaktere genau, denn Dialogentscheidungen und sekundenschnelle Reaktionen können verändern, wer lebt und wer stirbt."
+        },
+        {
+          "step": "02",
+          "title": "Directive 8020 Überlebenswahlpriorität",
+          "description": "Das Spiel legt Wert auf sinnvolle Entscheidungen, bei denen Vertrauen fragil ist und jede Aktion Konsequenzen haben kann. Wenn die Besatzung unter Druck steht, denken Sie sowohl an die unmittelbare Gefahr als auch an die langfristigen Auswirkungen auf die Gruppe."
+        },
+        {
+          "step": "03",
+          "title": "Directive 8020 Vertraue keiner Regel",
+          "description": "Der außerirdische Organismus kann seine Beute perfekt nachahmen. Stellen Sie verdächtiges Verhalten in Frage, gehen Sie nicht davon aus, dass jedes bekannte Gesicht in Sicherheit ist, und denken Sie daran, dass das Vertrauen der Besatzung schwinden kann, wenn sich der Feind vor aller Augen versteckt."
+        },
+        {
+          "step": "04",
+          "title": "Directive 8020 Stealth First Approach",
+          "description": "Außerirdische Bedrohungen durchstreifen in Echtzeit die Korridore des Schiffes. In der offiziellen Gameplay-Beschreibung werden improvisierte Waffen, blitzschnelle Reflexe und Tarnung hervorgehoben. Verstecken, vorsichtiges Bewegen und die Wahl des richtigen Zeitpunkts zum Handeln gehören daher zu den wichtigsten Überlebensgewohnheiten."
+        },
+        {
+          "step": "05",
+          "title": "Directive 8020 QTE-Bereitschaft",
+          "description": "Directive 8020 hält den Druck mit Gefahren in Echtzeit und schnellen Reaktionen hoch. Das Nichtbestehen einer QTE kann schwerwiegende Folgen haben, sodass Aufmerksamkeit und Timing in angespannten Szenen wichtig sind."
+        },
+        {
+          "step": "06",
+          "title": "Directive 8020 Wissen und Sammlerstücke",
+          "description": "Der Cassiopeia enthält Geheimnisse, Dark Pictures-Sammlerstücke und versteckte Inhalte, die mit der größeren Anthologie verknüpft sind. Eine sorgfältige Erkundung kann zusätzlichen Story-Kontext und Bonusmaterial offenbaren."
+        },
+        {
+          "step": "07",
+          "title": "Directive 8020 Movie Night Gruppenentscheidungen\nIm",
+          "description": "Movie Night-Modus können bis zu fünf lokale Spieler die Geschichte gemeinsam erleben, Besatzungsmitglieder auswählen, die sie kontrollieren, und als Gruppe Entscheidungen über Leben und Tod treffen. Der Online-Mehrspielermodus ist als kostenloses Post-Launch-Update geplant."
+        },
+        {
+          "step": "08",
+          "title": "Directive 8020 Turning Points Wiederholungsplan\nMit",
+          "description": "Turning Points können Spieler ausgewählte Handlungszweige zurückspulen, mehrere Enden aufdecken, versteckte Pfade freischalten und Besatzungsmitglieder vor tödlichen Folgen bewahren. Für einen strengeren ersten Lauf sorgt der Survivor-Modus dafür, dass die Konsequenzen dauerhaft bleiben."
+        }
+      ]
+    },
+    "directive8020ChoicesConsequences": {
+      "eyebrow": "Verzweigte Geschichte",
+      "title": "Directive 8020 Entscheidungen und Konsequenzen",
+      "subtitle": "Directive 8020 baut seinen Horror auf Paranoia, Vertrauen und irreversiblen Druck auf. Das Überleben der Crew hängt davon ab, wie die Spieler die jeweilige Situation interpretieren, wem sie glauben und wann sie handeln.",
+      "intro": "An Bord der Cassiopeia sind die Auswahlmöglichkeiten von Directive 8020 nicht nur Dialoggeschmack. Das Spiel verwendet eine verzweigte Erzählung, Turning Points, Echtzeitbedrohungen und tödliche Entscheidungsszenen, um jede größere Aktion mit dem Gefühl zu verbinden, wer überlebt, wem vertraut wird und welchen Weg die Geschichte einschlägt.",
+      "summaryTitle": "Directive 8020 Konsequenzschleife",
+      "summaryDescription": "Verfolgen Sie jede wichtige Entscheidung anhand von Vertrauen, unmittelbarer Gefahr, späteren Verzweigungen und endgültigen Überlebensergebnissen.",
+      "summaryPoints": [
+        "Directive 8020 Vertrauensanrufe können ändern, wer sicher erscheint.",
+        "Directive 8020 Fatale Momente können Charaktere aus einem Lauf entfernen.",
+        "Directive 8020 Turning Points kann große Filialen wieder eröffnen.",
+        "Directive 8020 Koop-Debatten können das Durchspielen in der Gruppe neu gestalten."
+      ],
+      "items": [
+        {
+          "title": "Directive 8020 Vertrauensentscheidungen",
+          "content": "Die außerirdische Bedrohung kann ihre Beute nachahmen und jede Interaktion der Crew in eine Prüfung des Urteilsvermögens verwandeln. Die Spieler müssen entscheiden, wer menschlich erscheint, wer kompromittiert werden kann und ob Angst Vorrang vor Loyalität haben soll.",
+          "points": [
+            "Das Kernthema ist „Vertraue niemandem.“",
+            "Der Comply-Trailer zeigt, wie Cooper vor einer geheimen Entscheidung steht, an der Mitchell beteiligt ist.",
+            "Ein späterer Zweig zeigt zwei identische Versionen von Cernan, was die Spieler dazu zwingt, auszuwählen, wer der Nachahmer ist."
+          ]
+        },
+        {
+          "title": "Directive 8020 Fatal Branching Moments",
+          "content": "Directive 8020 hebt Handlungszweige hervor, in denen eine Entscheidung sofort ein Leben kosten kann. Frühere Entscheidungen können auch den Aufbau späterer Szenen verändern, etwa welche Figur während einer Krise die Kontrolle über eine Waffe hat.",
+          "points": [
+            "Ein falscher Anruf kann tödlich sein.",
+            "Verzweigte Szenen können verändern, wer bewaffnet ist, wer entlarvt wird und wer gerettet wird.",
+            "Zu den Folgen gehören der Tod, zerbrochene Allianzen und alternative Wege durch die Geschichte."
+          ]
+        },
+        {
+          "title": "Directive 8020 Turning Points Story-Baum",
+          "content": "Turning Points bildet wichtige Entscheidungen und Ergebnisse in einem visuellen, verzweigten Story-Baum ab. Spieler können entscheidende Momente erneut erleben, um versteckte Pfade zu erkunden, Charaktere zu speichern oder verschiedene Konsequenzen zu testen, ohne das gesamte Spiel erneut starten zu müssen.",
+          "points": [
+            "Überdenken Sie wichtige Entscheidungen.",
+            "Entdecken Sie alternative Erzählzweige.",
+            "Schalte versteckte Pfade und mehrere Enden frei."
+          ]
+        },
+        {
+          "title": "Directive 8020 Überlebensmodus",
+          "content": "Der Überlebensmodus ist die risikoreiche Art, Directive 8020 zu spielen. Dadurch entfällt der Komfort, wichtige Ergebnisse zurückzuspulen, sodass Todesfälle und schwerwiegende Folgen im Rahmen des Spieldurchgangs gespeichert bleiben.",
+          "points": [
+            "Kein Sicherheitsnetz für fatale Fehler.",
+            "Jeder Tod innerhalb des Laufs ist dauerhaft.",
+            "Am besten geeignet für Spieler, die die klassische Dark Pictures-Spannung wünschen."
+          ]
+        },
+        {
+          "title": "Directive 8020 Koop-Konsequenzen",
+          "content": "Im Movie Night-Modus können bis zu fünf lokale Spieler die Geschichte teilen, indem sie verschiedene Besatzungsmitglieder steuern. Turning Points fügt eine soziale Ebene hinzu, da Gruppen darüber diskutieren können, ob sie einen Verlust akzeptieren oder zurückspulen und versuchen sollen, einen Lieblingscharakter zu retten.",
+          "points": [
+            "Lokaler Couch-Koop-Modus für bis zu fünf Spieler zum Start.",
+            "Der Online-Multiplayer erscheint in einem kostenlosen Post-Launch-Update.",
+            "Gruppenentscheidungen können zu unterschiedlichen Durchspielen desselben Story-Setups führen."
+          ]
+        }
+      ]
+    },
+    "directive8020DarkPicturesConnection": {
+      "eyebrow": "Franchise-Kontext",
+      "title": "Directive 8020 The Dark Pictures Verbindung",
+      "subtitle": "Directive 8020 ist ein neues Dark Pictures-Spiel von Supermassive Games, dem Studio hinter Until Dawn und The Quarry. Es überträgt den entscheidungsorientierten Horrorstil des Studios in ein Science-Fiction-Survival-Setting.",
+      "intro": "Dieses Modul hilft Spielern zu verstehen, wo Directive 8020 innerhalb der Horror-Reihe von Supermassive steht. Es verbindet das Spiel mit The Dark Pictures Anthology, erklärt den Vergleich von Until Dawn und The Quarry und zeigt, wie der neue Weltraum-Horror-Eintrag die Formel um Stealth, Echtzeitbedrohungen und einen stärkeren Überlebensfokus erweitert.",
+      "items": [
+        {
+          "title": "Directive 8020 Neues Dark Pictures-Spiel",
+          "description": "Directive 8020 wird von Supermassive Games als neues Dark Pictures-Spiel und brandneues Science-Fiction-Survival-Horror-Abenteuer präsentiert. Es startet für PlayStation 5, Xbox Series X|S und PC über Steam.",
+          "meta": "Serie: The Dark Pictures"
+        },
+        {
+          "title": "Directive 8020 Supermassive Horror-Linie",
+          "description": "Das Spiel folgt der Tradition von Supermassive des filmischen Horrors, der sich um die Entscheidungsfreiheit des Spielers, verzweigte Handlungsstränge und das Überleben der Charaktere dreht. Seine offizielle Positionierung verbindet es mit Until Dawn und The Quarry für Spieler, die die früheren interaktiven Horrorspiele des Studios kennen.",
+          "meta": "Studio: Supermassive Games"
+        },
+        {
+          "title": "Directive 8020 Sci-Fi Anthology Shift",
+          "description": "Anstelle eines geerdeten Slashers oder eines übernatürlichen Setups versetzt Directive 8020 den Horror in die Tiefen des Weltraums. Die Erde liegt im Sterben, Tau Ceti f könnte die letzte Hoffnung der Menschheit sein und die Crew von Cassiopeia wird von einem außerirdischen Organismus gejagt, der seine Beute nachahmen kann.",
+          "meta": "Einstellung: Cassiopeia und Tau Ceti f"
+        },
+        {
+          "title": "Directive 8020 Aktives Survival-Gameplay",
+          "description": "Directive 8020 entwickelt die Dark Pictures-Formel mit anhaltenden Echtzeitbedrohungen, neuen Stealth-Mechaniken, schnellen Reaktionen und verbesserten interaktiven Filmsequenzen basierend auf der Unreal Engine 5 weiter.",
+          "meta": "Gameplay: Heimlichkeit und Echtzeitgefahr"
+        },
+        {
+          "title": "Directive 8020 Movie Night Rückgabe",
+          "description": "Die soziale Horrorstruktur setzt sich im Movie Night-Modus fort, der es bis zu fünf lokalen Spielern ermöglicht, Besatzungsmitglieder zu kontrollieren und die Konsequenzen zu teilen. Der Online-Mehrspielermodus für fünf Spieler ist als kostenloses Post-Launch-Update geplant.",
+          "meta": "Modus: Koop für bis zu fünf Spieler"
+        }
+      ]
+    },
+    "directive8020AgeRating": {
+      "eyebrow": "Altersfreigabe",
+      "title": "Directive 8020 Altersfreigabe und Inhaltswarnungen",
+      "subtitle": "Directive 8020 ist für erwachsene Spieler geeignet. Die offiziellen Bewertungen heben grafische Horrorgewalt, Blut und Blut, starke Sprache, Benutzerinteraktion und In-Game-Käufe hervor.",
+      "intro": "Diese Tabelle bietet Spielern und Eltern eine schnelle Möglichkeit, die Directive 8020-Bewertungsinformationen zu verstehen, bevor sie vorbestellen oder spielen. Das Horror-Setup des Spiels umfasst eine Raumschiffbesatzung, einen außerirdischen Organismus, schnelle Ereignisse, Entscheidungsaufforderungen und heftige gewalttätige Folgen.",
+      "items": [
+        {
+          "category": "Directive 8020 ESRB-Bewertung",
+          "value": "Reife 17+",
+          "details": "Vom ESRB mit M für Blood and Gore, Intense Violence und Strong Language bewertet."
+        },
+        {
+          "category": "Directive 8020 ESRB Interaktive Elemente",
+          "value": "Benutzer interagieren; Käufe im Spiel",
+          "details": "Die ESRB-Liste umfasst Online- und Benutzerinteraktion sowie Kaufelemente im Spiel."
+        },
+        {
+          "category": "Directive 8020 PEGI-Bewertung",
+          "value": "PEGI 18+",
+          "details": "Auf der offiziellen Directive 8020-Seite von Bandai Namco wird PEGI 18+ für das Spiel angezeigt."
+        },
+        {
+          "category": "Directive 8020-bewertete Plattformen",
+          "value": "Windows-PC, PlayStation 5, Xbox Series X|S",
+          "details": "Auf den offiziellen Bewertungs- und Plattformseiten sind Directive 8020 für PC, PS5 und Xbox Series X|S aufgeführt."
+        },
+        {
+          "category": "Directive 8020 Horror-Setup",
+          "value": "Science-Fiction-Survival-Horror",
+          "details": "Spieler übernehmen die Rolle von Besatzungsmitgliedern auf einem Raumschiff, die versuchen, zu überleben und einem außerirdischen Organismus zu entkommen."
+        },
+        {
+          "category": "Directive 8020 Beispiele für Gewalt",
+          "value": "Grafische tödliche Szenen",
+          "details": "In der ESRB-Zusammenfassung werden Charaktere beschrieben, die erschossen, erstochen oder aufgespießt werden, eine Nahkampfverletzung, ein zerschmetterter Kopf, eine Enthauptung und große Blutspritzereffekte."
+        },
+        {
+          "category": "Directive 8020 Sprache",
+          "value": "Starke Sprache",
+          "details": "In der ESRB-Zusammenfassung wird auf eine starke Sprache hingewiesen, einschließlich der Verwendung des Wortes „f**k“."
+        },
+        {
+          "category": "Directive 8020 Spieler zum Mitnehmen",
+          "value": "Am besten für erfahrene Horrorspieler",
+          "details": "Directive 8020 ist als intensives filmisches Survival-Horror-Spiel mit ausgereiftem Inhalt, verzweigten Gefahren und grafischen Konsequenzen positioniert."
+        }
+      ]
+    },
+    "directive8020LatestNews": {
+      "eyebrow": "Neueste Updates",
+      "title": "Directive 8020 Neuigkeiten und offizielle Updates",
+      "subtitle": "Verfolgen Sie die neuesten Trailer, Details zur Vorbestellung, Veröffentlichungsaktualisierungen, Koop-Neuigkeiten und offizielle Ankündigungen für Directive 8020.",
+      "intro": "Directive 8020 nähert sich seinem Start am 12. Mai 2026 mit einem stetigen Strom offizieller Updates. Dieses Nachrichtenmodul hält die Homepage auf dem neuesten Stand, indem es den neuesten Trailer, Multiplayer-Informationen, die Bestätigung des Veröffentlichungsdatums, Steam-Aktivitäten und offizielle News-Hubs hervorhebt.",
+      "items": [
+        {
+          "date": "2026-04-17",
+          "category": "Trailer",
+          "title": "Directive 8020 Alles, was Sie wissen müssen, im 60-Sekunden-Trailer",
+          "summary": "Bandai Namco enthüllte beim Galaxies Showcase einen 60-sekündigen Briefing-Trailer vor dem Start. Das Update hebt die Mission Cassiopeia, die Bedrohung durch Alien-Nachahmungen, Verzweigungsoptionen, Turning Points, den Überlebensmodus und die digitalen Vorbestellungen von Steam hervor.",
+          "href": "https://en.bandainamcoent.eu/the-dark-pictures/news/directive-8020-debuts-its-everything-you-need-know-60-seconds-trailer-ahead"
+        },
+        {
+          "date": "2026-03-13",
+          "category": "Genossenschaft",
+          "title": "Directive 8020 Live-Action-Couch-Koop-Trailer",
+          "summary": "Der Trailer der Future Games Show beleuchtete den Movie Night-Modus, in dem bis zu fünf lokale Spieler Mitglieder der Cassiopeia-Crew steuern können. Die Ankündigung bestätigte auch, dass der Online-Mehrspielermodus für fünf Spieler ein kostenloses Post-Launch-Update ist.",
+          "href": "https://en.bandainamcoent.eu/the-dark-pictures/news/new-live-action-trailer-showcases-directive-8020-couch-co-op-mode"
+        },
+        {
+          "date": "2026-02-10",
+          "category": "Spielveröffentlichung",
+          "title": "Directive 8020 12. Mai 2026 Erscheinungsdatum und Vorbestellungen",
+          "summary": "Directive 8020 wurde für die Veröffentlichung am 12. Mai 2026 für PlayStation 5, Xbox Series X|S und PC über Steam bestätigt. Die Ankündigung umfasste Vorbestellungen, ein kostenloses Deluxe-Edition-Upgrade, Turning Points, Einzelspieler-Modus und Couch-Koop-Modus für bis zu fünf Spieler zum Start.",
+          "href": "https://en.bandainamcoent.eu/the-dark-pictures/news/directive-8020-launches-12th-may-playstation-5-xbox-series-xs-and-pc-steam"
+        },
+        {
+          "date": "2024-08-23",
+          "category": "Ankündigung",
+          "title": "Directive 8020 offiziell angekündigt",
+          "summary": "Supermassive Games kündigte Directive 8020 als brandneues Science-Fiction-Survival-Horror-Abenteuer und ein neues Dark Pictures-Spiel für PC, PlayStation 5 und Xbox Series X|S an. Die Ankündigung stellte Lashana Lynch als Young, Unreal Engine 5-Filmsequenzen, Echtzeitbedrohungen und Stealth-Gameplay vor.",
+          "href": "https://en.bandainamcoent.eu/the-dark-pictures/news/supermassive-games-announces-all-new-sci-fi-survival-horror-adventure"
+        },
+        {
+          "date": "Laufend",
+          "category": "Gemeinschaft",
+          "title": "Directive 8020 Steam Community und News Hub",
+          "summary": "Der Steam-Community-Bereich umfasst die Abschnitte „Wichtige Informationen“, „Allgemeine Diskussionen“, „Handel“ sowie „Ereignisse und Ankündigungen“. Es ist nützlich, um plattformspezifische Fragen, Community-Threads und zukünftige Steam-seitige Updates zu verfolgen.",
+          "href": "https://steamcommunity.com/app/2255370/discussions/"
         }
       ]
     }
   },
   "faq": {
-    "title": "Häufig gestellte",
-    "titleHighlight": "Fragen",
-    "subtitle": "Alles, was du über Lucid Blocks wissen musst",
+    "title": "Directive 8020",
+    "titleHighlight": "FAQ",
+    "subtitle": "Häufige Directive 8020-Fragen zu Veröffentlichungsdatum, Plattformen, Vorbestellung, Koop, Story und Gameplay.",
     "questions": [
       {
-        "question": "Wie lade ich die Lucid Blocks Demo herunter?",
-        "answer": "Besuche die Steam Store Seite und klicke auf \"Demo herunterladen\". Die Demo ist kostenlos und erfordert 2,62 GiB zum Herunterladen, 4,88 GiB Festplattenspeicher."
+        "question": "Wann ist das Veröffentlichungsdatum von Directive 8020?",
+        "answer": "Directive 8020 erscheint am 12. Mai 2026 für PC über Steam, PlayStation 5 und Xbox Series X|S."
       },
       {
-        "question": "Kann ich Lucid Blocks solo spielen oder brauche ich Freunde?",
-        "answer": "Lucid Blocks unterstützt sowohl Solo-Spiel als auch Koop mit bis zu 6 Spielern. Solo ist schwieriger, aber möglich."
+        "question": "Auf welchen Plattformen ist Directive 8020 verfügbar?",
+        "answer": "Directive 8020 ist für PC Steam, PlayStation 5 und Xbox Series X|S bestätigt."
       },
       {
-        "question": "Was sind High-Gnome-Aufgaben in Lucid Blocks?",
-        "answer": "High-Gnome ist dein Boss, der Ziele wie \"zerstöre den Fernseher\", \"überflute die Toilette\" oder \"stehle bestimmte Gegenstände\" vergibt. Erledige sie für zusätzliche Belohnungen."
+        "question": "Wie viel kostet Directive 8020 auf Steam?",
+        "answer": "Directive 8020 ist bei Steam für 49,99 $ zum Vorverkauf gelistet."
       },
       {
-        "question": "Wie installiere ich Mods für Lucid Blocks?",
-        "answer": "Installiere BepInEx 5, starte das Spiel einmal und platziere dann Mod-DLLs im Ordner BepInEx/plugins/. Alle Spieler benötigen die gleichen Mods für den Mehrspieler."
+        "question": "Hat Directive 8020 Koop?",
+        "answer": "Directive 8020 unterstützt den Einzelspieler-Modus und den lokalen Movie Night-Koop-Modus für bis zu fünf Spieler. Der Online-Mehrspielermodus ist als kostenloses Update nach der Veröffentlichung geplant."
       },
       {
-        "question": "Unterstützt Lucid Blocks Controller?",
-        "answer": "Ja! Verwende die In-Game-Einstellungen für grundlegende Controller-Unterstützung oder installiere den Controller Mod von Nexus Mods für vollständige UI-Navigation."
+        "question": "Worum geht es in Directive 8020?",
+        "answer": "Directive 8020 folgt der Cassiopeia-Mission zu Tau Ceti f, wo die Besatzung einem mimischen Organismus und Entscheidungen gegenübersteht, die darüber entscheiden, wer überlebt."
       },
       {
-        "question": "Wie hoch ist die Spielerzahl für Lucid Blocks?",
-        "answer": "Stand Februar 2026 verzeichnet Lucid Blocks durchschnittlich 6.000+ gleichzeitige Spieler, mit einem Peak von 15.272 am 8. Februar 2026."
+        "question": "Was sind Directive 8020 Turning Points?",
+        "answer": "Directive 8020 Turning Points ist ein Story-Tree-System, das es Spielern ermöglicht, wichtige Entscheidungen noch einmal zu überdenken, alternative Zweige zu erkunden und Ergebnisse zu ändern."
       }
     ]
   },
   "cta": {
-    "title": "Bereit, mit dem Raub zu beginnen?",
-    "description": "Tritt der Lucid Blocks Community auf Discord bei, um Koop-Gruppen, Updates und Mod-Diskussionen zu erhalten!",
-    "joinCommunity": "Discord beitreten",
-    "joinGame": "Demo auf Steam herunterladen"
+    "title": "Bereiten Sie sich auf Directive 8020 vor",
+    "description": "Verfolgen Sie Directive 8020-Veröffentlichungsdetails, Vorbestellungsoptionen, Trailer, Koop-Pläne, Charaktere und Survival-Horror-Systeme vor der Veröffentlichung.",
+    "joinCommunity": "Treten Sie Supermassive Discord bei",
+    "joinGame": "Vorabkauf Directive 8020"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Dein komplettes Ressourcenzentrum für Lucid Blocks Stealth-Raubzüge, Koop-Strategien, Mods und Community-Leitfäden.",
+    "title": "Directive 8020 Wiki",
+    "description": "Ihr Ressourcen-Hub für Directive 8020-Veröffentlichungsdatum, Trailer, Steam-Vorbestellungsinformationen, Story, Charaktere, Koop und Survival-Horror-Guides.",
     "resources": "Ressourcen",
-    "community": "Community",
-    "legal": "Rechtliches",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
+    "community": "Gemeinschaft",
+    "discord": "Supermassive Discord",
+    "twitter": "The Dark Pictures X",
+    "reddit": "Dark Pictures Reddit",
+    "youtube": "Supermassives YouTube",
     "steamCommunity": "Steam Community",
     "steamStore": "Steam Store",
-    "about": "Über uns",
+    "officialSite": "Offizielle Seite",
+    "legal": "Legal",
+    "about": "Über",
     "privacy": "Datenschutzrichtlinie",
     "terms": "Nutzungsbedingungen",
-    "copyrightNotice": "Urheberrecht",
-    "copyright": "© 2026 Lucid Blocks Wiki. Nicht mit den Entwicklern von Lucid Blocks verbunden.",
-    "disclaimer": "Inoffizielle von Fans erstellte Ressourcen-Website."
+    "copyrightNotice": "Urheberrechtshinweis",
+    "copyright": "© 2026 Directive 8020 Wiki. Alle Rechte vorbehalten.",
+    "disclaimer": "Unabhängige Fan-Ressource für Directive 8020-Spieler."
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks Leitfäden",
-      "description": "Vollständige Gameplay-Leitfäden von den Grundlagen für Anfänger bis hin zu fortgeschrittenen Apotheosis-Strategien. Meistern Sie Überleben und Handwerk.",
-      "metaTitle": "Lucid Blocks Leitfäden – Strategien für Anfänger bis Fortgeschrittene",
-      "metaDescription": "Vollständige Lucid Blocks Leitfäden mit Tipps für Anfänger, dem Apotheosis-System, Überlebensstrategien und Expertentaktiken zur Beherrschung der surrealen Sandbox.",
-      "categoryLabel": "SPIEL-LEITFÄDEN",
-      "whatIs": "Was sind Leitfäden?",
-      "whatIsDescription": "Umfassende Leitfäden zu Spielmechaniken, Überlebensstrategien und dem Apotheosis-Handwerkssystem. Lernen Sie alles von den ersten Schritten bis hin zu fortgeschrittenen Techniken.",
-      "why": "Warum Leitfäden lesen?",
+    "release": {
+      "title": "Directive 8020 Veröffentlichung",
+      "description": "Directive 8020 Veröffentlichungsdatum, Startzeitpunkt, Plattform-Rollout, Verzögerungsverlauf und Planung für den ersten Tag an einem Ort.",
+      "metaTitle": "Directive 8020 Veröffentlichung – Datum, Startzeit und Status",
+      "metaDescription": "Verfolgen Sie das Veröffentlichungsdatum von Directive 8020, den Startzeitpunkt, die Plattformverfügbarkeit, den Verzögerungshintergrund und die Einrichtung am ersten Tag für Steam, PS5 und Xbox.",
+      "categoryLabel": "FREIGABE",
+      "whatIs": "Was ist die Directive 8020-Version?",
+      "whatIsDescription": "Directive 8020-Release-Berichterstattung erklärt, wann das Spiel erscheint, welche Plattformen es erhalten und was Spieler vor dem ersten Tag vorbereiten sollten.",
+      "why": "Warum Directive 8020-Versionshandbücher lesen?",
       "whySteps": {
-        "step1Title": "Kernmechaniken lernen",
-        "step1Description": "Verstehen Sie das Apotheosis-System und vermeiden Sie häufige Anfängerfehler",
-        "step2Title": "Schneller Fortschritt",
-        "step2Description": "Folgen Sie bewährten Pfaden, um in der surrealen Welt zu überleben und erfolgreich zu sein",
-        "step3Title": "Strategien meistern",
-        "step3Description": "Entwickeln Sie fortgeschrittene Taktiken für Erkundung und Handwerk"
+        "step1Title": "Bestätigen Sie den Startzeitpunkt",
+        "step1Description": "Verfolgen Sie das Startdatum von Directive 8020, den globalen Zeitplan und die Zeitplandetails vor der Veröffentlichungswoche.",
+        "step2Title": "Plattformstatus prüfen",
+        "step2Description": "Vergleichen Sie die Veröffentlichungsinformationen von Directive 8020, Steam, PS5 und Xbox, ohne sie mit Story-Spoilern zu vermischen.",
+        "step3Title": "Planen Sie den ersten Tag",
+        "step3Description": "Verwenden Sie die Versionshinweise von Directive 8020, um Downloads, Storefront-Auswahlmöglichkeiten und Pläne für die erste Sitzung vorzubereiten."
       },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Leitfäden"
+      "featured": "Empfohlen und unverzichtbar",
+      "all": "Alle Directive 8020-Veröffentlichung"
     },
-    "crafting": {
-      "title": "Lucid Blocks Handwerk",
-      "description": "Meistern Sie das Apotheosis-Fusionssystem mit Essenz-Mechaniken, Rezepten und Handwerksstrategien für mächtige Gegenstände.",
-      "metaTitle": "Lucid Blocks Handwerk – Apotheosis-System & Rezepte",
-      "metaDescription": "Meistern Sie das Apotheosis-Handwerkssystem von Lucid Blocks. Lernen Sie Essenz-Mechaniken, Fusionsrezepte und Strategien zur Erstellung mächtiger Werkzeuge und Waffen.",
-      "categoryLabel": "HANDWERKSSYSTEM",
-      "whatIs": "Was ist Handwerk?",
-      "whatIsDescription": "Das Apotheosis-System ist eine einzigartige, essenzgesteuerte Fusionsmechanik, bei der Sie bis zu sechs Gegenstände kombinieren, um neue Rezepte zu entdecken. Keine festen Handwerksmenüs – Experimentieren ist der Schlüssel.",
-      "why": "Warum Handwerk meistern?",
+    "platforms": {
+      "title": "Directive 8020 Plattformen",
+      "description": "Directive 8020-Plattformunterstützung für PC, Steam, PlayStation 5, Xbox Series X|S und Hinweise zu geschäftsspezifischen Funktionen.",
+      "metaTitle": "Directive 8020-Plattformen – PC, Steam, PS5 und Xbox",
+      "metaDescription": "Vergleichen Sie Directive 8020-Plattformen, einschließlich PC Steam, PlayStation 5, Xbox Series X|S, Store-Einträge, Controller-Unterstützung und nicht unterstützte Versionen.",
+      "categoryLabel": "PLATTFORMEN",
+      "whatIs": "Was sind Directive 8020-Plattformen?",
+      "whatIsDescription": "Directive 8020-Plattformhandbücher erklären, wo das Spiel verfügbar ist, welche Storefronts es anbieten und welche Hardwareoptionen für verschiedene Spieler geeignet sind.",
+      "why": "Warum Directive 8020-Plattformhandbücher lesen?",
       "whySteps": {
-        "step1Title": "Mächtige Gegenstände freischalten",
-        "step1Description": "Entdecken Sie essenzielle Werkzeuge, Waffen und Mobilitätsausrüstung durch Fusion",
-        "step2Title": "Essenzen verstehen",
-        "step2Description": "Lernen Sie, wie Gegenstandsessenzen kombiniert werden, um vorhersehbare Ergebnisse zu erzielen",
-        "step3Title": "Ressourcen optimieren",
-        "step3Description": "Nutzen Sie Verdünnungsmechaniken, um den Ertrag aus günstigen Materialien zu maximieren"
+        "step1Title": "Wählen Sie Hardware",
+        "step1Description": "Vergleichen Sie die Optionen Directive 8020 PC, PS5 und Xbox, bevor Sie auswählen, wo Sie spielen möchten.",
+        "step2Title": "Überprüfen Sie die Store-Funktionen",
+        "step2Description": "Überprüfen Sie Directive 8020 Steam, PlayStation Store und Xbox Store-Funktionshinweise wie Erfolge, Cloud-Speicherungen und lokales Spielen.",
+        "step3Title": "Vermeiden Sie nicht unterstützte Versionen",
+        "step3Description": "Verwenden Sie die Plattformabdeckung Directive 8020, um bestätigte Startplattformen von älteren Konsolen und unangekündigten Versionen zu trennen."
       },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Handwerks-Leitfäden"
+      "featured": "Empfohlen und unverzichtbar",
+      "all": "Alle Directive 8020-Plattformen"
     },
-    "items": {
-      "title": "Lucid Blocks Gegenstände",
-      "description": "Detaillierte Leitfäden zu Gegenständen, die Werkzeuge, Waffen, Mobilitätsausrüstung und Lagerlösungen mit Handwerksrezepten und Nutzungstipps abdecken.",
-      "metaTitle": "Lucid Blocks Gegenstände – Leitfaden für Werkzeuge, Waffen & Ausrüstung",
-      "metaDescription": "Vollständige Gegenstandsdatenbank für Lucid Blocks, einschließlich Werkzeugen, Waffen, Mobilitätsausrüstung und Lagerung. Lernen Sie, wie Sie jeden Gegenstand effektiv herstellen und einsetzen.",
-      "categoryLabel": "GEGENSTÄNDE & AUSRÜSTUNG",
-      "whatIs": "Was sind Gegenstände?",
-      "whatIsDescription": "Umfassende Leitfäden für Werkzeuge, Waffen, Mobilitätsausrüstung und funktionale Gegenstände. Lernen Sie Handwerksrezepte, Nutzungsstrategien und optimale Kombinationen kennen.",
-      "why": "Warum Gegenstands-Leitfäden lesen?",
+    "purchase": {
+      "title": "Directive 8020 Kauf",
+      "description": "Directive 8020-Vorbestellung, Steam-Preis, Deluxe-Upgrade-Inhalte, Storefront-Optionen, physische Versionshinweise und Kaufberatung.",
+      "metaTitle": "Directive 8020 Kauf – Vorbestellung, Preis und Deluxe Edition",
+      "metaDescription": "Vergleichen Sie Directive 8020-Kaufoptionen, Vorbestellungsstatus, Steam-Preis, Digital Deluxe-Upgrade-Inhalte, Konsolen-Stores, physische Editionen und Kaufhinweise.",
+      "categoryLabel": "KAUF",
+      "whatIs": "Was ist ein Directive 8020-Kauf?",
+      "whatIsDescription": "Directive 8020-Kaufabdeckung konzentriert sich auf Vorbestellungen, Preis, Editionsinhalt, Unterschiede in den Storefronts und die praktischen Details, die Spieler vor dem Kauf benötigen.",
+      "why": "Warum Directive 8020-Einkaufsführer lesen?",
       "whySteps": {
-        "step1Title": "Handwerksrezepte lernen",
-        "step1Description": "Entdecken Sie, wie Sie essenzielle Werkzeuge und Waffen mit Apotheosis herstellen",
-        "step2Title": "Ausrüstung optimieren",
-        "step2Description": "Wählen Sie die besten Gegenstände für Ihren Spielstil und Ihre Fortschrittsstufe",
-        "step3Title": "Überleben verbessern",
-        "step3Description": "Rüsten Sie Mobilitätsausrüstung und Waffen aus, um durch die gefährliche Welt zu navigieren"
+        "step1Title": "Editionen vergleichen",
+        "step1Description": "Überprüfen Sie die Standard- und Digital Deluxe-Inhalte von Directive 8020, bevor Sie sich für eine Version entscheiden.",
+        "step2Title": "Schaufenster prüfen",
+        "step2Description": "Vergleichen Sie die Kaufpfade Directive 8020 Steam, PlayStation und Xbox mit plattformspezifischen Hinweisen.",
+        "step3Title": "Vorbestellungswert planen",
+        "step3Description": "Verwenden Sie die Directive 8020-Kaufleitfäden, um Vorbestellungsboni, Upgrade-Inhalte und Optionen für die physische Veröffentlichung zu verstehen."
       },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Gegenstände"
+      "featured": "Empfohlen und unverzichtbar",
+      "all": "Alle Directive 8020-Käufe"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biome",
-      "description": "Erkunden Sie Weltregionen, Umweltmerkmale, Ressourcenstandorte und Überlebenstipps für jedes Biom.",
-      "metaTitle": "Lucid Blocks Biome – Weltregionen & Erkundung",
-      "metaDescription": "Erkunden Sie die Biome von Lucid Blocks, einschließlich Tiamana Leylines, Fog Meadow und surrealen Regionen. Finden Sie Ressourcen, vermeiden Sie Gefahren und navigieren Sie durch die unendliche Welt.",
-      "categoryLabel": "WELTREGIONEN",
-      "whatIs": "Was sind Biome?",
-      "whatIsDescription": "Leitfäden zu verschiedenen Weltregionen, Umweltmerkmalen, Ressourcenverteilung und Gefahrenzonen. Lernen Sie, was Sie erwartet und wie Sie sich auf jedes Gebiet vorbereiten.",
-      "why": "Warum Biome erkunden?",
+    "multiplayer": {
+      "title": "Directive 8020 Mehrspielermodus",
+      "description": "Directive 8020-Mehrspielerdetails für Solospiel, Movie Night Couch-Koop, Online-Mehrspielerpläne, Spieleranzahl und gemeinsame Entscheidungen.",
+      "metaTitle": "Directive 8020 Multiplayer – Koop, Movie Night und Spieleranzahl",
+      "metaDescription": "Erfahren Sie mehr über Directive 8020-Mehrspieleroptionen, Movie Night lokalen Koop-Modus, Online-Mehrspieler-Aktualisierungspläne, Spieleranzahl, gemeinsame Story-Entscheidungen und Tipps zur Gruppeneinrichtung.",
+      "categoryLabel": "MEHRSPIELER",
+      "whatIs": "Was ist Directive 8020 Multiplayer?",
+      "whatIsDescription": "Directive 8020-Multiplayer-Berichterstattung erklärt, wie Solospiel, Movie Night Couch-Koop und geplanter Online-Multiplayer das gemeinsame Horror-Erlebnis prägen.",
+      "why": "Warum Directive 8020-Multiplayer-Anleitungen lesen?",
       "whySteps": {
-        "step1Title": "Ressourcen finden",
-        "step1Description": "Finden Sie seltene Materialien und Essenzen, die spezifisch für jede Region sind",
-        "step2Title": "Gefahren vermeiden",
-        "step2Description": "Verstehen Sie Umweltgefahren und feindselige Kreaturen",
-        "step3Title": "Erkundung planen",
-        "step3Description": "Bereiten Sie die richtigen Werkzeuge und Ausrüstung für jeden Biom-Typ vor"
+        "step1Title": "Wählen Sie einen Wiedergabemodus",
+        "step1Description": "Entscheiden Sie, ob Directive 8020 besser für Ihre Sitzung als Solospiel, Couch-Koop oder einen zukünftigen Online-Gruppenlauf geeignet ist.",
+        "step2Title": "Spielerrollen festlegen",
+        "step2Description": "Verwenden Sie Directive 8020 Movie Night-Notizen, um zu planen, wer welche Besatzungsmitglieder kontrolliert und wie Entscheidungen geteilt werden.",
+        "step3Title": "Konsequenzen koordinieren",
+        "step3Description": "Verstehen Sie den Directive 8020-Gruppenauswahldruck vor verzweigten Szenen, die Gefahren für Charaktere und die Überlebensergebnisse."
       },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Biome"
+      "featured": "Empfohlen und unverzichtbar",
+      "all": "Alle Directive 8020 Multiplayer"
     },
-    "building": {
-      "title": "Lucid Blocks Bauen",
-      "description": "Meistern Sie persönliche Qualia-Dimensionen, Basisbau, Lagerverwaltung und kreative Bautechniken.",
-      "metaTitle": "Lucid Blocks Bauen – Qualia & Basisbau",
-      "metaDescription": "Meistern Sie das Bauen in Lucid Blocks mit persönlichen Qualia-Dimensionen, Basisbau, Lagerlösungen und kreativen Bautechniken.",
-      "categoryLabel": "BAUEN & BASEN",
-      "whatIs": "Was ist Bauen?",
-      "whatIsDescription": "Leitfäden zum persönlichen Qualia-Dimensionssystem, Basisbau, Lagerverwaltung und kreativem Bauen. Lernen Sie, Ihren sicheren Hafen in der surrealen Welt zu erschaffen.",
-      "why": "Warum Basen bauen?",
+    "story": {
+      "title": "Directive 8020 Geschichte",
+      "description": "Directive 8020-Story-Guides für die Mission Cassiopeia, Tau Ceti f, Erdkrise, Bedrohung durch Außerirdische, Vertrauen in die Besatzung und Dark Pictures-Links.",
+      "metaTitle": "Directive 8020-Geschichte – Cassiopeia, Tau Ceti f und Bedrohung durch Außerirdische",
+      "metaDescription": "Entdecken Sie den Hintergrund der Geschichte von Directive 8020, die Mission Cassiopeia, Tau Ceti f, die Erdkrise, die Bedrohung durch Außerirdische, das Vertrauen der Besatzung und den Kontext von Dark Pictures.",
+      "categoryLabel": "GESCHICHTE",
+      "whatIs": "Was ist die Directive 8020-Geschichte?",
+      "whatIsDescription": "Directive 8020-Story-Berichterstattung erklärt die Weltraummission, die Cassiopeia-Crew, das Tau Ceti f-Ziel und die mimische Bedrohung im Zentrum des Horrors.",
+      "why": "Warum Directive 8020 Story Guides lesen?",
       "whySteps": {
-        "step1Title": "Sichere Räume schaffen",
-        "step1Description": "Errichten Sie sichere Basen für Lagerung und Handwerksarbeiten",
-        "step2Title": "Ressourcen verwalten",
-        "step2Description": "Organisieren Sie Materialien effizient mit Lagerlösungen",
-        "step3Title": "Qualia freischalten",
-        "step3Description": "Greifen Sie auf persönliche Taschendimensionen für ultimativen Komfort zu"
+        "step1Title": "Verstehen Sie die Mission",
+        "step1Description": "Beginnen Sie mit der Mission Directive 8020 Cassiopeia, der Erdkrise und dem Ziel Tau Ceti f.",
+        "step2Title": "Verfolgen Sie die Bedrohung",
+        "step2Description": "Verfolgen Sie, wie Directive 8020 außerirdische Mimikry, Misstrauen der Besatzung und Gefahren an Bord nutzt, um Spannung aufzubauen.",
+        "step3Title": "Auswahlmöglichkeiten verbinden",
+        "step3Description": "Verwenden Sie den Directive 8020-Story-Kontext, um verzweigte Entscheidungen, Beziehungen und Überlebenschancen zu verstehen."
       },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Bau-Leitfäden"
-    },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technischer Support, Plattformkompatibilität, Leistungsoptimierung und Fehlerbehebung bei häufigen Problemen.",
-      "metaTitle": "Lucid Blocks Support – Technische Hilfe & Fehlerbehebungen",
-      "metaDescription": "Erhalten Sie technischen Support für Lucid Blocks, einschließlich Steam Deck-Einrichtung, Crash-Fixes, Leistungsoptimierung und Leitfäden zur Plattformkompatibilität.",
-      "categoryLabel": "TECHNISCHER SUPPORT",
-      "whatIs": "Was ist Support?",
-      "whatIsDescription": "Technische Leitfäden zu Plattformkompatibilität, Leistungsoptimierung, Crash-Fixes und häufigen Problemen. Erhalten Sie Hilfe zu Steam Deck, Multiplayer-Fragen und Einstellungen.",
-      "why": "Warum Support prüfen?",
-      "whySteps": {
-        "step1Title": "Technische Probleme beheben",
-        "step1Description": "Beheben Sie Abstürze, Leistungsprobleme und Kompatibilitätsprobleme",
-        "step2Title": "Leistung optimieren",
-        "step2Description": "Konfigurieren Sie Einstellungen für das beste Erlebnis auf Ihrer Plattform",
-        "step3Title": "Plattformkompatibilität",
-        "step3Description": "Erfahren Sie mehr über Steam Deck, Controller-Unterstützung und Systemanforderungen"
-      },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Support-Artikel"
+      "featured": "Empfohlen und unverzichtbar",
+      "all": "Alle Directive 8020-Geschichte"
     }
   }
 }

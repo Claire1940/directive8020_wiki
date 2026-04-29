@@ -58,6 +58,7 @@ function checkRobotsAndSitemap() {
 
   // 检查 robots.txt
   const robotsPath = path.join(projectRoot, 'public', 'robots.txt')
+  const dynamicRobotsPath = path.join(projectRoot, 'src', 'app', 'robots.ts')
   if (fs.existsSync(robotsPath)) {
     const content = fs.readFileSync(robotsPath, 'utf-8')
     if (content.includes('Sitemap:')) {
@@ -65,14 +66,24 @@ function checkRobotsAndSitemap() {
     } else {
       addResult('warnings', 'Robots', '⚠ robots.txt 缺少 Sitemap 引用')
     }
+  } else if (fs.existsSync(dynamicRobotsPath)) {
+    const content = fs.readFileSync(dynamicRobotsPath, 'utf-8')
+    if (content.includes('sitemap')) {
+      addResult('passed', 'Robots', '✓ Next.js 动态 robots.ts 存在且包含 Sitemap 引用')
+    } else {
+      addResult('warnings', 'Robots', '⚠ robots.ts 缺少 Sitemap 引用')
+    }
   } else {
-    addResult('errors', 'Robots', '✗ robots.txt 不存在')
+    addResult('errors', 'Robots', '✗ robots.txt / robots.ts 不存在')
   }
 
   // 检查 sitemap.xml
   const sitemapPath = path.join(projectRoot, 'public', 'sitemap.xml')
+  const dynamicSitemapPath = path.join(projectRoot, 'src', 'app', 'sitemap.ts')
   if (fs.existsSync(sitemapPath)) {
     addResult('passed', 'Sitemap', '✓ sitemap.xml 存在')
+  } else if (fs.existsSync(dynamicSitemapPath)) {
+    addResult('passed', 'Sitemap', '✓ Next.js 动态 sitemap.ts 存在')
   } else {
     addResult('warnings', 'Sitemap', '⚠ sitemap.xml 不存在（Next.js 可能动态生成）')
   }
@@ -167,12 +178,17 @@ function checkImages() {
 
   // 检查 OG Image
   const ogImagePath = path.join(publicDir, 'og-image.jpg')
+  const heroImagePath = path.join(publicDir, 'images', 'hero.webp')
   if (fs.existsSync(ogImagePath)) {
     const stats = fs.statSync(ogImagePath)
     const sizeKB = (stats.size / 1024).toFixed(2)
     addResult('passed', 'Images', `✓ og-image.jpg 存在 (${sizeKB} KB)`)
+  } else if (fs.existsSync(heroImagePath)) {
+    const stats = fs.statSync(heroImagePath)
+    const sizeKB = (stats.size / 1024).toFixed(2)
+    addResult('passed', 'Images', `✓ hero.webp 存在并用于 OpenGraph (${sizeKB} KB)`)
   } else {
-    addResult('errors', 'Images', '✗ og-image.jpg 不存在')
+    addResult('errors', 'Images', '✗ og-image.jpg / images/hero.webp 不存在')
   }
 
   // 检查 Favicon
@@ -217,16 +233,20 @@ function checkStructuredData() {
   log('\n📊 检查结构化数据...', 'cyan')
 
   // 检查是否有 JSON-LD 配置
-  const layoutPath = path.join(projectRoot, 'src', 'app', '[locale]', 'layout.tsx')
-  if (fs.existsSync(layoutPath)) {
-    const content = fs.readFileSync(layoutPath, 'utf-8')
+  const structurePaths = [
+    path.join(projectRoot, 'src', 'app', '[locale]', 'layout.tsx'),
+    path.join(projectRoot, 'src', 'app', '[locale]', 'page.tsx'),
+  ]
+  const content = structurePaths
+    .filter(filePath => fs.existsSync(filePath))
+    .map(filePath => fs.readFileSync(filePath, 'utf-8'))
+    .join('\n')
 
-    // 检查是否有 Organization schema
-    if (content.includes('Organization') || content.includes('WebSite')) {
-      addResult('passed', 'Structured', '✓ 包含结构化数据配置')
-    } else {
-      addResult('warnings', 'Structured', '⚠ 未找到结构化数据（建议添加 Organization/WebSite schema）')
-    }
+  // 检查是否有 Organization schema
+  if (content.includes('Organization') && content.includes('WebSite') && content.includes('SearchAction')) {
+    addResult('passed', 'Structured', '✓ 包含 WebSite / Organization / SearchAction 结构化数据')
+  } else {
+    addResult('warnings', 'Structured', '⚠ 未找到完整结构化数据（建议包含 WebSite / Organization / SearchAction）')
   }
 }
 
@@ -251,15 +271,17 @@ function checkPageStructure() {
   }
 
   // 检查 FAQ
-  if (translations.faq?.items && translations.faq.items.length > 0) {
-    addResult('passed', 'Content', `✓ FAQ 包含 ${translations.faq.items.length} 个问题`)
+  const faqItems = translations.faq?.items || translations.faq?.questions
+  if (faqItems && faqItems.length > 0) {
+    addResult('passed', 'Content', `✓ FAQ 包含 ${faqItems.length} 个问题`)
   } else {
     addResult('warnings', 'Content', '⚠ 缺少 FAQ 内容')
   }
 
   // 检查工具/资源
-  if (translations.tools?.items && translations.tools.items.length > 0) {
-    addResult('passed', 'Content', `✓ 工具/资源包含 ${translations.tools.items.length} 个项目`)
+  const toolItems = translations.tools?.items || translations.tools?.cards
+  if (toolItems && toolItems.length > 0) {
+    addResult('passed', 'Content', `✓ 工具/资源包含 ${toolItems.length} 个项目`)
   } else {
     addResult('warnings', 'Content', '⚠ 缺少工具/资源内容')
   }

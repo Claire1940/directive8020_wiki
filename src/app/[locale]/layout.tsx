@@ -31,7 +31,7 @@ type Props = {
 const SITE_NAME = 'Directive 8020'
 const SITE_URL_FALLBACK = 'https://directive8020.wiki'
 const HERO_ALT = 'Directive 8020 - Cinematic Sci-Fi Survival Horror'
-const HOME_TITLE = 'Directive 8020 - Release Date, Trailer & Guide'
+const HOME_TITLE = 'Directive 8020 Wiki - Release Date, Trailer & Guide'
 const HOME_DESCRIPTION =
 	'Explore Directive 8020 release date, Steam preorder info, trailers, story, characters, co-op mode, Turning Points, and survival horror guides in one place.'
 
