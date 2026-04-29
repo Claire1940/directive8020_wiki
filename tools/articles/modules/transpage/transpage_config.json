@@ -10,49 +10,40 @@
   "retry_attempts": 3,
   "retry_delay": 5,
 
-  "languages": ["ru", "pt", "de", "es", "ja", "ko", "fr"],
+  "languages": ["ja", "es", "de"],
   "default_language": "en",
   "output_dir": "src/locales/",
 
   "use_value_extraction": false,
 
   "protected_terms": {
-    "game_names": ["Lucid Blocks"],
+    "game_names": ["Directive 8020"],
     "character_names": [],
     "technical_terms": [
-      "Apotheosis",
+      "The Dark Pictures",
+      "Cassiopeia",
+      "Tau Ceti f",
+      "Brianna Young",
       "Steam",
-      "Steam Deck",
-      "Vulkan",
-      "Fog Meadow",
-      "Heaven",
-      "Bubblebear",
-      "Angel",
-      "Hookshot",
-      "Bee Glider",
-      "Psychedelic",
-      "Surreal"
+      "PS5",
+      "Xbox Series X|S",
+      "Movie Night",
+      "Turning Points",
+      "Supermassive Games",
+      "Bandai Namco"
     ]
   },
 
   "game_names": {
-    "en": "Lucid Blocks",
-    "ru": "Lucid Blocks",
-    "pt": "Lucid Blocks",
-    "de": "Lucid Blocks",
-    "es": "Lucid Blocks",
-    "ja": "Lucid Blocks",
-    "ko": "Lucid Blocks",
-    "fr": "Lucid Blocks"
+    "en": "Directive 8020",
+    "ja": "Directive 8020",
+    "es": "Directive 8020",
+    "de": "Directive 8020"
   },
 
   "lang_names": {
-    "ru": "Russian",
-    "pt": "Portuguese (Brazil)",
-    "de": "German",
-    "es": "Spanish (Latin America)",
     "ja": "Japanese",
-    "ko": "Korean",
-    "fr": "French"
+    "es": "Spanish",
+    "de": "German"
   }
 }
