@@ -1,12 +1,18 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Directive 8020 Wiki - Release Date, Trailer & Guide",
+  "short_name": "Directive 8020",
+  "description": "Directive 8020 Wiki covers release date, Steam preorder info, trailers, story, characters, co-op, Turning Points, and survival horror guides.",
+  "id": "/",
   "start_url": "/",
+  "scope": "/",
+  "lang": "en-US",
+  "dir": "ltr",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#4b9eae",
+  "background_color": "#05090d",
+  "categories": ["games", "entertainment", "reference"],
+  "prefer_related_applications": false,
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
