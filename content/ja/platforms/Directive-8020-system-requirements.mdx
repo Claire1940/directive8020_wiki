@@ -1,0 +1,174 @@
+export const metadata = {
+  title: "Directive 8020 システム要件：完全PCスペック＆セットアップガイド 2026",
+  description: "Directive 8020のシステム要件（最小／推奨）、UE5機能の対応状況、2026年に快適なパフォーマンスを得るための実践的な設定のコツを解説します。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/1f2937/fff?text=Directive+8020+PC+Specs",
+  date: "2026-05-02",
+  author: "Directive 8020 Wikiチーム"
+}
+
+Supermassiveの最新SFホラー作品をPCで遊ぶ予定なら、まず **Directive 8020 system requirements** を確認しておくことで、時間・お金・ストレスを大きく節約できます。本作はUnreal Engine 5のビジュアル、ライティング、映画的な表情ディテールを強く活かしているため、過去のアンソロジー作品以上にハードウェア性能が重要です。朗報として、公開されている **Directive 8020 system requirements** はミドルレンジPCでも狙える範囲にありつつ、パストレーシングやマルチフレーム生成といったハイエンド機能の余裕も確保されています。このガイドでは、最小要件と推奨要件の実用的な比較、各パーツが実際のプレイにどう影響するか、安定したフレームレートのための設定調整方法を解説します。「とりあえず動けばOK」という構成から高忠実度のホラー体験まで、2026年に向けたセットアップの道筋はこれで押さえられます。
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/fvga07uchhQ"
+    title="Directive 8020 - 15 Things You NEED To Know Before You Buy"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Directive 8020 システム要件早見表
+
+まずは、プレイヤーが最も気にする生のPCスペック目標から見ていきましょう。以下は2026年にDirective 8020をPCで遊ぶための、主要な最低ラインと上位ターゲットです。
+
+| Tier | CPU | GPU | RAM | Storage |
+|---|---|---|---|---|
+| **Minimum** | **Intel Core i5-8500** / **Ryzen 5 3500** | **RTX 2060** / **RX 5700** | **16 GB** | **40 GB** |
+| **Recommended** | **Intel Core i5-12400F** / **Ryzen 5 5600X** | **RTX 3070 Ti** / **RX 6800** | **16 GB** | **40 GB** |
+
+すぐに分かるポイントは次のとおりです。
+
+- どちらのTierでも16 GB RAMが前提のため、8 GB環境は本作に向きません。
+- 最小GPU要件でも一定水準はありますが、UE5のエフェクトで負荷はすぐ高くなります。
+- 必要容量自体は控えめなものの、ストリーミングの滑らかさやカクつき軽減のためSSDインストールを強く推奨します。
+
+> **⚠️ Warning:** 「最小」要件はあくまで起動の目安であり、性能保証ではありません。ライティングや表情アニメーションの負荷が高いシネマティック系ホラーでは、最小構成だと設定を下げ、目標FPSも低めになることが一般的です。
+
+公式のプラットフォーム情報を確認したい場合は、リリース更新・パッチ・ストア注記が掲載される [Directive 8020 Steam listing](https://store.steampowered.com/) をチェックしてください。
+
+## スペックが実際のプレイ体験で意味すること
+
+スペック表を読むのと、実際の体験を予測するのは別です。ここではDirective 8020の最小／推奨スペックが、実プレイでどう現れやすいかを示します。
+
+| Hardware Tier | Likely Resolution Target | Expected Preset | Best FPS Goal |
+|---|---|---|---|
+| **Minimum-spec rig** | 1080p | Low to Medium | 30–60 FPS (scene dependent) |
+| **Recommended-spec rig** | 1080p to 1440p | High | 60 FPS target |
+| **High-end with modern upscaling** | 1440p to 4K | High to Ultra | 60+ FPS |
+
+本作は雰囲気表現、影、反射面、精密なキャラクターレンダリングに注力しているため、シーンの複雑さでフレームタイムが揺れやすくなります。とくに重くなりやすいのは以下です。
+
+1. 多層ライティングのある狭い室内
+2. 複数キャラクターが同時に映るシーケンス
+3. 緊張感の高い場面での重いポストプロセス
+4. 高度なレイトレース／パストレース効果を有効化したとき
+
+### CPU vs GPU の優先度
+
+Directive 8020 system requirements では、見た目のボトルネックは通常GPUの影響が大きい一方、フレームタイムの安定性にはCPUも重要です。
+
+| Component | Impacts Most | If Too Weak, You’ll Notice |
+|---|---|---|
+| **CPU** | Frame pacing, scene simulation, transitions | Stutter spikes, inconsistent smoothness |
+| **GPU** | Resolution, lighting quality, effects | Big FPS drops, forced lower presets |
+| **RAM** | Stability in large scenes | Asset pop-in, hitching, occasional crashes |
+| **Storage** | Load speed and streaming | Long loads, texture delay |
+
+> **💡 Tip:** 1パーツしかアップグレードできないなら、この手のUE5タイトルではGPU強化が最も分かりやすい画質／性能向上につながることが多いです。
+
+## 最小～ミドルレンジPC向けの最適設定戦略
+
+あなたのPCがDirective 8020 system requirements をわずかに上回る程度なら、力技よりも設定の工夫が重要です。
+
+### まず調整すべき高影響設定
+
+| Setting | Performance Cost | Visual Trade-Off | Recommended Starting Point |
+|---|---|---|---|
+| **Shadows** | High | Moderate in dark scenes | **Medium** |
+| **Ray Tracing** | Very High | Noticeable reflections/lighting | **Off** (or Low RT if stable) |
+| **Post-Processing** | Medium | Filmic effects, bloom | **Medium** |
+| **Texture Quality** | VRAM dependent | Sharpness/detail | **High if VRAM allows** |
+| **Volumetrics/Fog** | Medium to High | Atmosphere depth | **Medium** |
+| **Path Tracing** | Extreme | Premium lighting realism | **Off on mid-range GPUs** |
+
+### 手早い最適化手順
+
+1. まずネイティブ解像度（1080pまたは1440p）を決める。
+2. テクスチャ品質を触る前にパストレーシングを無効化する。
+3. シャドウをHighからMediumへ下げる。
+4. 利用可能なアップスケーリングを使う（DLSS/FSR/XeSS系オプションがあれば）。
+5. FPS上限（例：60）を設定してフレームペーシングを改善する。
+6. メニューではなく、負荷の高い室内シーンでテストする。
+
+この手順なら、作品のビジュアルらしさを維持しつつ、よくあるフレーム落ちを抑えられます。
+
+## 高度機能：DLSS、パストレーシング、PS5 Pro文脈
+
+Directive 8020は、特に新しいGPU向けに最新レンダリング技術オプションを搭載しています。PCではDLSS 4.5機能やパストレーシング対応に言及があり、PS5 Pro向け強化ではコンソール側の高度なアップスケーリングやレイトレース機能が強調されています。
+
+PCプレイヤーにとって実践的な問いは「有効化できるか？」ではなく、「有効化したまま性能を維持できるか？」です。
+
+| Feature | Who Should Use It | Expected Benefit | Main Cost |
+|---|---|---|---|
+| **DLSS / Frame Generation stack** | RTX users with compatible GPUs | Higher FPS at higher presets | Possible latency/artifact trade-offs |
+| **Path Tracing** | High-end enthusiast systems | Strongest global lighting quality | Massive GPU load |
+| **Ray Tracing (standard)** | Upper mid-range and better | Better reflections and shadow realism | Significant FPS hit |
+| **Upscaling modes** | Most players | Better FPS-to-clarity balance | Slight image softness in aggressive modes |
+
+### GPUクラス別・実用プリセット推奨
+
+| GPU Class | Preset Start | Upscaling | RT/PT Guidance |
+|---|---|---|---|
+| **RTX 2060 / RX 5700** | Medium | Balanced mode | RT off, PT off |
+| **RTX 3060 Ti / RX 6700 XT class** | Medium-High | Quality/Balanced | Light RT only if stable |
+| **RTX 3070 Ti / RX 6800** | High | Quality mode | RT selective, PT usually off |
+| **RTX 40/50 high-end class** | High-Ultra | Quality + FG | RT on, PT test per scene |
+
+## 快適プレイのための事前準備＆初日チェックリスト
+
+Directive 8020 system requirements を満たすのは第一段階。次は、クリーンなセットアップ運用です。
+
+### 事前準備テーブル
+
+| Task | Why It Matters | When to Do It |
+|---|---|---|
+| **Update GPU driver** | Fixes optimization and stability issues | 1–2 days before launch |
+| **Install on SSD** | Faster loads, fewer streaming hitches | During install |
+| **Verify 40+ GB free space** | Patches and temp files need margin | Before preload |
+| **Close overlay-heavy apps** | Reduces CPU/RAM conflicts | Before first boot |
+| **Set power mode to High Performance** | Improves boost behavior | Before benchmarking |
+| **Cap FPS if unstable** | Better frame pacing in cinematic scenes | After first test run |
+
+### 発売日の推奨ワークフロー
+
+1. デフォルトプリセットでゲームを起動する。
+2. 負荷の高いシーンを1つ、5～10分実行する。
+3. 平均FPSだけでなくフレームタイムの安定性を見る。
+4. 設定は2項目ずつ調整して再テストする。
+5. いつでも戻せる「安定」プリセットを保存しておく。
+
+> **⚠️ Warning:** グラフィック設定を一度に全部変えないでください。どの設定が安定化（または不安定化）に効いたのか分からなくなります。
+
+## あなたのPCは2026年のDirective 8020に対応できる？
+
+最新の6コアCPU、16 GB RAM、そしてRTX 2060/RX 5700級GPUを備えていれば、多くのプレイヤーはDirective 8020の最小要件を満たせます。よりバランスの良い画質と高設定での滑らかさを狙うなら、RTX 3070 TiやRX 6800のような推奨クラスGPUの方が圧倒的に余裕があります。
+
+本作のためにアップグレードするなら、優先順位は次のとおりです。
+
+1. **GPU**
+2. **SSD（まだHDDなら）**
+3. **CPUプラットフォーム更新**
+4. **RAMの調整／増設（低速または不安定なキットの場合）**
+
+この順番は、リアルタイムライティングとシネマティックなディテールを重視したホラー作品で最も費用対効果が高いです。要するに、Directive 8020 system requirements は極端に厳しいわけではないものの、丁寧なチューニングと最新ハードウェア機能を活かすほど恩恵が大きい、ということです。
+
+## FAQ
+
+**Q: 2026年時点のDirective 8020の最小システム要件は？**
+
+A: 最小スペックは、Intel Core i5-8500またはRyzen 5 3500、RTX 2060またはRX 5700、16 GB RAM、40 GBストレージが目安です。
+
+**Q: Directive 8020 system requirements を満たしていればSSDは不要ですか？**
+
+A: 低速ドライブでも起動自体はできる可能性がありますが、ロード時間短縮と緊張感の高いシーンでのアセットストリーミング安定化のため、SSDを強く推奨します。
+
+**Q: 推奨スペックならDirective 8020を60 FPSで動かせますか？**
+
+A: 多くのケースで可能です。特に1080pや最適化した1440p設定で有利です。ただし、シーンの複雑さ、レイトレーシング、プリセット選択によって安定性は変動します。
+
+**Q: 高画質にはパストレーシングが必須ですか？**
+
+A: 必須ではありません。パストレーシングはハイエンド向けの任意機能です。高プリセットに加え、効果を選択的に使い、アップスケーリングを併用すれば、優れた雰囲気と画質を十分に得られます。

@@ -1,0 +1,174 @@
+export const metadata = {
+  title: "Requisitos del sistema de Directive 8020: guía completa de especificaciones de PC y configuración 2026",
+  description: "Conoce los requisitos completos del sistema de Directive 8020, especificaciones mínimas y recomendadas, compatibilidad con funciones de UE5 y consejos prácticos de ajustes para un rendimiento fluido en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1f2937/fff?text=Directive+8020+PC+Specs",
+  date: "2026-05-02",
+  author: "Equipo Wiki de Directive 8020"
+}
+
+Si estás planeando jugar en PC a la nueva entrega de terror sci-fi de Supermassive, revisar primero los **requisitos del sistema de Directive 8020** te ahorrará tiempo, dinero y frustración. Como el juego apuesta por los gráficos, la iluminación y el detalle facial cinematográfico de Unreal Engine 5, tu hardware importa más que en entregas anteriores de la antología. La buena noticia es que los **requisitos del sistema de Directive 8020** publicados son accesibles para equipos de gama media, y aun así dejan margen para funciones de gama alta como path tracing y generación de múltiples fotogramas. En esta guía obtendrás un desglose práctico de especificaciones mínimas vs recomendadas, qué afecta realmente cada componente en la jugabilidad y cómo ajustar opciones para mantener tasas de fotogramas estables. Tanto si quieres una configuración de “que simplemente funcione” como una experiencia de terror de alta fidelidad, esta es la hoja de ruta de configuración a seguir en 2026.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/fvga07uchhQ"
+    title="Directive 8020 - 15 Things You NEED To Know Before You Buy"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Requisitos del sistema de Directive 8020 de un vistazo
+
+Empecemos con los objetivos de especificaciones de PC que más importan a los jugadores. Estos son los objetivos clave de base y de gama más alta para jugar a Directive 8020 en PC en 2026.
+
+| Nivel | CPU | GPU | RAM | Almacenamiento |
+|---|---|---|---|---|
+| **Mínimo** | **Intel Core i5-8500** / **Ryzen 5 3500** | **RTX 2060** / **RX 5700** | **16 GB** | **40 GB** |
+| **Recomendado** | **Intel Core i5-12400F** / **Ryzen 5 5600X** | **RTX 3070 Ti** / **RX 6800** | **16 GB** | **40 GB** |
+
+Algunas conclusiones inmediatas:
+
+- Se esperan 16 GB de RAM en ambos niveles, así que los sistemas con 8 GB no son ideales aquí.
+- El nivel mínimo de GPU sigue siendo respetable, pero los efectos de UE5 pueden aumentar rápidamente la carga.
+- El tamaño de almacenamiento es modesto, pero se recomienda encarecidamente instalar en SSD para un streaming más fluido y menos tirones.
+
+> **⚠️ Advertencia:** Trata las especificaciones “mínimas” como un punto de partida, no como una garantía de rendimiento. En títulos de terror cinematográfico con iluminación intensa y animación facial, el hardware mínimo suele implicar ajustes reducidos y objetivos de FPS más bajos.
+
+Si quieres detalles oficiales de plataforma, consulta la [ficha de Directive 8020 en Steam](https://store.steampowered.com/) para actualizaciones de lanzamiento, parches y notas de la tienda.
+
+## Lo que significan las especificaciones en la jugabilidad real
+
+Leer una lista de especificaciones es una cosa. Predecir la experiencia es otra. Así es como las especificaciones mínimas y recomendadas de Directive 8020 probablemente se traducen en sesiones de juego reales.
+
+| Nivel de hardware | Objetivo de resolución probable | Ajuste esperado | Mejor objetivo de FPS |
+|---|---|---|---|
+| **Equipo de especificaciones mínimas** | 1080p | Bajo a Medio | 30–60 FPS (según la escena) |
+| **Equipo de especificaciones recomendadas** | 1080p a 1440p | Alto | Objetivo de 60 FPS |
+| **Gama alta con reescalado moderno** | 1440p a 4K | Alto a Ultra | 60+ FPS |
+
+Como este juego se centra en la atmósfera, sombras, superficies reflectantes y renderizado detallado de personajes, la complejidad de las escenas puede hacer variar los tiempos de fotograma. Los momentos más exigentes suelen ser:
+
+1. Interiores estrechos con iluminación por capas
+2. Secuencias con varios personajes en pantalla
+3. Postprocesado intenso en escenas de alta tensión
+4. Efectos avanzados de ray tracing/path tracing activados
+
+### Prioridad de CPU vs GPU
+
+En los requisitos del sistema de Directive 8020, la potencia de la GPU suele ser el mayor cuello de botella visual, pero la CPU también importa para la consistencia de los tiempos de fotograma.
+
+| Componente | Impacta más en | Si se queda corto, notarás |
+|---|---|---|
+| **CPU** | Ritmo de fotogramas, simulación de escena, transiciones | Picos de stuttering, fluidez inconsistente |
+| **GPU** | Resolución, calidad de iluminación, efectos | Grandes caídas de FPS, ajustes forzados a la baja |
+| **RAM** | Estabilidad en escenas grandes | Pop-in de recursos, tirones, cierres ocasionales |
+| **Almacenamiento** | Velocidad de carga y streaming | Cargas largas, retraso en texturas |
+
+> **💡 Consejo:** Si solo puedes actualizar una pieza, la GPU suele dar el salto visual/de rendimiento más claro para este tipo de juego UE5.
+
+## Mejor estrategia de ajustes para PCs mínimos y de gama media
+
+Si tu equipo solo supera por poco los requisitos del sistema de Directive 8020, los ajustes inteligentes importan más que la fuerza bruta.
+
+### Ajustes de alto impacto para tocar primero
+
+| Ajuste | Coste de rendimiento | Compensación visual | Punto de partida recomendado |
+|---|---|---|---|
+| **Sombras** | Alto | Moderado en escenas oscuras | **Medio** |
+| **Ray Tracing** | Muy alto | Reflejos/iluminación notorios | **Desactivado** (o RT en Bajo si es estable) |
+| **Postprocesado** | Medio | Efectos fílmicos, bloom | **Medio** |
+| **Calidad de texturas** | Depende de la VRAM | Nitidez/detalle | **Alto si la VRAM lo permite** |
+| **Volumétricos/Niebla** | Medio a Alto | Profundidad atmosférica | **Medio** |
+| **Path Tracing** | Extremo | Realismo premium de iluminación | **Desactivado en GPUs de gama media** |
+
+### Secuencia rápida de optimización
+
+1. Establece primero la resolución nativa (1080p o 1440p).
+2. Desactiva path tracing antes de tocar la calidad de texturas.
+3. Baja las sombras de Alto a Medio.
+4. Usa el reescalado disponible (opciones tipo DLSS/FSR/XeSS si están disponibles).
+5. Limita los FPS (por ejemplo, a 60) para mejorar el ritmo de fotogramas.
+6. Prueba durante una escena interior densa, no solo en menús.
+
+Esta secuencia mantiene intacta la identidad visual mientras reduce las caídas de rendimiento más comunes.
+
+## Funciones avanzadas: DLSS, Path Tracing y contexto de PS5 Pro
+
+Directive 8020 incluye opciones modernas de tecnología de renderizado, especialmente para jugadores con GPUs más nuevas. En PC, las referencias de compatibilidad incluyen capacidades de DLSS 4.5 y opciones de path tracing, mientras que las mejoras de PS5 Pro destacan reescalado avanzado y funciones con trazado de rayos en consola.
+
+Para jugadores de PC, la pregunta práctica no es “¿Puedo activarlo?”, sino “¿Puedo mantener el rendimiento con esto activado?”.
+
+| Función | Quién debería usarla | Beneficio esperado | Coste principal |
+|---|---|---|---|
+| **Pila de DLSS / Generación de fotogramas** | Usuarios RTX con GPUs compatibles | Más FPS en ajustes más altos | Posibles compromisos de latencia/artefactos |
+| **Path Tracing** | Sistemas entusiastas de gama alta | Máxima calidad de iluminación global | Carga masiva en la GPU |
+| **Ray Tracing (estándar)** | Gama media-alta en adelante | Mejores reflejos y realismo de sombras | Impacto significativo en FPS |
+| **Modos de reescalado** | La mayoría de jugadores | Mejor equilibrio entre FPS y claridad | Ligera suavidad de imagen en modos agresivos |
+
+### Recomendaciones prácticas de preset por clase de GPU
+
+| Clase de GPU | Preset inicial | Reescalado | Guía RT/PT |
+|---|---|---|---|
+| **RTX 2060 / RX 5700** | Medio | Modo Balanceado | RT desactivado, PT desactivado |
+| **Clase RTX 3060 Ti / RX 6700 XT** | Medio-Alto | Calidad/Balanceado | RT ligero solo si es estable |
+| **RTX 3070 Ti / RX 6800** | Alto | Modo Calidad | RT selectivo, PT normalmente desactivado |
+| **Clase alta RTX 40/50** | Alto-Ultra | Calidad + FG | RT activado, probar PT según la escena |
+
+## Lista de verificación pre-lanzamiento y día uno para jugar con fluidez
+
+Cumplir los requisitos del sistema de Directive 8020 es el primer paso. Tener una configuración limpia y disciplinada es el segundo.
+
+### Tabla de preparación previa al lanzamiento
+
+| Tarea | Por qué importa | Cuándo hacerlo |
+|---|---|---|
+| **Actualizar el driver de la GPU** | Soluciona problemas de optimización y estabilidad | 1–2 días antes del lanzamiento |
+| **Instalar en SSD** | Cargas más rápidas, menos tirones de streaming | Durante la instalación |
+| **Verificar 40+ GB de espacio libre** | Parches y archivos temporales necesitan margen | Antes de la precarga |
+| **Cerrar apps con muchas superposiciones (overlays)** | Reduce conflictos de CPU/RAM | Antes del primer inicio |
+| **Poner el modo de energía en Alto rendimiento** | Mejora el comportamiento del boost | Antes de hacer benchmarks |
+| **Limitar FPS si hay inestabilidad** | Mejor ritmo de fotogramas en escenas cinematográficas | Después de la primera prueba |
+
+### Flujo de trabajo recomendado para el día de lanzamiento
+
+1. Inicia el juego con el preset predeterminado.
+2. Ejecuta una escena intensa durante 5–10 minutos.
+3. Observa la consistencia del tiempo de fotograma, no solo el FPS promedio.
+4. Ajusta dos opciones cada vez y vuelve a probar.
+5. Conserva un perfil de preset “estable” de respaldo.
+
+> **⚠️ Advertencia:** Evita cambiar todas las opciones gráficas de una vez. No sabrás qué ajuste solucionó (o causó) la inestabilidad.
+
+## ¿Está tu PC listo para Directive 8020 en 2026?
+
+La mayoría de jugadores con una CPU moderna de seis núcleos, 16 GB de RAM y una GPU de clase RTX 2060/RX 5700 pueden cumplir los requisitos mínimos de Directive 8020. Para un mejor equilibrio visual y mayor fluidez en ajustes altos, las GPUs de nivel recomendado como RTX 3070 Ti o RX 6800 son bastante más cómodas.
+
+Si vas a actualizar específicamente para este juego, prioriza en este orden:
+
+1. **GPU**
+2. **SSD (si todavía usas HDD)**
+3. **Actualización de plataforma de CPU**
+4. **Ajuste/actualización de RAM (si el kit es lento o inestable)**
+
+Ese camino ofrece el mejor retorno para títulos de terror construidos alrededor de iluminación en tiempo real y detalle cinematográfico. En resumen: los requisitos del sistema de Directive 8020 no son desmedidos, pero sí recompensan una configuración cuidadosa y funciones de hardware modernas.
+
+## FAQ
+
+**Q: ¿Cuáles son los requisitos mínimos del sistema de Directive 8020 en 2026?**
+
+A: Las especificaciones mínimas apuntan a un Intel Core i5-8500 o Ryzen 5 3500, junto con una RTX 2060 o RX 5700, con 16 GB de RAM y 40 GB de almacenamiento.
+
+**Q: ¿Necesito un SSD para jugar si cumplo los requisitos del sistema de Directive 8020?**
+
+A: Puede que aun así inicie en unidades más lentas, pero se recomienda encarecidamente un SSD para mejores tiempos de carga y un streaming de recursos más fluido durante escenas tensas.
+
+**Q: ¿Puedo ejecutar Directive 8020 a 60 FPS con las especificaciones recomendadas?**
+
+A: En muchos casos, sí, especialmente a 1080p o con ajustes optimizados a 1440p. La complejidad de las escenas, el ray tracing y las elecciones de preset seguirán afectando la consistencia.
+
+**Q: ¿Es necesario el path tracing para tener buenos gráficos?**
+
+A: Para nada. El path tracing es una función opcional de gama alta. Aun así puedes obtener una atmósfera excelente y gran calidad de imagen usando presets altos con efectos selectivos y reescalado.
