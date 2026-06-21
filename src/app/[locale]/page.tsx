@@ -1,3 +1,4 @@
+import { setRequestLocale } from 'next-intl/server'
 import { getLatestArticles } from '@/lib/getLatestArticles'
 import type { Language } from '@/lib/content'
 import { buildLanguageAlternates } from '@/lib/i18n-utils'
@@ -26,6 +27,7 @@ function getSiteUrl() {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale } = await params
+  setRequestLocale(locale)
   const siteUrl = getSiteUrl()
   const heroImageUrl = new URL('/images/hero.webp', siteUrl).toString()
   const pageUrl = locale === 'en' ? siteUrl : `${siteUrl}/${locale}`
@@ -73,6 +75,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function HomePage({ params }: PageProps) {
   const { locale } = await params
+  setRequestLocale(locale)
   const siteUrl = getSiteUrl()
   const heroImageUrl = new URL('/images/hero.webp', siteUrl).toString()
 
