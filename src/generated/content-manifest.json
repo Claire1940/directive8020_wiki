@@ -1,0 +1,1090 @@
+{
+  "de": {
+    "multiplayer": [
+      {
+        "slug": "Directive-8020-friend-pass",
+        "file": "Directive-8020-friend-pass"
+      },
+      {
+        "slug": "Directive-8020-movie-night-mode",
+        "file": "Directive-8020-movie-night-mode"
+      },
+      {
+        "slug": "Directive-8020-multiplayer",
+        "file": "Directive-8020-multiplayer"
+      },
+      {
+        "slug": "Directive-8020-shared-story",
+        "file": "Directive-8020-shared-story"
+      },
+      {
+        "slug": "Directive-8020-single-player",
+        "file": "Directive-8020-single-player"
+      },
+      {
+        "slug": "Directive-8020-split-screen",
+        "file": "Directive-8020-split-screen"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Directive-8020-crossplay",
+        "file": "Directive-8020-crossplay"
+      },
+      {
+        "slug": "Directive-8020-epic-games",
+        "file": "Directive-8020-epic-games"
+      },
+      {
+        "slug": "Directive-8020-pc",
+        "file": "Directive-8020-pc"
+      },
+      {
+        "slug": "Directive-8020-steam",
+        "file": "Directive-8020-steam"
+      },
+      {
+        "slug": "Directive-8020-switch-2",
+        "file": "Directive-8020-switch-2"
+      },
+      {
+        "slug": "Directive-8020-system-requirements",
+        "file": "Directive-8020-system-requirements"
+      },
+      {
+        "slug": "Directive-8020-xbox",
+        "file": "Directive-8020-xbox"
+      },
+      {
+        "slug": "directive-8020-ps5-pro",
+        "file": "directive-8020-ps5-pro"
+      }
+    ],
+    "purchase": [
+      {
+        "slug": "Directive-8020-cd-key",
+        "file": "Directive-8020-cd-key"
+      },
+      {
+        "slug": "Directive-8020-cost",
+        "file": "Directive-8020-cost"
+      },
+      {
+        "slug": "Directive-8020-deluxe-edition",
+        "file": "Directive-8020-deluxe-edition"
+      },
+      {
+        "slug": "Directive-8020-physical-release",
+        "file": "Directive-8020-physical-release"
+      },
+      {
+        "slug": "Directive-8020-pre-order",
+        "file": "Directive-8020-pre-order"
+      },
+      {
+        "slug": "Directive-8020-price",
+        "file": "Directive-8020-price"
+      },
+      {
+        "slug": "Directive-8020-steam-key",
+        "file": "Directive-8020-steam-key"
+      },
+      {
+        "slug": "Directive-8020-steam-pre-order",
+        "file": "Directive-8020-steam-pre-order"
+      },
+      {
+        "slug": "Directive-8020-steelbook",
+        "file": "Directive-8020-steelbook"
+      },
+      {
+        "slug": "directive-8020-outfit-pack",
+        "file": "directive-8020-outfit-pack"
+      },
+      {
+        "slug": "directive-8020-physical-copy",
+        "file": "directive-8020-physical-copy"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Directive-8020-delayed",
+        "file": "Directive-8020-delayed"
+      },
+      {
+        "slug": "Directive-8020-global-launch-time",
+        "file": "Directive-8020-global-launch-time"
+      },
+      {
+        "slug": "Directive-8020-is-out-yet",
+        "file": "Directive-8020-is-out-yet"
+      },
+      {
+        "slug": "Directive-8020-launch-date",
+        "file": "Directive-8020-launch-date"
+      },
+      {
+        "slug": "Directive-8020-original-release-date",
+        "file": "Directive-8020-original-release-date"
+      },
+      {
+        "slug": "Directive-8020-release-date-2026",
+        "file": "Directive-8020-release-date-2026"
+      },
+      {
+        "slug": "Directive-8020-release-date-ps5",
+        "file": "Directive-8020-release-date-ps5"
+      },
+      {
+        "slug": "Directive-8020-release-date-steam",
+        "file": "Directive-8020-release-date-steam"
+      },
+      {
+        "slug": "Directive-8020-release-date",
+        "file": "Directive-8020-release-date"
+      },
+      {
+        "slug": "Directive-8020-release-timing-globally",
+        "file": "Directive-8020-release-timing-globally"
+      },
+      {
+        "slug": "Directive-8020-why-was-it-delayed",
+        "file": "Directive-8020-why-was-it-delayed"
+      }
+    ],
+    "story": [
+      {
+        "slug": "Directive-8020-Anders",
+        "file": "Directive-8020-Anders"
+      },
+      {
+        "slug": "Directive-8020-Brianna-Young",
+        "file": "Directive-8020-Brianna-Young"
+      },
+      {
+        "slug": "Directive-8020-Lashana-Lynch",
+        "file": "Directive-8020-Lashana-Lynch"
+      },
+      {
+        "slug": "Directive-8020-Mitchell",
+        "file": "Directive-8020-Mitchell"
+      },
+      {
+        "slug": "Directive-8020-Nolan-Stafford",
+        "file": "Directive-8020-Nolan-Stafford"
+      },
+      {
+        "slug": "Directive-8020-Simms",
+        "file": "Directive-8020-Simms"
+      },
+      {
+        "slug": "Directive-8020-Williams",
+        "file": "Directive-8020-Williams"
+      },
+      {
+        "slug": "Directive-8020-about",
+        "file": "Directive-8020-about"
+      },
+      {
+        "slug": "Directive-8020-alien-hunter",
+        "file": "Directive-8020-alien-hunter"
+      },
+      {
+        "slug": "Directive-8020-alien",
+        "file": "Directive-8020-alien"
+      },
+      {
+        "slug": "Directive-8020-all-endings",
+        "file": "Directive-8020-all-endings"
+      },
+      {
+        "slug": "Directive-8020-cast",
+        "file": "Directive-8020-cast"
+      },
+      {
+        "slug": "Directive-8020-characters",
+        "file": "Directive-8020-characters"
+      },
+      {
+        "slug": "Directive-8020-curator",
+        "file": "Directive-8020-curator"
+      },
+      {
+        "slug": "Directive-8020-dark-pictures",
+        "file": "Directive-8020-dark-pictures"
+      },
+      {
+        "slug": "Directive-8020-game-length",
+        "file": "Directive-8020-game-length"
+      },
+      {
+        "slug": "Directive-8020-how-to-save-everyone",
+        "file": "Directive-8020-how-to-save-everyone"
+      },
+      {
+        "slug": "Directive-8020-is-based-on-john-carpenter-s-the-thing",
+        "file": "Directive-8020-is-based-on-john-carpenter's-the-thing"
+      },
+      {
+        "slug": "Directive-8020-monster",
+        "file": "Directive-8020-monster"
+      },
+      {
+        "slug": "Directive-8020-new-features",
+        "file": "Directive-8020-new-features"
+      },
+      {
+        "slug": "Directive-8020-project-hail-mary",
+        "file": "Directive-8020-project-hail-mary"
+      },
+      {
+        "slug": "Directive-8020-villain",
+        "file": "Directive-8020-villain"
+      },
+      {
+        "slug": "Directive-8020-walkthrough",
+        "file": "Directive-8020-walkthrough"
+      },
+      {
+        "slug": "directive-8020-horror-game",
+        "file": "directive-8020-horror-game"
+      },
+      {
+        "slug": "directive-8020-how-long-to-beat",
+        "file": "directive-8020-how-long-to-beat"
+      },
+      {
+        "slug": "directive-8020-how-many-playable-characters",
+        "file": "directive-8020-how-many-playable-characters"
+      },
+      {
+        "slug": "directive-8020-josef-cernan",
+        "file": "directive-8020-josef-cernan"
+      },
+      {
+        "slug": "directive-8020-voice-actors",
+        "file": "directive-8020-voice-actors"
+      },
+      {
+        "slug": "directive-8020-zoe-anders",
+        "file": "directive-8020-zoe-anders"
+      }
+    ]
+  },
+  "en": {
+    "multiplayer": [
+      {
+        "slug": "Directive-8020-friend-pass",
+        "file": "Directive-8020-friend-pass"
+      },
+      {
+        "slug": "Directive-8020-movie-night-mode",
+        "file": "Directive-8020-movie-night-mode"
+      },
+      {
+        "slug": "Directive-8020-multiplayer",
+        "file": "Directive-8020-multiplayer"
+      },
+      {
+        "slug": "Directive-8020-shared-story",
+        "file": "Directive-8020-shared-story"
+      },
+      {
+        "slug": "Directive-8020-single-player",
+        "file": "Directive-8020-single-player"
+      },
+      {
+        "slug": "Directive-8020-split-screen",
+        "file": "Directive-8020-split-screen"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Directive-8020-crossplay",
+        "file": "Directive-8020-crossplay"
+      },
+      {
+        "slug": "Directive-8020-epic-games",
+        "file": "Directive-8020-epic-games"
+      },
+      {
+        "slug": "Directive-8020-pc",
+        "file": "Directive-8020-pc"
+      },
+      {
+        "slug": "Directive-8020-steam",
+        "file": "Directive-8020-steam"
+      },
+      {
+        "slug": "Directive-8020-switch-2",
+        "file": "Directive-8020-switch-2"
+      },
+      {
+        "slug": "Directive-8020-system-requirements",
+        "file": "Directive-8020-system-requirements"
+      },
+      {
+        "slug": "Directive-8020-xbox",
+        "file": "Directive-8020-xbox"
+      },
+      {
+        "slug": "directive-8020-ps5-pro",
+        "file": "directive-8020-ps5-pro"
+      }
+    ],
+    "purchase": [
+      {
+        "slug": "Directive-8020-cd-key",
+        "file": "Directive-8020-cd-key"
+      },
+      {
+        "slug": "Directive-8020-cost",
+        "file": "Directive-8020-cost"
+      },
+      {
+        "slug": "Directive-8020-deluxe-edition",
+        "file": "Directive-8020-deluxe-edition"
+      },
+      {
+        "slug": "Directive-8020-physical-release",
+        "file": "Directive-8020-physical-release"
+      },
+      {
+        "slug": "Directive-8020-pre-order",
+        "file": "Directive-8020-pre-order"
+      },
+      {
+        "slug": "Directive-8020-price",
+        "file": "Directive-8020-price"
+      },
+      {
+        "slug": "Directive-8020-steam-key",
+        "file": "Directive-8020-steam-key"
+      },
+      {
+        "slug": "Directive-8020-steam-pre-order",
+        "file": "Directive-8020-steam-pre-order"
+      },
+      {
+        "slug": "Directive-8020-steelbook",
+        "file": "Directive-8020-steelbook"
+      },
+      {
+        "slug": "directive-8020-outfit-pack",
+        "file": "directive-8020-outfit-pack"
+      },
+      {
+        "slug": "directive-8020-physical-copy",
+        "file": "directive-8020-physical-copy"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Directive-8020-delayed",
+        "file": "Directive-8020-delayed"
+      },
+      {
+        "slug": "Directive-8020-global-launch-time",
+        "file": "Directive-8020-global-launch-time"
+      },
+      {
+        "slug": "Directive-8020-is-out-yet",
+        "file": "Directive-8020-is-out-yet"
+      },
+      {
+        "slug": "Directive-8020-launch-date",
+        "file": "Directive-8020-launch-date"
+      },
+      {
+        "slug": "Directive-8020-original-release-date",
+        "file": "Directive-8020-original-release-date"
+      },
+      {
+        "slug": "Directive-8020-release-date-2026",
+        "file": "Directive-8020-release-date-2026"
+      },
+      {
+        "slug": "Directive-8020-release-date-ps5",
+        "file": "Directive-8020-release-date-ps5"
+      },
+      {
+        "slug": "Directive-8020-release-date-steam",
+        "file": "Directive-8020-release-date-steam"
+      },
+      {
+        "slug": "Directive-8020-release-date",
+        "file": "Directive-8020-release-date"
+      },
+      {
+        "slug": "Directive-8020-release-timing-globally",
+        "file": "Directive-8020-release-timing-globally"
+      },
+      {
+        "slug": "Directive-8020-why-was-it-delayed",
+        "file": "Directive-8020-why-was-it-delayed"
+      }
+    ],
+    "story": [
+      {
+        "slug": "Directive-8020-Anders",
+        "file": "Directive-8020-Anders"
+      },
+      {
+        "slug": "Directive-8020-Brianna-Young",
+        "file": "Directive-8020-Brianna-Young"
+      },
+      {
+        "slug": "Directive-8020-Lashana-Lynch",
+        "file": "Directive-8020-Lashana-Lynch"
+      },
+      {
+        "slug": "Directive-8020-Mitchell",
+        "file": "Directive-8020-Mitchell"
+      },
+      {
+        "slug": "Directive-8020-Nolan-Stafford",
+        "file": "Directive-8020-Nolan-Stafford"
+      },
+      {
+        "slug": "Directive-8020-Simms",
+        "file": "Directive-8020-Simms"
+      },
+      {
+        "slug": "Directive-8020-Williams",
+        "file": "Directive-8020-Williams"
+      },
+      {
+        "slug": "Directive-8020-about",
+        "file": "Directive-8020-about"
+      },
+      {
+        "slug": "Directive-8020-alien-hunter",
+        "file": "Directive-8020-alien-hunter"
+      },
+      {
+        "slug": "Directive-8020-alien",
+        "file": "Directive-8020-alien"
+      },
+      {
+        "slug": "Directive-8020-all-endings",
+        "file": "Directive-8020-all-endings"
+      },
+      {
+        "slug": "Directive-8020-cast",
+        "file": "Directive-8020-cast"
+      },
+      {
+        "slug": "Directive-8020-characters",
+        "file": "Directive-8020-characters"
+      },
+      {
+        "slug": "Directive-8020-curator",
+        "file": "Directive-8020-curator"
+      },
+      {
+        "slug": "Directive-8020-dark-pictures",
+        "file": "Directive-8020-dark-pictures"
+      },
+      {
+        "slug": "Directive-8020-game-length",
+        "file": "Directive-8020-game-length"
+      },
+      {
+        "slug": "Directive-8020-how-to-save-everyone",
+        "file": "Directive-8020-how-to-save-everyone"
+      },
+      {
+        "slug": "Directive-8020-is-based-on-john-carpenter-s-the-thing",
+        "file": "Directive-8020-is-based-on-john-carpenter's-the-thing"
+      },
+      {
+        "slug": "Directive-8020-monster",
+        "file": "Directive-8020-monster"
+      },
+      {
+        "slug": "Directive-8020-new-features",
+        "file": "Directive-8020-new-features"
+      },
+      {
+        "slug": "Directive-8020-project-hail-mary",
+        "file": "Directive-8020-project-hail-mary"
+      },
+      {
+        "slug": "Directive-8020-villain",
+        "file": "Directive-8020-villain"
+      },
+      {
+        "slug": "Directive-8020-walkthrough",
+        "file": "Directive-8020-walkthrough"
+      },
+      {
+        "slug": "directive-8020-horror-game",
+        "file": "directive-8020-horror-game"
+      },
+      {
+        "slug": "directive-8020-how-long-to-beat",
+        "file": "directive-8020-how-long-to-beat"
+      },
+      {
+        "slug": "directive-8020-how-many-playable-characters",
+        "file": "directive-8020-how-many-playable-characters"
+      },
+      {
+        "slug": "directive-8020-josef-cernan",
+        "file": "directive-8020-josef-cernan"
+      },
+      {
+        "slug": "directive-8020-voice-actors",
+        "file": "directive-8020-voice-actors"
+      },
+      {
+        "slug": "directive-8020-zoe-anders",
+        "file": "directive-8020-zoe-anders"
+      }
+    ]
+  },
+  "es": {
+    "multiplayer": [
+      {
+        "slug": "Directive-8020-friend-pass",
+        "file": "Directive-8020-friend-pass"
+      },
+      {
+        "slug": "Directive-8020-movie-night-mode",
+        "file": "Directive-8020-movie-night-mode"
+      },
+      {
+        "slug": "Directive-8020-multiplayer",
+        "file": "Directive-8020-multiplayer"
+      },
+      {
+        "slug": "Directive-8020-shared-story",
+        "file": "Directive-8020-shared-story"
+      },
+      {
+        "slug": "Directive-8020-single-player",
+        "file": "Directive-8020-single-player"
+      },
+      {
+        "slug": "Directive-8020-split-screen",
+        "file": "Directive-8020-split-screen"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Directive-8020-crossplay",
+        "file": "Directive-8020-crossplay"
+      },
+      {
+        "slug": "Directive-8020-epic-games",
+        "file": "Directive-8020-epic-games"
+      },
+      {
+        "slug": "Directive-8020-pc",
+        "file": "Directive-8020-pc"
+      },
+      {
+        "slug": "Directive-8020-steam",
+        "file": "Directive-8020-steam"
+      },
+      {
+        "slug": "Directive-8020-switch-2",
+        "file": "Directive-8020-switch-2"
+      },
+      {
+        "slug": "Directive-8020-system-requirements",
+        "file": "Directive-8020-system-requirements"
+      },
+      {
+        "slug": "Directive-8020-xbox",
+        "file": "Directive-8020-xbox"
+      },
+      {
+        "slug": "directive-8020-ps5-pro",
+        "file": "directive-8020-ps5-pro"
+      }
+    ],
+    "purchase": [
+      {
+        "slug": "Directive-8020-cd-key",
+        "file": "Directive-8020-cd-key"
+      },
+      {
+        "slug": "Directive-8020-cost",
+        "file": "Directive-8020-cost"
+      },
+      {
+        "slug": "Directive-8020-deluxe-edition",
+        "file": "Directive-8020-deluxe-edition"
+      },
+      {
+        "slug": "Directive-8020-physical-release",
+        "file": "Directive-8020-physical-release"
+      },
+      {
+        "slug": "Directive-8020-pre-order",
+        "file": "Directive-8020-pre-order"
+      },
+      {
+        "slug": "Directive-8020-price",
+        "file": "Directive-8020-price"
+      },
+      {
+        "slug": "Directive-8020-steam-key",
+        "file": "Directive-8020-steam-key"
+      },
+      {
+        "slug": "Directive-8020-steam-pre-order",
+        "file": "Directive-8020-steam-pre-order"
+      },
+      {
+        "slug": "Directive-8020-steelbook",
+        "file": "Directive-8020-steelbook"
+      },
+      {
+        "slug": "directive-8020-outfit-pack",
+        "file": "directive-8020-outfit-pack"
+      },
+      {
+        "slug": "directive-8020-physical-copy",
+        "file": "directive-8020-physical-copy"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Directive-8020-delayed",
+        "file": "Directive-8020-delayed"
+      },
+      {
+        "slug": "Directive-8020-global-launch-time",
+        "file": "Directive-8020-global-launch-time"
+      },
+      {
+        "slug": "Directive-8020-is-out-yet",
+        "file": "Directive-8020-is-out-yet"
+      },
+      {
+        "slug": "Directive-8020-launch-date",
+        "file": "Directive-8020-launch-date"
+      },
+      {
+        "slug": "Directive-8020-original-release-date",
+        "file": "Directive-8020-original-release-date"
+      },
+      {
+        "slug": "Directive-8020-release-date-2026",
+        "file": "Directive-8020-release-date-2026"
+      },
+      {
+        "slug": "Directive-8020-release-date-ps5",
+        "file": "Directive-8020-release-date-ps5"
+      },
+      {
+        "slug": "Directive-8020-release-date-steam",
+        "file": "Directive-8020-release-date-steam"
+      },
+      {
+        "slug": "Directive-8020-release-date",
+        "file": "Directive-8020-release-date"
+      },
+      {
+        "slug": "Directive-8020-release-timing-globally",
+        "file": "Directive-8020-release-timing-globally"
+      },
+      {
+        "slug": "Directive-8020-why-was-it-delayed",
+        "file": "Directive-8020-why-was-it-delayed"
+      }
+    ],
+    "story": [
+      {
+        "slug": "Directive-8020-Anders",
+        "file": "Directive-8020-Anders"
+      },
+      {
+        "slug": "Directive-8020-Brianna-Young",
+        "file": "Directive-8020-Brianna-Young"
+      },
+      {
+        "slug": "Directive-8020-Lashana-Lynch",
+        "file": "Directive-8020-Lashana-Lynch"
+      },
+      {
+        "slug": "Directive-8020-Mitchell",
+        "file": "Directive-8020-Mitchell"
+      },
+      {
+        "slug": "Directive-8020-Nolan-Stafford",
+        "file": "Directive-8020-Nolan-Stafford"
+      },
+      {
+        "slug": "Directive-8020-Simms",
+        "file": "Directive-8020-Simms"
+      },
+      {
+        "slug": "Directive-8020-Williams",
+        "file": "Directive-8020-Williams"
+      },
+      {
+        "slug": "Directive-8020-about",
+        "file": "Directive-8020-about"
+      },
+      {
+        "slug": "Directive-8020-alien-hunter",
+        "file": "Directive-8020-alien-hunter"
+      },
+      {
+        "slug": "Directive-8020-alien",
+        "file": "Directive-8020-alien"
+      },
+      {
+        "slug": "Directive-8020-all-endings",
+        "file": "Directive-8020-all-endings"
+      },
+      {
+        "slug": "Directive-8020-cast",
+        "file": "Directive-8020-cast"
+      },
+      {
+        "slug": "Directive-8020-characters",
+        "file": "Directive-8020-characters"
+      },
+      {
+        "slug": "Directive-8020-curator",
+        "file": "Directive-8020-curator"
+      },
+      {
+        "slug": "Directive-8020-dark-pictures",
+        "file": "Directive-8020-dark-pictures"
+      },
+      {
+        "slug": "Directive-8020-game-length",
+        "file": "Directive-8020-game-length"
+      },
+      {
+        "slug": "Directive-8020-how-to-save-everyone",
+        "file": "Directive-8020-how-to-save-everyone"
+      },
+      {
+        "slug": "Directive-8020-is-based-on-john-carpenter-s-the-thing",
+        "file": "Directive-8020-is-based-on-john-carpenter's-the-thing"
+      },
+      {
+        "slug": "Directive-8020-monster",
+        "file": "Directive-8020-monster"
+      },
+      {
+        "slug": "Directive-8020-new-features",
+        "file": "Directive-8020-new-features"
+      },
+      {
+        "slug": "Directive-8020-project-hail-mary",
+        "file": "Directive-8020-project-hail-mary"
+      },
+      {
+        "slug": "Directive-8020-villain",
+        "file": "Directive-8020-villain"
+      },
+      {
+        "slug": "Directive-8020-walkthrough",
+        "file": "Directive-8020-walkthrough"
+      },
+      {
+        "slug": "directive-8020-horror-game",
+        "file": "directive-8020-horror-game"
+      },
+      {
+        "slug": "directive-8020-how-long-to-beat",
+        "file": "directive-8020-how-long-to-beat"
+      },
+      {
+        "slug": "directive-8020-how-many-playable-characters",
+        "file": "directive-8020-how-many-playable-characters"
+      },
+      {
+        "slug": "directive-8020-josef-cernan",
+        "file": "directive-8020-josef-cernan"
+      },
+      {
+        "slug": "directive-8020-voice-actors",
+        "file": "directive-8020-voice-actors"
+      },
+      {
+        "slug": "directive-8020-zoe-anders",
+        "file": "directive-8020-zoe-anders"
+      }
+    ]
+  },
+  "ja": {
+    "multiplayer": [
+      {
+        "slug": "Directive-8020-friend-pass",
+        "file": "Directive-8020-friend-pass"
+      },
+      {
+        "slug": "Directive-8020-movie-night-mode",
+        "file": "Directive-8020-movie-night-mode"
+      },
+      {
+        "slug": "Directive-8020-multiplayer",
+        "file": "Directive-8020-multiplayer"
+      },
+      {
+        "slug": "Directive-8020-shared-story",
+        "file": "Directive-8020-shared-story"
+      },
+      {
+        "slug": "Directive-8020-single-player",
+        "file": "Directive-8020-single-player"
+      },
+      {
+        "slug": "Directive-8020-split-screen",
+        "file": "Directive-8020-split-screen"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Directive-8020-crossplay",
+        "file": "Directive-8020-crossplay"
+      },
+      {
+        "slug": "Directive-8020-epic-games",
+        "file": "Directive-8020-epic-games"
+      },
+      {
+        "slug": "Directive-8020-pc",
+        "file": "Directive-8020-pc"
+      },
+      {
+        "slug": "Directive-8020-steam",
+        "file": "Directive-8020-steam"
+      },
+      {
+        "slug": "Directive-8020-switch-2",
+        "file": "Directive-8020-switch-2"
+      },
+      {
+        "slug": "Directive-8020-system-requirements",
+        "file": "Directive-8020-system-requirements"
+      },
+      {
+        "slug": "Directive-8020-xbox",
+        "file": "Directive-8020-xbox"
+      },
+      {
+        "slug": "directive-8020-ps5-pro",
+        "file": "directive-8020-ps5-pro"
+      }
+    ],
+    "purchase": [
+      {
+        "slug": "Directive-8020-cd-key",
+        "file": "Directive-8020-cd-key"
+      },
+      {
+        "slug": "Directive-8020-cost",
+        "file": "Directive-8020-cost"
+      },
+      {
+        "slug": "Directive-8020-deluxe-edition",
+        "file": "Directive-8020-deluxe-edition"
+      },
+      {
+        "slug": "Directive-8020-physical-release",
+        "file": "Directive-8020-physical-release"
+      },
+      {
+        "slug": "Directive-8020-pre-order",
+        "file": "Directive-8020-pre-order"
+      },
+      {
+        "slug": "Directive-8020-price",
+        "file": "Directive-8020-price"
+      },
+      {
+        "slug": "Directive-8020-steam-key",
+        "file": "Directive-8020-steam-key"
+      },
+      {
+        "slug": "Directive-8020-steam-pre-order",
+        "file": "Directive-8020-steam-pre-order"
+      },
+      {
+        "slug": "Directive-8020-steelbook",
+        "file": "Directive-8020-steelbook"
+      },
+      {
+        "slug": "directive-8020-outfit-pack",
+        "file": "directive-8020-outfit-pack"
+      },
+      {
+        "slug": "directive-8020-physical-copy",
+        "file": "directive-8020-physical-copy"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Directive-8020-delayed",
+        "file": "Directive-8020-delayed"
+      },
+      {
+        "slug": "Directive-8020-global-launch-time",
+        "file": "Directive-8020-global-launch-time"
+      },
+      {
+        "slug": "Directive-8020-is-out-yet",
+        "file": "Directive-8020-is-out-yet"
+      },
+      {
+        "slug": "Directive-8020-launch-date",
+        "file": "Directive-8020-launch-date"
+      },
+      {
+        "slug": "Directive-8020-original-release-date",
+        "file": "Directive-8020-original-release-date"
+      },
+      {
+        "slug": "Directive-8020-release-date-2026",
+        "file": "Directive-8020-release-date-2026"
+      },
+      {
+        "slug": "Directive-8020-release-date-ps5",
+        "file": "Directive-8020-release-date-ps5"
+      },
+      {
+        "slug": "Directive-8020-release-date-steam",
+        "file": "Directive-8020-release-date-steam"
+      },
+      {
+        "slug": "Directive-8020-release-date",
+        "file": "Directive-8020-release-date"
+      },
+      {
+        "slug": "Directive-8020-release-timing-globally",
+        "file": "Directive-8020-release-timing-globally"
+      },
+      {
+        "slug": "Directive-8020-why-was-it-delayed",
+        "file": "Directive-8020-why-was-it-delayed"
+      }
+    ],
+    "story": [
+      {
+        "slug": "Directive-8020-Anders",
+        "file": "Directive-8020-Anders"
+      },
+      {
+        "slug": "Directive-8020-Brianna-Young",
+        "file": "Directive-8020-Brianna-Young"
+      },
+      {
+        "slug": "Directive-8020-Lashana-Lynch",
+        "file": "Directive-8020-Lashana-Lynch"
+      },
+      {
+        "slug": "Directive-8020-Mitchell",
+        "file": "Directive-8020-Mitchell"
+      },
+      {
+        "slug": "Directive-8020-Nolan-Stafford",
+        "file": "Directive-8020-Nolan-Stafford"
+      },
+      {
+        "slug": "Directive-8020-Simms",
+        "file": "Directive-8020-Simms"
+      },
+      {
+        "slug": "Directive-8020-Williams",
+        "file": "Directive-8020-Williams"
+      },
+      {
+        "slug": "Directive-8020-about",
+        "file": "Directive-8020-about"
+      },
+      {
+        "slug": "Directive-8020-alien-hunter",
+        "file": "Directive-8020-alien-hunter"
+      },
+      {
+        "slug": "Directive-8020-alien",
+        "file": "Directive-8020-alien"
+      },
+      {
+        "slug": "Directive-8020-all-endings",
+        "file": "Directive-8020-all-endings"
+      },
+      {
+        "slug": "Directive-8020-cast",
+        "file": "Directive-8020-cast"
+      },
+      {
+        "slug": "Directive-8020-characters",
+        "file": "Directive-8020-characters"
+      },
+      {
+        "slug": "Directive-8020-curator",
+        "file": "Directive-8020-curator"
+      },
+      {
+        "slug": "Directive-8020-dark-pictures",
+        "file": "Directive-8020-dark-pictures"
+      },
+      {
+        "slug": "Directive-8020-game-length",
+        "file": "Directive-8020-game-length"
+      },
+      {
+        "slug": "Directive-8020-how-to-save-everyone",
+        "file": "Directive-8020-how-to-save-everyone"
+      },
+      {
+        "slug": "Directive-8020-is-based-on-john-carpenter-s-the-thing",
+        "file": "Directive-8020-is-based-on-john-carpenter's-the-thing"
+      },
+      {
+        "slug": "Directive-8020-monster",
+        "file": "Directive-8020-monster"
+      },
+      {
+        "slug": "Directive-8020-new-features",
+        "file": "Directive-8020-new-features"
+      },
+      {
+        "slug": "Directive-8020-project-hail-mary",
+        "file": "Directive-8020-project-hail-mary"
+      },
+      {
+        "slug": "Directive-8020-villain",
+        "file": "Directive-8020-villain"
+      },
+      {
+        "slug": "Directive-8020-walkthrough",
+        "file": "Directive-8020-walkthrough"
+      },
+      {
+        "slug": "directive-8020-horror-game",
+        "file": "directive-8020-horror-game"
+      },
+      {
+        "slug": "directive-8020-how-long-to-beat",
+        "file": "directive-8020-how-long-to-beat"
+      },
+      {
+        "slug": "directive-8020-how-many-playable-characters",
+        "file": "directive-8020-how-many-playable-characters"
+      },
+      {
+        "slug": "directive-8020-josef-cernan",
+        "file": "directive-8020-josef-cernan"
+      },
+      {
+        "slug": "directive-8020-voice-actors",
+        "file": "directive-8020-voice-actors"
+      },
+      {
+        "slug": "directive-8020-zoe-anders",
+        "file": "directive-8020-zoe-anders"
+      }
+    ]
+  }
+}
